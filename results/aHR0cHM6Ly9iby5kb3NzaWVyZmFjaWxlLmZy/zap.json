@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Fri, 19 Jan 2024 09:08:03",
+	"@generated": "Fri, 19 Jan 2024 10:14:01",
 	"site":[ 
 		{
 			"@name": "https://bo.dossierfacile.fr",
@@ -172,13 +172,13 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "C1mrR2_ePtB4koEMuE85SZ-sXxZjEaHzU5PrA-ILhxU",
-							"otherinfo": "\\x000bY\uFFFDGo\uFFFD>\uFFFDx\uFFFD\uFFFD\\x000c\uFFFDO9I\uFFFD\uFFFD_\\x0016c\\x0011\uFFFD\uFFFDS\uFFFD\uFFFD\\x0003\uFFFD\\x000b\uFFFD\\x0015"
+							"evidence": "lkNVIrnk5eSx8-vm2E7SQkfi6ZYUAQfcCzLv8NdAHNM",
+							"otherinfo": "\uFFFDCU\"\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDN\uFFFDBG\uFFFD\uFFFD\\x0014\\x0001\\x0007\uFFFD\\x000b2\uFFFD\uFFFD\uFFFD@\\x001c\uFFFD"
 						}
 					],
 					"count": "1",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\\x000bY\uFFFDGo\uFFFD>\uFFFDx\uFFFD\uFFFD\\x000c\uFFFDO9I\uFFFD\uFFFD_\\x0016c\\x0011\uFFFD\uFFFDS\uFFFD\uFFFD\\x0003\uFFFD\\x000b\uFFFD\\x0015</p>",
+					"otherinfo": "<p>\uFFFDCU\"\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDN\uFFFDBG\uFFFD\uFFFD\\x0014\\x0001\\x0007\uFFFD\\x000b2\uFFFD\uFFFD\uFFFD@\\x001c\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -438,7 +438,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "B4490A1D1F6B90BAEB17B3ED3EF0E6E5",
+							"evidence": "461AE97E90F76B2E320D3BECBF683C24",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -446,7 +446,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "CFD26055AF1977AFA096963C306AE83A",
+							"evidence": "D27C00ACD2F50D674874EC518580197C",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -454,7 +454,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "A119B7631E30173DEAC2456094AA957F",
+							"evidence": "120A28138B60EB3581B2889C95A2326C",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -462,7 +462,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "252A09E6C24EE2A1941F8D07ABDD5287",
+							"evidence": "D874D04169FF1C33F143ECC62A68AFC9",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -470,7 +470,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "252A09E6C24EE2A1941F8D07ABDD5287",
+							"evidence": "D874D04169FF1C33F143ECC62A68AFC9",
 							"otherinfo": "\ncookie:JSESSIONID"
 						}
 					],
@@ -480,7 +480,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "7"
+					"sourceid": "1"
 				}
 			]
 		}

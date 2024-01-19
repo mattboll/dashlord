@@ -549,7 +549,7 @@
               "ip"           : "bo.dossierfacile.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705655396"
+              "finding"      : "1705659325"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1356,7 +1356,7 @@
               "ip"           : "bo.dossierfacile.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -1706,7 +1706,7 @@
               "ip"           : "bo.dossierfacile.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705655492"
+              "finding"      : "1705659376"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -2513,7 +2513,7 @@
               "ip"           : "bo.dossierfacile.fr/185.21.194.105",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -2863,7 +2863,7 @@
               "ip"           : "bo.dossierfacile.fr/185.21.194.105",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705655588"
+              "finding"      : "1705659429"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -3677,7 +3677,7 @@
               "ip"           : "bo.dossierfacile.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -4020,7 +4020,7 @@
               "ip"           : "bo.dossierfacile.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705655681"
+              "finding"      : "1705659481"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -4632,6 +4632,6 @@
               "ip"           : "bo.dossierfacile.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "383"
+              "finding"      : "212"
           }
 ]
