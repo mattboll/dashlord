@@ -6,7 +6,7 @@
       "value": "1",
       "domain": "www.dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1705655871,
+      "expires": 1705659923,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -18,10 +18,10 @@
     },
     {
       "name": "_pk_id.32.db4a",
-      "value": "32ab68f87fb532a7.1705654072.",
+      "value": "d4084c91a2f6b507.1705658123.",
       "domain": "www.dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1739609272,
+      "expires": 1739613323,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -36,19 +36,19 @@
     "content-encoding": "gzip",
     "content-security-policy": "default-src 'none'; script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-eval' 'unsafe-inline' ; style-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css 'unsafe-inline' fonts.googleapis.com ; img-src 'self' *.helpscout.net *.cloudfront.net data:; font-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src 'none'; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 19 Jan 2024 08:47:50 GMT",
-    "etag": "W/\"65a955a5-16ce1\"",
-    "last-modified": "Thu, 18 Jan 2024 16:45:25 GMT",
+    "date": "Fri, 19 Jan 2024 09:55:22 GMT",
+    "etag": "W/\"65aa3d76-16ce1\"",
+    "last-modified": "Fri, 19 Jan 2024 09:14:30 GMT",
     "strict-transport-security": "max-age=31536000",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "deny",
-    "x-request-id": "408bdf7c-5a9d-41c8-b5cc-5cd8d50bc08c"
+    "x-request-id": "8e67049d-815d-4b0f-9a7e-6779191a575b"
   },
   "endpoints": [
     {
       "hostname": "www.dossierfacile.logement.gouv.fr",
-      "ip": "109.232.233.130",
+      "ip": "148.253.75.120",
       "geoip": {
         "continent": {
           "code": "EU",

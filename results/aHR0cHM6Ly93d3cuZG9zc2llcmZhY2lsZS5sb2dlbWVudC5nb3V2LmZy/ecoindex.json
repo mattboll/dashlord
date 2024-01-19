@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.dossierfacile.logement.gouv.fr",
-        "size": 1298.127,
+        "size": 1297.983,
         "nodes": 386,
         "requests": 48,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.68,
         "water": 2.52,
         "ecoindex_version": "5.4.2",
-        "date": "2024-01-19 08:44:38.547652",
+        "date": "2024-01-19 09:52:13.277338",
         "page_type": null
     }
 ]
