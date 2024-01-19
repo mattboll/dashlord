@@ -32,12 +32,12 @@ urls:
     category: logement
     betaId: locatio
     repositories:
-      - MTES-MCT/Dossier-Facile-Frontend
+      - mattboll/Dossier-Facile-Frontend
   - url: https://locataire.dossierfacile.logement.gouv.fr/contact
     category: logement
     betaId: locatio
     repositories:
-      - MTES-MCT/Dossier-Facile-Frontend
+      - mattboll/Dossier-Facile-Frontend
   - url: https://proprietaire.dossierfacile.logement.gouv.fr/
     category: logement
     betaId: locatio
@@ -62,7 +62,7 @@ urls:
     category: logement
     betaId: locatio
     repositories:
-      - MTES-MCT/Dossier-Facile-API
+      - mattboll/Dossier-Facile-API
     tools:
       declaration-a11y: false
       declaration-rgpd: false
@@ -72,4 +72,4 @@ urls:
     category: logement
     betaId: locatio
     repositories:
-      - MTES-MCT/Dossier-Facile-Frontend
+      - mattboll/Dossier-Facile-Frontend
