@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 14 Jan 2024 03:15:10",
+	"@generated": "Fri, 19 Jan 2024 09:08:03",
 	"site":[ 
 		{
 			"@name": "https://bo.dossierfacile.fr",
@@ -39,7 +39,7 @@
 					"count": "2",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: </p><p>form-action</p><p></p><p>The directive(s): form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</p>",
-					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
+					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
 					"sourceid": "1"
@@ -74,7 +74,7 @@
 					"count": "2",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>style-src includes unsafe-inline.</p>",
-					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
+					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
 					"sourceid": "1"
@@ -172,13 +172,13 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "9PzSVILwyPFbEmBXcQFBcgy-q24kkErT5CF3p2enl_M",
-							"otherinfo": "\uFFFD\uFFFD\uFFFDT\uFFFD\uFFFD\uFFFD\uFFFD[\\x0012`Wq\\x0001Ar\\x000c\uFFFD\uFFFDn$\uFFFDJ\uFFFD\uFFFD!w\uFFFDg\uFFFD\uFFFD\uFFFD"
+							"evidence": "C1mrR2_ePtB4koEMuE85SZ-sXxZjEaHzU5PrA-ILhxU",
+							"otherinfo": "\\x000bY\uFFFDGo\uFFFD>\uFFFDx\uFFFD\uFFFD\\x000c\uFFFDO9I\uFFFD\uFFFD_\\x0016c\\x0011\uFFFD\uFFFDS\uFFFD\uFFFD\\x0003\uFFFD\\x000b\uFFFD\\x0015"
 						}
 					],
 					"count": "1",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDT\uFFFD\uFFFD\uFFFD\uFFFD[\\x0012`Wq\\x0001Ar\\x000c\uFFFD\uFFFDn$\uFFFDJ\uFFFD\uFFFD!w\uFFFDg\uFFFD\uFFFD\uFFFD</p>",
+					"otherinfo": "<p>\\x000bY\uFFFDGo\uFFFD>\uFFFDx\uFFFD\uFFFD\\x000c\uFFFDO9I\uFFFD\uFFFD_\\x0016c\\x0011\uFFFD\uFFFDS\uFFFD\uFFFD\\x0003\uFFFD\\x000b\uFFFD\\x0015</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -438,7 +438,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "149CC8381E53B3B9B6EE30D612B6FD6E",
+							"evidence": "B4490A1D1F6B90BAEB17B3ED3EF0E6E5",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -446,7 +446,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "DAFC9975147508EF824950D36808D27D",
+							"evidence": "CFD26055AF1977AFA096963C306AE83A",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -454,7 +454,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "33D778C089B4DB40E3FA8CCC8EB34A93",
+							"evidence": "A119B7631E30173DEAC2456094AA957F",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -462,15 +462,15 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "34A5B0B7B8AF894925DC4808862AB184",
+							"evidence": "252A09E6C24EE2A1941F8D07ABDD5287",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
-							"uri": "https://bo.dossierfacile.fr",
+							"uri": "https://bo.dossierfacile.fr/sitemap.xml",
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "149CC8381E53B3B9B6EE30D612B6FD6E",
+							"evidence": "252A09E6C24EE2A1941F8D07ABDD5287",
 							"otherinfo": "\ncookie:JSESSIONID"
 						}
 					],
