@@ -6,15 +6,15 @@
       "isMain": true,
       "type": "LONG",
       "status": {
-        "bugs": 24,
+        "bugs": 7,
         "vulnerabilities": 0,
-        "codeSmells": 281
+        "codeSmells": 236
       },
-      "analysisDate": "2023-12-19T16:03:16+0100",
+      "analysisDate": "2024-01-18T20:15:22+0100",
       "commit": {
-        "sha": "c57b848117eb46dd08ae001a43e918bdfa3d0a49",
-        "date": "2023-12-19T16:02:21+0100",
-        "message": "Merge branch 'release/2023.12.19'"
+        "sha": "2ed62a0c1a4d1cec59fa322e6e3ff6549775f049",
+        "date": "2024-01-18T20:03:06+0100",
+        "message": "fix: use metabaseUrl for statistics"
       }
     }
   }
