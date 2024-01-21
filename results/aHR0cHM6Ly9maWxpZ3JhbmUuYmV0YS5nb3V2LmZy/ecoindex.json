@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://filigrane.beta.gouv.fr",
-        "size": 428.367,
-        "nodes": 131,
+        "size": 448.177,
+        "nodes": 132,
         "requests": 24,
         "grade": "A",
         "score": 85.0,
         "ges": 1.3,
         "water": 1.95,
         "ecoindex_version": "5.4.2",
-        "date": "2024-01-19 10:21:43.536023",
+        "date": "2024-01-21 00:43:36.764391",
         "page_type": null
     }
 ]

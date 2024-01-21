@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Fri, 19 Jan 2024 10:23:09",
+	"@generated": "Sun, 21 Jan 2024 00:45:11",
 	"site":[ 
 		{
 			"@name": "https://filigrane.beta.gouv.fr",
@@ -58,7 +58,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10063",
@@ -87,7 +87,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://filigrane.beta.gouv.fr/assets/index-fd7a089e.js",
+							"uri": "https://filigrane.beta.gouv.fr/assets/index-1c50a5db.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -125,7 +125,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10037",
@@ -154,7 +154,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://filigrane.beta.gouv.fr/assets/index-b05f3d48.css",
+							"uri": "https://filigrane.beta.gouv.fr/assets/index-1c50a5db.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -162,7 +162,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://filigrane.beta.gouv.fr/assets/index-fd7a089e.js",
+							"uri": "https://filigrane.beta.gouv.fr/assets/index-df49cd3b.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -216,7 +216,7 @@
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework</p><p>https://www.troyhunt.com/2012/02/shhh-dont-let-your-response-headers.html</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10094",
@@ -229,29 +229,29 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"uri": "https://filigrane.beta.gouv.fr/assets/index-b05f3d48.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/assets/Marianne-Light-7b92c55f",
-							"otherinfo": "\uFFFD\uFFFD,z\uFFFD?1\uFFFD\uFFFDjy\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u07FBo\u075C\uFFFD"
-						},
-						{
-							"uri": "https://filigrane.beta.gouv.fr/assets/index-fd7a089e.js",
+							"uri": "https://filigrane.beta.gouv.fr/assets/index-1c50a5db.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "fr/uploads/DINUM_SchemaPluriannuel_2020",
 							"otherinfo": "~\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD \uFFFD\\x000c\uFFFD'!zf\uFFFD\uFFFD\uFFFD\uFFFDjy\uFFFDz_\uFFFD\uFFFDm"
+						},
+						{
+							"uri": "https://filigrane.beta.gouv.fr/assets/index-df49cd3b.css",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/assets/Marianne-Light-7b92c55f",
+							"otherinfo": "\uFFFD\uFFFD,z\uFFFD?1\uFFFD\uFFFDjy\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u07FBo\u075C\uFFFD"
 						}
 					],
 					"count": "2",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD,z\uFFFD?1\uFFFD\uFFFDjy\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u07FBo\u075C\uFFFD</p>",
+					"otherinfo": "<p>~\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD \uFFFD\\x000c\uFFFD'!zf\uFFFD\uFFFD\uFFFD\uFFFDjy\uFFFDz_\uFFFD\uFFFDm</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "21"
+					"sourceid": "17"
 				},
 				{
 					"pluginid": "10027",
@@ -264,33 +264,41 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://filigrane.beta.gouv.fr/assets/index-fd7a089e.js",
+							"uri": "https://filigrane.beta.gouv.fr/assets/index-1c50a5db.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "db",
-							"otherinfo": "The following pattern was used: \\bDB\\b and was detected in the element starting with: \"`)}get[Symbol.toStringTag](){return\"AxiosHeaders\"}static from(t){return t instanceof this?t:new this(t)}static concat(t,...n){co\", see evidence field for the suspicious comment/snippet."
+							"evidence": "from",
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 3 times, the first in the element starting with: \"**/function en(e,t,n,r){let s;try{s=r?e(...r):e()}catch(o){us(o,t,n)}return s}function nt(e,t,n,r){if(J(e)){const o=en(e,t,n,r);\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://filigrane.beta.gouv.fr/assets/index-fd7a089e.js",
+							"uri": "https://filigrane.beta.gouv.fr/assets/index-1c50a5db.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"  */const un=typeof window<\"u\";function bm(e){return e.__esModule||e[Symbol.toStringTag]===\"Module\"}const fe=Object.assign;funct\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"  */const wn=typeof window<\"u\";function Bg(e){return e.__esModule||e[Symbol.toStringTag]===\"Module\"}const ue=Object.assign;funct\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://filigrane.beta.gouv.fr/assets/index-fd7a089e.js",
+							"uri": "https://filigrane.beta.gouv.fr/assets/index-1c50a5db.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "select",
-							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in the element starting with: \"(function(){const t=document.createElement(\"link\").relList;if(t&&t.supports&&t.supports(\"modulepreload\"))return;for(const s of d\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in the element starting with: \"**/const Hd=\"http://www.w3.org/2000/svg\",Wd=\"http://www.w3.org/1998/Math/MathML\",Jt=typeof document<\"u\"?document:null,Bi=Jt&&Jt.\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"uri": "https://filigrane.beta.gouv.fr/assets/index-1c50a5db.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "User",
+							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in the element starting with: \"`)}get[Symbol.toStringTag](){return\"AxiosHeaders\"}static from(t){return t instanceof this?t:new this(t)}static concat(t,...n){co\", see evidence field for the suspicious comment/snippet."
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bDB\\b and was detected in the element starting with: \"`)}get[Symbol.toStringTag](){return\"AxiosHeaders\"}static from(t){return t instanceof this?t:new this(t)}static concat(t,...n){co\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bFROM\\b and was detected 3 times, the first in the element starting with: \"**/function en(e,t,n,r){let s;try{s=r?e(...r):e()}catch(o){us(o,t,n)}return s}function nt(e,t,n,r){if(J(e)){const o=en(e,t,n,r);\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
@@ -329,7 +337,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10015",
@@ -372,7 +380,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -393,7 +401,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://filigrane.beta.gouv.fr/robots.txt",
+							"uri": "https://filigrane.beta.gouv.fr/favicon.png",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -436,7 +444,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://filigrane.beta.gouv.fr/robots.txt",
+							"uri": "https://filigrane.beta.gouv.fr/favicon.png",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -479,7 +487,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://filigrane.beta.gouv.fr/robots.txt",
+							"uri": "https://filigrane.beta.gouv.fr/favicon.png",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -501,7 +509,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -522,7 +530,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://filigrane.beta.gouv.fr/robots.txt",
+							"uri": "https://filigrane.beta.gouv.fr/favicon.png",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -579,7 +587,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "14"
 				},
 				{
 					"pluginid": "10049",
@@ -608,7 +616,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://filigrane.beta.gouv.fr/assets/index-b05f3d48.css",
+							"uri": "https://filigrane.beta.gouv.fr/assets/index-1c50a5db.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -616,7 +624,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://filigrane.beta.gouv.fr/assets/index-fd7a089e.js",
+							"uri": "https://filigrane.beta.gouv.fr/assets/index-df49cd3b.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -654,7 +662,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				}
 			]
 		}
