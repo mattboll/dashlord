@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Fri, 19 Jan 2024 09:53:53",
+	"@generated": "Sun, 21 Jan 2024 00:18:59",
 	"site":[ 
 		{
 			"@name": "https://locataire.dossierfacile.logement.gouv.fr",
@@ -34,15 +34,23 @@
 							"attack": "",
 							"evidence": "script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'",
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: \nframe-ancestors, media-src, manifest-src, form-action\n\nThe directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything."
+						},
+						{
+							"uri": "https://locataire.dossierfacile.logement.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'",
+							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: \nframe-ancestors, media-src, manifest-src, form-action\n\nThe directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: </p><p>frame-ancestors, media-src, manifest-src, form-action</p><p></p><p>The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "3"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10055",
@@ -69,15 +77,23 @@
 							"attack": "",
 							"evidence": "script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'",
 							"otherinfo": "script-src includes unsafe-eval."
+						},
+						{
+							"uri": "https://locataire.dossierfacile.logement.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'",
+							"otherinfo": "script-src includes unsafe-eval."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>script-src includes unsafe-eval.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "3"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10055",
@@ -104,15 +120,23 @@
 							"attack": "",
 							"evidence": "script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'",
 							"otherinfo": "script-src includes unsafe-inline."
+						},
+						{
+							"uri": "https://locataire.dossierfacile.logement.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'",
+							"otherinfo": "script-src includes unsafe-inline."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>script-src includes unsafe-inline.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "3"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10055",
@@ -139,15 +163,23 @@
 							"attack": "",
 							"evidence": "script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'",
 							"otherinfo": "style-src includes unsafe-inline."
+						},
+						{
+							"uri": "https://locataire.dossierfacile.logement.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'",
+							"otherinfo": "style-src includes unsafe-inline."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>style-src includes unsafe-inline.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "3"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10110",
@@ -616,7 +648,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "3"
 				},
 				{
 					"pluginid": "90005",
@@ -651,9 +683,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://locataire.dossierfacile.logement.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
@@ -694,9 +734,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://locataire.dossierfacile.logement.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
@@ -723,7 +771,23 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://locataire.dossierfacile.logement.gouv.fr/contact",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://locataire.dossierfacile.logement.gouv.fr/favicon.svg",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://locataire.dossierfacile.logement.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -731,13 +795,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "3"
 				},
 				{
 					"pluginid": "90005",
@@ -772,9 +836,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://locataire.dossierfacile.logement.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",

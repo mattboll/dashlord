@@ -10,7 +10,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://beacon-v2.helpscout.net/static/js/main.fe24d161.js"
+      "url": "https://beacon-v2.helpscout.net/static/js/main.e33f799b.js"
     },
     {
       "type": "cloudfront",
@@ -35,7 +35,7 @@
       "value": "fr",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1737280472,
+      "expires": 1737418803,
       "size": 6,
       "httpOnly": false,
       "secure": true,
@@ -49,29 +49,20 @@
   "headers": {
     "cache-control": "no-store, must-revalidate, max-age=0",
     "content-length": "0",
-    "date": "Fri, 19 Jan 2024 09:54:32 GMT",
-    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=bae51ee9-81c5-4580-8364-543d6bca297a",
+    "date": "Sun, 21 Jan 2024 00:20:03 GMT",
+    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=2914d974-aa2f-44f9-847f-c560c4bbdf3c",
     "referrer-policy": "no-referrer",
-    "set-cookie": "AUTH_SESSION_ID=50bffb9d-6d47-4586-a9f5-540eed68c2b1.dossierfacile-keycloak-prod-web-1-2955; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=50bffb9d-6d47-4586-a9f5-540eed68c2b1.dossierfacile-keycloak-prod-web-1-2955; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
+    "set-cookie": "AUTH_SESSION_ID=fd7d2ce2-9608-4e62-b63d-6eb4052030e6.dossierfacile-keycloak-prod-web-1-2955; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=fd7d2ce2-9608-4e62-b63d-6eb4052030e6.dossierfacile-keycloak-prod-web-1-2955; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "x-content-type-options": "nosniff",
-    "x-request-id": "3e793dc4-e376-4639-9ac0-9e1adb940ba8",
+    "x-request-id": "90d5cad7-e0a0-4f06-a3e4-cb6bd822c609",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
     {
       "hostname": "locataire.dossierfacile.logement.gouv.fr",
-      "ip": "5.104.101.30",
+      "ip": "109.232.233.130",
       "geoip": {
-        "city": {
-          "geoname_id": 3034797,
-          "names": {
-            "de": "Bartenheim",
-            "en": "Bartenheim",
-            "fr": "Bartenheim",
-            "pt-BR": "Bartenheim"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -103,12 +94,9 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 47.6376,
-          "longitude": 7.4798,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "68870"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -124,33 +112,12 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 11071622,
-            "iso_code": "GES",
-            "names": {
-              "en": "Grand Est",
-              "fr": "Grand Est"
-            }
-          },
-          {
-            "geoname_id": 3013663,
-            "iso_code": "68",
-            "names": {
-              "de": "Haut-Rhin",
-              "en": "Haut-Rhin",
-              "es": "Alto Rin",
-              "fr": "Haut-Rhin",
-              "pt-BR": "Alto Reno"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "beacon-v2.helpscout.net",
-      "ip": "13.32.208.114",
+      "ip": "99.84.203.114",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -204,7 +171,7 @@
     },
     {
       "hostname": "d3hb14vkzrxvla.cloudfront.net",
-      "ip": "13.32.207.95",
+      "ip": "13.226.220.197",
       "geoip": {
         "continent": {
           "code": "NA",
