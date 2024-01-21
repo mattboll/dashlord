@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Fri, 19 Jan 2024 10:14:01",
+	"@generated": "Sun, 21 Jan 2024 00:39:03",
 	"site":[ 
 		{
 			"@name": "https://bo.dossierfacile.fr",
@@ -172,13 +172,13 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "lkNVIrnk5eSx8-vm2E7SQkfi6ZYUAQfcCzLv8NdAHNM",
-							"otherinfo": "\uFFFDCU\"\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDN\uFFFDBG\uFFFD\uFFFD\\x0014\\x0001\\x0007\uFFFD\\x000b2\uFFFD\uFFFD\uFFFD@\\x001c\uFFFD"
+							"evidence": "cccLA666YgpxFyLao1sFcr0Ioy5xj1Ak28M6e0NmE00",
+							"otherinfo": "q\uFFFD\\x000b\\x0003\uFFFD\uFFFDb\nq\\x0017\"\u06A3[\\x0005r\uFFFD\\x0008\uFFFD.q\uFFFDP$\uFFFD\uFFFD:{Cf\\x0013M"
 						}
 					],
 					"count": "1",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFDCU\"\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDN\uFFFDBG\uFFFD\uFFFD\\x0014\\x0001\\x0007\uFFFD\\x000b2\uFFFD\uFFFD\uFFFD@\\x001c\uFFFD</p>",
+					"otherinfo": "<p>q\uFFFD\\x000b\\x0003\uFFFD\uFFFDb</p><p>q\\x0017\"\u06A3[\\x0005r\uFFFD\\x0008\uFFFD.q\uFFFDP$\uFFFD\uFFFD:{Cf\\x0013M</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -354,25 +354,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"uri": "https://bo.dossierfacile.fr/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://bo.dossierfacile.fr/sitemap.xml",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "1",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
@@ -438,7 +422,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "461AE97E90F76B2E320D3BECBF683C24",
+							"evidence": "697833A2DC7FE5E3BF29A72885A6F929",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -446,7 +430,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "D27C00ACD2F50D674874EC518580197C",
+							"evidence": "EDFCB400483A65513E081E5DE7DA5E85",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -454,7 +438,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "120A28138B60EB3581B2889C95A2326C",
+							"evidence": "8589A3D40FD1C903E6D0F02041EB1309",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -462,15 +446,15 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "D874D04169FF1C33F143ECC62A68AFC9",
+							"evidence": "7353D53F925BEF3F23692329E465E36E",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
-							"uri": "https://bo.dossierfacile.fr/sitemap.xml",
+							"uri": "https://bo.dossierfacile.fr/robots.txt",
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "D874D04169FF1C33F143ECC62A68AFC9",
+							"evidence": "8589A3D40FD1C903E6D0F02041EB1309",
 							"otherinfo": "\ncookie:JSESSIONID"
 						}
 					],

@@ -36,7 +36,7 @@
   "cookies": [
     {
       "name": "JSESSIONID",
-      "value": "1FEEDC5F83C95F091B8977B129171F06",
+      "value": "AC776F4B8D97A2D98310C836F56CFDCC",
       "domain": "bo.dossierfacile.fr",
       "path": "/",
       "expires": -1,
@@ -55,13 +55,13 @@
     "content-language": "en-US",
     "content-security-policy": "frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Fri, 19 Jan 2024 10:14:48 GMT",
+    "date": "Sun, 21 Jan 2024 00:40:11 GMT",
     "expires": "0",
     "pragma": "no-cache",
     "strict-transport-security": "max-age=31536000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
-    "x-request-id": "5576fe7a-0ed2-45ee-bfa4-adcc61e33f4d",
+    "x-request-id": "aae2e1db-dfbd-427b-aad5-702ab22084e3",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
@@ -123,7 +123,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.63.95",
+      "ip": "142.250.72.234",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -177,7 +177,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.115.94",
+      "ip": "142.250.72.131",
       "geoip": {
         "continent": {
           "code": "NA",

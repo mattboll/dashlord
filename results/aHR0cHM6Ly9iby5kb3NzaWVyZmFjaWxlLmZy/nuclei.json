@@ -1,43 +1,6 @@
 [
   [
     {
-      "template": "dns/caa-fingerprint.yaml",
-      "template-url": "https://templates.nuclei.sh/public/caa-fingerprint",
-      "template-id": "caa-fingerprint",
-      "template-path": "/home/runner/nuclei-templates/dns/caa-fingerprint.yaml",
-      "info": {
-        "name": "CAA Record",
-        "author": [
-          "pdteam"
-        ],
-        "tags": [
-          "dns",
-          "caa"
-        ],
-        "description": "A CAA record was discovered. A CAA record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain.",
-        "reference": [
-          "https://support.dnsimple.com/articles/caa-record/#whats-a-caa-record"
-        ],
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        },
-        "classification": {
-          "cve-id": null,
-          "cwe-id": [
-            "cwe-200"
-          ]
-        }
-      },
-      "type": "dns",
-      "host": "bo.dossierfacile.fr.",
-      "matched-at": "bo.dossierfacile.fr",
-      "request": ";; opcode: QUERY, status: NOERROR, id: 61604\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;bo.dossierfacile.fr.\tIN\t CAA\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 61604\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n; EDE: 18 (Prohibited): ()\n\n;; QUESTION SECTION:\n;bo.dossierfacile.fr.\tIN\t CAA\n\n;; ANSWER SECTION:\nbo.dossierfacile.fr.\t3600\tIN\tCNAME\tdossierfacile-bo-prod.osc-secnum-fr1.scalingo.io.\ndossierfacile-bo-prod.osc-secnum-fr1.scalingo.io.\t300\tIN\tCNAME\tsc-lb-pool-01.osc-secnum-fr1.scalingo-network.com.\n\n;; AUTHORITY SECTION:\nscalingo-network.com.\t1800\tIN\tSOA\tburt.ns.cloudflare.com. dns.cloudflare.com. 2330923650 10000 2400 604800 1800\n",
-      "timestamp": "2024-01-19T10:19:23.215495282Z",
-      "matcher-status": true
-    },
-    {
       "template": "dns/dns-saas-service-detection.yaml",
       "template-url": "https://templates.nuclei.sh/public/dns-saas-service-detection",
       "template-id": "dns-saas-service-detection",
@@ -69,9 +32,46 @@
       "extracted-results": [
         "dossierfacile-bo-prod.osc-secnum-fr1.scalingo.io."
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 28214\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;bo.dossierfacile.fr.\tIN\t CNAME\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 28214\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;bo.dossierfacile.fr.\tIN\t CNAME\n\n;; ANSWER SECTION:\nbo.dossierfacile.fr.\t3600\tIN\tCNAME\tdossierfacile-bo-prod.osc-secnum-fr1.scalingo.io.\n",
-      "timestamp": "2024-01-19T10:19:24.05576927Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 7705\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;bo.dossierfacile.fr.\tIN\t CNAME\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 7705\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;bo.dossierfacile.fr.\tIN\t CNAME\n\n;; ANSWER SECTION:\nbo.dossierfacile.fr.\t3600\tIN\tCNAME\tdossierfacile-bo-prod.osc-secnum-fr1.scalingo.io.\n",
+      "timestamp": "2024-01-21T00:47:39.459593073Z",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/caa-fingerprint.yaml",
+      "template-url": "https://templates.nuclei.sh/public/caa-fingerprint",
+      "template-id": "caa-fingerprint",
+      "template-path": "/home/runner/nuclei-templates/dns/caa-fingerprint.yaml",
+      "info": {
+        "name": "CAA Record",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "dns",
+          "caa"
+        ],
+        "description": "A CAA record was discovered. A CAA record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain.",
+        "reference": [
+          "https://support.dnsimple.com/articles/caa-record/#whats-a-caa-record"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "type": "dns",
+      "host": "bo.dossierfacile.fr.",
+      "matched-at": "bo.dossierfacile.fr",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 31860\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;bo.dossierfacile.fr.\tIN\t CAA\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 31860\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n; EDE: 18 (Prohibited): ()\n\n;; QUESTION SECTION:\n;bo.dossierfacile.fr.\tIN\t CAA\n\n;; ANSWER SECTION:\nbo.dossierfacile.fr.\t3600\tIN\tCNAME\tdossierfacile-bo-prod.osc-secnum-fr1.scalingo.io.\ndossierfacile-bo-prod.osc-secnum-fr1.scalingo.io.\t300\tIN\tCNAME\tsc-lb-pool-01.osc-secnum-fr1.scalingo-network.com.\n\n;; AUTHORITY SECTION:\nscalingo-network.com.\t1800\tIN\tSOA\tburt.ns.cloudflare.com. dns.cloudflare.com. 2330923650 10000 2400 604800 1800\n",
+      "timestamp": "2024-01-21T00:47:39.648569362Z",
       "matcher-status": true
     },
     {
@@ -111,9 +111,9 @@
         "1; mode=block"
       ],
       "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 302 \r\nConnection: close\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nDate: Fri, 19 Jan 2024 10:19:34 GMT\r\nExpires: 0\r\nLocation: https://bo.dossierfacile.fr/login\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=37D496B378CC748863A9D5721DEC3706; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 66885203-a3b9-480b-b2ff-92083839138b\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:19:34.237581448Z",
+      "response": "HTTP/1.1 302 \r\nConnection: close\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nDate: Sun, 21 Jan 2024 00:47:55 GMT\r\nExpires: 0\r\nLocation: https://bo.dossierfacile.fr/login\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=564A8E092CC46C1B0CD94641F14120B6; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 4a82b2a5-bceb-4c31-a7ca-521473c78836\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:47:55.818005438Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
       "matcher-status": true
     },
@@ -140,126 +140,9 @@
       "host": "https://bo.dossierfacile.fr",
       "matched-at": "https://bo.dossierfacile.fr/login",
       "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Fri, 19 Jan 2024 10:19:58 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=7AB8C2BFB242FAEB25B1DECEFA76D86A; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: b76490e8-ccd9-4534-8b3e-8d9b326f648b\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:19:58.135391244Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "clear-site-data",
-      "type": "http",
-      "host": "https://bo.dossierfacile.fr",
-      "matched-at": "https://bo.dossierfacile.fr/login",
-      "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Fri, 19 Jan 2024 10:20:09 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=A9C22F591D5377B6E79B3AB436DA50F2; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 1a7aa3e1-5e16-49a4-80d7-a6de4c101777\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:20:09.644933761Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-embedder-policy",
-      "type": "http",
-      "host": "https://bo.dossierfacile.fr",
-      "matched-at": "https://bo.dossierfacile.fr/login",
-      "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Fri, 19 Jan 2024 10:20:09 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=A9C22F591D5377B6E79B3AB436DA50F2; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 1a7aa3e1-5e16-49a4-80d7-a6de4c101777\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:20:09.644995347Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-opener-policy",
-      "type": "http",
-      "host": "https://bo.dossierfacile.fr",
-      "matched-at": "https://bo.dossierfacile.fr/login",
-      "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Fri, 19 Jan 2024 10:20:09 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=A9C22F591D5377B6E79B3AB436DA50F2; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 1a7aa3e1-5e16-49a4-80d7-a6de4c101777\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:20:09.645020615Z",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Sun, 21 Jan 2024 00:48:29 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=E51D91D9EEF1F26CC56E64FCE6D12B1A; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 00776fa5-6dee-42db-91c6-c9cb25507f95\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:48:29.994472548Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
       "matcher-status": true
     },
@@ -296,9 +179,9 @@
       "host": "https://bo.dossierfacile.fr",
       "matched-at": "https://bo.dossierfacile.fr/login",
       "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Fri, 19 Jan 2024 10:20:09 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=A9C22F591D5377B6E79B3AB436DA50F2; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 1a7aa3e1-5e16-49a4-80d7-a6de4c101777\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:20:09.645038739Z",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Sun, 21 Jan 2024 00:48:46 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=310B59929256A2AE57EFCE52E2D244C7; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 394996d8-916b-4036-8e32-a5712f5b71d3\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:48:46.875426143Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
       "matcher-status": true
     },
@@ -335,9 +218,9 @@
       "host": "https://bo.dossierfacile.fr",
       "matched-at": "https://bo.dossierfacile.fr/login",
       "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Fri, 19 Jan 2024 10:20:09 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=A9C22F591D5377B6E79B3AB436DA50F2; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 1a7aa3e1-5e16-49a4-80d7-a6de4c101777\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:20:09.645056021Z",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Sun, 21 Jan 2024 00:48:46 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=310B59929256A2AE57EFCE52E2D244C7; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 394996d8-916b-4036-8e32-a5712f5b71d3\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:48:46.875476666Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
       "matcher-status": true
     },
@@ -374,9 +257,9 @@
       "host": "https://bo.dossierfacile.fr",
       "matched-at": "https://bo.dossierfacile.fr/login",
       "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Fri, 19 Jan 2024 10:20:09 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=A9C22F591D5377B6E79B3AB436DA50F2; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 1a7aa3e1-5e16-49a4-80d7-a6de4c101777\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:20:09.645071079Z",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Sun, 21 Jan 2024 00:48:46 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=310B59929256A2AE57EFCE52E2D244C7; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 394996d8-916b-4036-8e32-a5712f5b71d3\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:48:46.875501873Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
       "matcher-status": true
     },
@@ -413,9 +296,126 @@
       "host": "https://bo.dossierfacile.fr",
       "matched-at": "https://bo.dossierfacile.fr/login",
       "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Fri, 19 Jan 2024 10:20:09 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=A9C22F591D5377B6E79B3AB436DA50F2; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 1a7aa3e1-5e16-49a4-80d7-a6de4c101777\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:20:09.645086639Z",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Sun, 21 Jan 2024 00:48:46 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=310B59929256A2AE57EFCE52E2D244C7; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 394996d8-916b-4036-8e32-a5712f5b71d3\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:48:46.875520378Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "clear-site-data",
+      "type": "http",
+      "host": "https://bo.dossierfacile.fr",
+      "matched-at": "https://bo.dossierfacile.fr/login",
+      "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Sun, 21 Jan 2024 00:48:46 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=310B59929256A2AE57EFCE52E2D244C7; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 394996d8-916b-4036-8e32-a5712f5b71d3\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:48:46.875654908Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-embedder-policy",
+      "type": "http",
+      "host": "https://bo.dossierfacile.fr",
+      "matched-at": "https://bo.dossierfacile.fr/login",
+      "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Sun, 21 Jan 2024 00:48:46 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=310B59929256A2AE57EFCE52E2D244C7; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 394996d8-916b-4036-8e32-a5712f5b71d3\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:48:46.875670988Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-opener-policy",
+      "type": "http",
+      "host": "https://bo.dossierfacile.fr",
+      "matched-at": "https://bo.dossierfacile.fr/login",
+      "request": "GET / HTTP/1.1\r\nHost: bo.dossierfacile.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Language: en\r\nContent-Security-Policy: frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';\r\nContent-Type: text/html;charset=UTF-8\r\nDate: Sun, 21 Jan 2024 00:48:46 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: JSESSIONID=310B59929256A2AE57EFCE52E2D244C7; Path=/; Secure; HttpOnly\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 394996d8-916b-4036-8e32-a5712f5b71d3\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>DossierFacile</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans\" />\n    <style lang=\"css\">\n        @import url(https://fonts.googleapis.com/css?family=Roboto:500);\n        .google-btn {\n          display:inline-flex;\n          width: 184px;\n          height: 42px;\n          background-color: #4285f4;\n          border-radius: 2px;\n          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);\n        }\n        .google-icon-wrapper {\n            margin-top: 1px;\n            margin-left: 1px;\n            width: 40px;\n            height: 40px;\n            border-radius: 2px;\n            background-color: #fff;\n          }\n          .google-icon {\n            position: absolute;\n            margin-top: 11px;\n            margin-left: 11px;\n            width: 18px;\n            height: 18px;\n          }\n          .btn-text {\n            float: right;\n            margin: 11px 11px 0 11px;\n            color: #fff;\n            font-size: 14px;\n            letter-spacing: 0.2px;\n            font-family: Roboto, Verdana, sans-serif;\n          }\n          .google-btn:hover {\n            box-shadow: 0 0 6px #4285f4;\n          }\n          .google-btn:active {\n            background: #1669F2;\n          }\n\n    </style>\n</head>\n<body>\n\n<h3>Connexion à DossierFacile:</h3>\n\n\n    <a href=\"oauth2/authorization/google\" >\n        <div class=\"google-btn\">\n          <div class=\"google-icon-wrapper\">\n            <img alt=\"\" class=\"google-icon\" src=\"/assets/public/logo-google.svg\"/>\n          </div>\n          <div class=\"btn-text\">\n            <strong>Google</strong>\n          </div>\n        </div>\n    </a>\n\n\n</body>\n</html>\n",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:48:46.875689242Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://bo.dossierfacile.fr'",
       "matcher-status": true
     },
@@ -445,8 +445,8 @@
       "extracted-results": [
         "Let's Encrypt"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:26:13.068266815Z",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:55:10.589317386Z",
       "matcher-status": true
     },
     {
@@ -475,8 +475,8 @@
       "extracted-results": [
         "bo.dossierfacile.fr"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:26:13.068398192Z",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:55:10.58942688Z",
       "matcher-status": true
     },
     {
@@ -506,8 +506,8 @@
       "extracted-results": [
         "tls12"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:26:14.351961752Z",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:55:12.420033756Z",
       "matcher-status": true
     },
     {
@@ -537,8 +537,8 @@
       "extracted-results": [
         "tls13"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-01-19T10:26:14.523624754Z",
+      "ip": "185.21.194.105",
+      "timestamp": "2024-01-21T00:55:12.755100576Z",
       "matcher-status": true
     }
   ]
