@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 21 Jan 2024 00:40:36",
+	"@generated": "Sun, 28 Jan 2024 00:39:36",
 	"site":[ 
 		{
 			"@name": "https://api.dossierfacile.logement.gouv.fr",
@@ -11,7 +11,7 @@
 			"alerts": [ 
 				{
 					"pluginid": "10054",
-					"alertRef": "10054",
+					"alertRef": "10054-2",
 					"alert": "Cookie with SameSite Attribute None",
 					"name": "Cookie with SameSite Attribute None",
 					"riskcode": "1",
@@ -66,7 +66,7 @@
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "4"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "10094",
@@ -125,7 +125,7 @@
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "4"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "10049",
@@ -184,7 +184,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "10"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "90005",
@@ -205,7 +205,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator",
+							"uri": "https://api.dossierfacile.logement.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -240,7 +240,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator",
+							"uri": "https://api.dossierfacile.logement.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -275,7 +275,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator",
+							"uri": "https://api.dossierfacile.logement.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -289,7 +289,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "4"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "90005",
@@ -310,7 +310,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator",
+							"uri": "https://api.dossierfacile.logement.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -324,7 +324,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10112",
@@ -383,7 +383,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "10"
+					"sourceid": "11"
 				}
 			]
 		}
