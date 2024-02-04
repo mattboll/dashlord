@@ -127,7 +127,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 28 Jan 2024 00:17:36
+		Generated on Sun, 4 Feb 2024 00:17:58
 	</h3>
 
 	<h3>
@@ -156,7 +156,7 @@ td {
 					<div>Medium</div>
 				</td>
 				<td align="center">
-					<div>5</div>
+					<div>6</div>
 				</td>
 			</tr>
 			<tr>
@@ -164,7 +164,7 @@ td {
 					<div>Low</div>
 				</td>
 				<td align="center">
-					<div>2</div>
+					<div>3</div>
 				</td>
 			</tr>
 			<tr>
@@ -205,22 +205,32 @@ td {
 			<tr>
 				<td><a href="#10055">CSP: Wildcard Directive</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">3</td>
+				<td align="center">2</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: script-src unsafe-eval</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">3</td>
+				<td align="center">2</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: script-src unsafe-inline</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">3</td>
+				<td align="center">2</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: style-src unsafe-inline</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">3</td>
+				<td align="center">2</td>
+			</tr>
+			<tr>
+				<td><a href="#10038">Content Security Policy (CSP) Header Not Set</a></td>
+				<td align="center" class="risk-2">Medium</td>
+				<td align="center">5</td>
+			</tr>
+			<tr>
+				<td><a href="#10110">Dangerous JS Functions</a></td>
+				<td align="center" class="risk-1">Low</td>
+				<td align="center">2</td>
 			</tr>
 			<tr>
 				<td><a href="#10063">Permissions Policy Header Not Set</a></td>
@@ -245,7 +255,7 @@ td {
 			<tr>
 				<td><a href="#10027">Information Disclosure - Suspicious Comments</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">12</td>
+				<td align="center">13</td>
 			</tr>
 			<tr>
 				<td><a href="#10109">Modern Web Application</a></td>
@@ -270,7 +280,7 @@ td {
 			<tr>
 				<td><a href="#90005">Sec-Fetch-Site Header is Missing</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">2</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#90005">Sec-Fetch-User Header is Missing</a></td>
@@ -493,7 +503,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/">https://www.dossierfacile.logement.gouv.fr/</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr">https://www.dossierfacile.logement.gouv.fr</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -527,41 +537,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/accessibilite">https://www.dossierfacile.logement.gouv.fr/accessibilite</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Content-Security-Policy</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;none&#39;; script-src &#39;self&#39; *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net &#39;unsafe-eval&#39; &#39;unsafe-inline&#39; ; style-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css &#39;unsafe-inline&#39; fonts.googleapis.com ; img-src &#39;self&#39; *.helpscout.net *.cloudfront.net data:; font-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src &#39;none&#39;; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
-frame-ancestors, form-action
-
-The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/plan-du-site">https://www.dossierfacile.logement.gouv.fr/plan-du-site</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -594,7 +570,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">3</td>
+					<td width="80%">2</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -660,7 +636,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/">https://www.dossierfacile.logement.gouv.fr/</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr">https://www.dossierfacile.logement.gouv.fr</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -691,38 +667,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/accessibilite">https://www.dossierfacile.logement.gouv.fr/accessibilite</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Content-Security-Policy</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;none&#39;; script-src &#39;self&#39; *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net &#39;unsafe-eval&#39; &#39;unsafe-inline&#39; ; style-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css &#39;unsafe-inline&#39; fonts.googleapis.com ; img-src &#39;self&#39; *.helpscout.net *.cloudfront.net data:; font-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src &#39;none&#39;; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-eval.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/plan-du-site">https://www.dossierfacile.logement.gouv.fr/plan-du-site</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -752,7 +697,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">3</td>
+					<td width="80%">2</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -818,7 +763,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/">https://www.dossierfacile.logement.gouv.fr/</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr">https://www.dossierfacile.logement.gouv.fr</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -849,38 +794,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/accessibilite">https://www.dossierfacile.logement.gouv.fr/accessibilite</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Content-Security-Policy</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;none&#39;; script-src &#39;self&#39; *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net &#39;unsafe-eval&#39; &#39;unsafe-inline&#39; ; style-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css &#39;unsafe-inline&#39; fonts.googleapis.com ; img-src &#39;self&#39; *.helpscout.net *.cloudfront.net data:; font-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src &#39;none&#39;; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-inline.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/plan-du-site">https://www.dossierfacile.logement.gouv.fr/plan-du-site</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -910,7 +824,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">3</td>
+					<td width="80%">2</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -976,7 +890,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/">https://www.dossierfacile.logement.gouv.fr/</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr">https://www.dossierfacile.logement.gouv.fr</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1007,38 +921,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/accessibilite">https://www.dossierfacile.logement.gouv.fr/accessibilite</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Content-Security-Policy</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;none&#39;; script-src &#39;self&#39; *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net &#39;unsafe-eval&#39; &#39;unsafe-inline&#39; ; style-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css &#39;unsafe-inline&#39; fonts.googleapis.com ; img-src &#39;self&#39; *.helpscout.net *.cloudfront.net data:; font-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src &#39;none&#39;; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">style-src includes unsafe-inline.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/plan-du-site">https://www.dossierfacile.logement.gouv.fr/plan-du-site</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1068,7 +951,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">3</td>
+					<td width="80%">2</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -1109,6 +992,347 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<td width="20%">Plugin Id</td>
 					<td width="80%"><a
 						href="https://www.zaproxy.org/docs/alerts/10055/">10055</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-2"><a
+						id="10038"></a>
+						<div>Medium</div></th>
+					<th class="risk-2">Content Security Policy (CSP) Header Not Set</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/cover-features-mobile-0119.webp">https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/cover-features-mobile-0119.webp</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/cover-features-mobile-0119.webp">https://www.dossierfacile.logement.gouv.fr/blog/cover-features-mobile-0119.webp</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/information/cover-features-mobile-0119.webp">https://www.dossierfacile.logement.gouv.fr/information/cover-features-mobile-0119.webp</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/mentions-legales/cover-features-mobile-0119.webp">https://www.dossierfacile.logement.gouv.fr/mentions-legales/cover-features-mobile-0119.webp</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/stats/cover-features-mobile-0119.webp">https://www.dossierfacile.logement.gouv.fr/stats/cover-features-mobile-0119.webp</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					<td width="80%">5</td>
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy">https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</a>
+							<br />
+						
+							<a href="https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</a>
+							<br />
+						
+							<a href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a>
+							<br />
+						
+							<a href="https://w3c.github.io/webappsec-csp/">https://w3c.github.io/webappsec-csp/</a>
+							<br />
+						
+							<a href="https://web.dev/articles/csp">https://web.dev/articles/csp</a>
+							<br />
+						
+							<a href="https://caniuse.com/#feat=contentsecuritypolicy">https://caniuse.com/#feat=contentsecuritypolicy</a>
+							<br />
+						
+							<a href="https://content-security-policy.com/">https://content-security-policy.com/</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">15</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10038/">10038</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-1"><a
+						id="10110"></a>
+						<div>Low</div></th>
+					<th class="risk-1">Dangerous JS Functions</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>A dangerous JS function seems to be in use that would leave the site vulnerable.</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr./assets/app-3d122ef5.js">https://www.dossierfacile.logement.gouv.fr./assets/app-3d122ef5.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">eval</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js">https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">eval</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					<td width="80%">2</td>
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>See the references for security advice on the use of these functions.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="https://angular.io/guide/security">https://angular.io/guide/security</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/749.html">749</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%"></td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10110/">10110</a></td>
 				</tr>
 			</table>
 			<div class="spacer"></div>
@@ -1227,37 +1451,6 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-f4bf5548.js">https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-f4bf5548.js</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog">https://www.dossierfacile.logement.gouv.fr/blog</a></td>
 					</tr>
 					<tr>
@@ -1289,7 +1482,69 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-devient-dossierfacile-logement-gouv-fr">https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-devient-dossierfacile-logement-gouv-fr</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact?acceptCgu=true&amp;email=zaproxy%40example.com&amp;firstname=ZAP&amp;lastname=ZAP&amp;message=Zaproxy+alias+impedit+expedita+quisquam+pariatur+exercitationem.+Nemo+rerum+eveniet+dolores+rem+quia+dignissimos.&amp;profile=profile-tenant&amp;subject=Zaproxy+dolore+alias+impedit+expedita+quisquam.">https://www.dossierfacile.logement.gouv.fr/contact?acceptCgu=true&amp;email=zaproxy%40example.com&amp;firstname=ZAP&amp;lastname=ZAP&amp;message=Zaproxy+alias+impedit+expedita+quisquam+pariatur+exercitationem.+Nemo+rerum+eveniet+dolores+rem+quia+dignissimos.&amp;profile=profile-tenant&amp;subject=Zaproxy+dolore+alias+impedit+expedita+quisquam.</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1352,37 +1607,6 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/mentions-legales">https://www.dossierfacile.logement.gouv.fr/mentions-legales</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/mentions-legales/">https://www.dossierfacile.logement.gouv.fr/mentions-legales/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1700,7 +1924,7 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/justif-0869ad16.webp">https://www.dossierfacile.logement.gouv.fr/assets/justif-0869ad16.webp</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/justif-300-1c06bd9b.webp">https://www.dossierfacile.logement.gouv.fr/assets/justif-300-1c06bd9b.webp</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1796,38 +2020,6 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/omnirea-b52611ef.webp">https://www.dossierfacile.logement.gouv.fr/assets/omnirea-b52611ef.webp</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">x-content-type-options</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
-At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/reading-8ad16967.svg">https://www.dossierfacile.logement.gouv.fr/assets/reading-8ad16967.svg</a></td>
 					</tr>
 					<tr>
@@ -1861,6 +2053,38 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/sports-b68e9ef3.svg">https://www.dossierfacile.logement.gouv.fr/assets/sports-b68e9ef3.svg</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">x-content-type-options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/cover-features-mobile-0119.webp">https://www.dossierfacile.logement.gouv.fr/cover-features-mobile-0119.webp</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2103,18 +2327,18 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">/assets/AccessibilityView-c2dc67e8</td>
+						<td width="80%">/assets/AccessibilityView-c6077f35</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">��,z�?��ț�X��X���6uλ{</td>
+						<td width="80%">��,z�?��ț�X��X���:Ӿ��</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/CLLAJ-4aeaf2d7.svg">https://www.dossierfacile.logement.gouv.fr/assets/CLLAJ-4aeaf2d7.svg</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/ContactView-2f23bbca.css">https://www.dossierfacile.logement.gouv.fr/assets/ContactView-2f23bbca.css</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2134,18 +2358,22 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">DossierFacile/Locataire/Landing/V0</td>
+						<td width="80%">UklGRoQEAABXRUJQVlA4WAoAAAAwAAAAOQAAJwAASUNDUKACAAAAAAKgbGNtcwQwAABtbnRyUkdCIFhZWiAH5gAFAA0ACAAdAA9hY3NwQVBQTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWxjbXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1kZXNjAAABIAAAAEBjcHJ0AAABYAAAADZ3dHB0AAABmAAAABRjaGFkAAABrAAAACxyWFlaAAAB2AAAABRiWFlaAAAB7AAAABRnWFlaAAACAAAAABRyVFJDAAACFAAAACBnVFJDAAACFAAAACBiVFJDAAACFAAAACBjaHJtAAACNAAAACRkbW5kAAACWAAAACRkbWRkAAACfAAAACRtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACQAAAAcAEcASQBNAFAAIABiAHUAaQBsAHQALQBpAG4AIABzAFIARwBCbWx1YwAAAAAAAAABAAAADGVuVVMAAAAaAAAAHABQAHUAYgBsAGkAYwAgAEQAbwBtAGEAaQBuAABYWVogAAAAAAAA9tYAAQAAAADTLXNmMzIAAAAAAAEMQgAABd7///MlAAAHkwAA/ZD///uh///9ogAAA9wAAMBuWFlaIAAAAAAAAG+gAAA49QAAA5BYWVogAAAAAAAAJJ8AAA+EAAC2xFhZWiAAAAAAAABilwAAt4cAABjZcGFyYQAAAAAAAwAAAAJmZgAA8qcAAA1ZAAAT0AAACltjaHJtAAAAAAADAAAAAKPXAABUfAAATM0AAJmaAAAmZwAAD1xtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAEcASQBNAFBtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJBTFBIRgAAAAFgGtm2k59zV19+QOI/iipQ1IKiikwJqRg8VzMTERPAiNLafF5rRaQdzvsBvK8xpBe2zjht8/uUgSJOJbrp2BHnXkkCywBWUDggcAEAANAKAJ0BKjoAKAA+KQ6FQqGHVAYAoS0gGmw7gW6BUA/Snq7+iB+xxiJxvabmYinpbExgwG1tkoK0ccet3oY1pTtPv+AqR1XUACFL6O2X3ZkutuNgze58f1Tk0IvH3b/QAP7/cAgB+fthHxLdEqYX8Qji+7KArr0FrvivqjtLtDwvCER3FIMxSQrjWeiUZybnLykpZOKhCItY2cJLrzPnP3VAZmv6XWsbPjzzr/oy7D3jod4ZK3nEy9Yq7t665HYFNu3qnyhPskhpOX0U/KMnH8MAPlB4ZGWc8IFR3sDYJOn/uljfAWdUci+mYg7zfA8wBy+KxdS8Pdhk+giX41xLP+s0gppp4yXY2+mWsy1JTFxqoPfKJppxm37fStJt3lDvN4/JiwdC0krDTvbtjHGM3mpUkOUfUAHEA/Y6AY7wBOn3Dhk9CTZjn6HE1Hu6JXBU6wFNcZZ3IAApK3dsn/QwWqP+KU8fOTWtsN9QWgatdQAA</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�,���iȥ{��q�Z���-�݊x?W</td>
+						<td width="80%">RIFF�  WEBPVP8X
+   0   9  &#39;  ICCP�    �lcms0  mntrRGB XYZ �     acspAPPL                          ��     �-lcms                                               desc      @cprt  `   6wtpt  �   chad  �   ,rXYZ  �   bXYZ  �   gXYZ      rTRC      gTRC      bTRC      chrm  4   $dmnd  X   $dmdd  |   $mluc          enUS   $    G I M P   b u i l t - i n   s R G Bmluc          enUS       P u b l i c   D o m a i n  XYZ       ��     �-sf32     B  ����%  �  ����������  �  �nXYZ       o�  8�  �XYZ       $�  �  ��XYZ       b�  ��  �para        ff  �  Y  �  
+[chrm         ��  T|  L�  ��  &amp;g  \mluc          enUS       G I M Pmluc          enUS       s R G BALPHF   `ٶ��sW_~@�?�*PԂ��L	�&lt;W3����|^kE�����1���8m����&quot;N%����^I� VP8 p  �
+ �*: ( &gt;)�B��T �- l;�n�PҞ�����&quot;q���b)�lL`�mm���qǭކ5�;O��*GU� !K��ݙ.��`��|T�Ћ�ݿ� ��p��a�������������;K�&lt;/Dw�1I
+�Y�g&amp;�/))d��X��K�3�?u@fk�]k&gt;&lt;��2�=��+y���*�޺�v6��(O�Hi9}��&#39;� &gt;Pxde���Q���$���X�gTr/�b�|0/��Լ=�d���\K?�4��i�%��閳-IL\j���&amp;�q�~�J�m�P�7�ɋB�J�N��q��jT��P��:����=	6c����{�%pT�Mq�w  )+wl��0Z��)O95���PZ�u  </td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/FranceUniversites-6a61e29b.svg">https://www.dossierfacile.logement.gouv.fr/assets/FranceUniversites-6a61e29b.svg</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/index-1c439553.css">https://www.dossierfacile.logement.gouv.fr/assets/index-1c439553.css</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2165,18 +2393,18 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">DossierFacile/Locataire/Landing/V0</td>
+						<td width="80%">/assets/Marianne-Light-7b92c55f</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�,���iȥ{��q�Z���-�݊x?W</td>
+						<td width="80%">��,z�?1��jy�����߻oݜ�</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/UNML-a9bef13b.svg">https://www.dossierfacile.logement.gouv.fr/assets/UNML-a9bef13b.svg</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile">https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2196,12 +2424,74 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">DossierFacile/Locataire/Landing/V0</td>
+						<td width="80%">fr/particuliers/vosdroits/F1412</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�,���iȥ{��q�Z���-�݊x?W</td>
+						<td width="80%">~��j�br�bz�?�������u�]</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/guide-aide-etudiant-logement">https://www.dossierfacile.logement.gouv.fr/blog/guide-aide-etudiant-logement</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">fr/particuliers/vosdroits/R2972</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">~��j�br�bz�?�������v��</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/tout-ce-que-vous-devez-savoir-avant-de-quitter-votre-logement">https://www.dossierfacile.logement.gouv.fr/blog/tout-ce-que-vous-devez-savoir-avant-de-quitter-votre-logement</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">fr/particuliers/vosdroits/F32973</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">~��j�br�bz�?�������w���</td>
 					</tr>
 				
 					<tr>
@@ -2227,62 +2517,12 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">/assets/InformationView-050f1b6f</td>
+						<td width="80%">/assets/InformationView-9a00dbae</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">��,z�?&quot;w�f���Չ�&gt;ӝվ�</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/information/">https://www.dossierfacile.logement.gouv.fr/information/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">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</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">RIFF$  WEBPVP8X
-      ? �  ALPH\  ��ڶ�Hz|�&gt;�Є&gt;.�ڊv�q��wwwwwww��qwwww	�㍅�r~TUꓛ�ъ�	0������mrȥ���o���w�����V�G�����&amp;��|�~K�F��ş#q�h���(�s�CZ��#������^0+�	��#�����`�ב��^`ƫ�p〒�F܋����J&#39;w#��v)n��!��V:b&gt;?De�^��v3�m� ��Ee&#39;C�g#U� ��Uy&quot;/YIM�.��c���c�ݜ���c�m�k)��6������4� �(&#39;�r[�����-�|���� �E�7�2d�\-�S�J�y�m���J9
-b[���N�t�e��sC�^��Kc�*��-ǁף@��T��~eu\�-#�G�1B[F��W�q�P��oBU,�-#�ˣ@�d�6&#39;�1&quot;[F�gS��kE�����j�6%�����@�A`�H�T���YF*W�L�����)Ll�:1����c)��^M�G�l�E�8���9T��$Hk�=��8D�H��T����XF�&#39;P1��MY,#ݻP9��Q-#�WR5�&quot;�e��m� �-����Ba��T�LΠr��@�ߋjyoZ���(�y��ED��wP�{�(�yg�����9��v�D��wk�C&#39;Us޽moE9�alƺ�rޓٳ������YF�G��h�ɌYF#k#r��ٲ�����wo�,C�a���,Y���-�԰!�Gy��Y��歳�c~���X�&#39;�$+���Ɉex�r6,��/�`&gt;��8Fܬ�����7T�F�#Ɇ�:8e��lCa��t9F���*�H������il�+�&gt;=��Ά�̹�q��6��Z��]k+��1��[{Y��&#39;����t8F��c�T8�� N�c�s{r��7�J�1&lt;�y:!ǐ�u1#��A]���p���)c�C�+�R�Y�c�lǩ���c}�Ü�c�a�BJ��B�&lt;R�Y)ǐ�JR�9�_�!��]D4M!�7��Rw�&quot;&quot;�3C�㉈�C4b�j�1�~�ND�@&#39;�ܾC�G�R
-��b/Y����hŔ���b7�!&quot;���p�y;&quot;�Z�3�[���&quot;&quot;�
-F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�d
-u�T2j2��/%:�(��;=�1;��yLq�͞���z���^_��&lt;�[�cL�ڹ��^ǘ�F����9&amp;#uг��O���a�h�������g�&gt;�SDD�k������n3��|�1AX���6:�����ٿO�Ooa�	�
-�X��;;��f���x��ŎJ�K��E�r)0�x��A��\�E���T0�����&gt;4}z3���0����Bw��Zwk�(�b���!�|3_������j������VP8 �  �; �*@� &gt;�D�J��#!��)��	cn�o ���[���_5��x��qz��,�;�����%��{���O�9E���@?�u� ~��s�%~�~�����^��~���ڛ����*�j^4���k���R��TBL,���Q�! ���) H�3�e��
-\���\����F�$�K}Rܐ��YulC_�Q�ے�!�	w7��]!���Z5�/���z�&#39;&lt;����#d|���F��1y`�4 Kw-�|���L��
-]R �� tO9������P�V9��)�! &quot;�A!�J�����n�Pc������������^]�&#39;�nL��W��ʨ�Rg�C�o3�#�y���M�ֶ��y�Na�-�g曇�����$�;�����˭U�9
-��YFq��꓉�~]]�۹�_�}�_)�	�)������L~�O�����	2�.���Ъ�Q�~F���h��1�A�����]���1�BL,���P�  ���0 	ML�����і#�5�e�p�o���1��z�4�l�J-�!�m�+�&amp;�ĵ�Lفs�ܹ����6܃ퟲ�,�������L@6�̑��Y���IѶ�A	��&gt;5f��O7����308��K�:L��MW6�d���aI�m�:�+����I#d���6	&#39;�+$B$��2:�#m}(����`������D���,̞��v�9#g��B�Ğ5Kyٜn�ög���%r�9S�J2Rf��#�٤�P0.Z���EJrv!3m��ݬ�����0�$�^����&quot;��&amp;E?�$�#a�~`YY��pU=zac��M���ŵK�`�wf��%c��,R�Զ��-�a�R�GD�A5Ҹ��G攙�O�r�(߀ �R�.Ѕ�Z�Yե�[͝%vL6\@i��yl�UM�ިqp([d�����ɼ�����+n�Vج���utĐ)&lt;�3���CGb��B��!�O�$2��^�40y�(�r&gt;d�O/�o������`f���*M�5��F�)L�	 ��k�Yժ��ZY5��S�A��0;�&amp;��R��C;�j���Vp�5���oԇH8:I�&lt;�Yjp=�M	@�
-�M%� ��l�fp
-������Y�����X��ܯ�CLx�c��~Ӥߍ�w;��2�ॶU����D�Y����xi����v?��\�f)� $�T�k��&quot;������Q���&amp;3�%�=02)��7cF��ؙ�
-��j�r5�)E
-��:�`�L� �A��ؒ�+�%憁�+���P�Z�����K�N=ڨ��*�
-1��&lt;ځ5j����z��Ӎ��3��⍟R�ᾶF)P������z�,��]��?�����0Zv������{�7�LB�P�3�
-�N�6_F#�h���uI���%��д^�6�y����
-��wGa��#yU4�R��+S��e&amp;���#�{�+&#39;tl�?+��&quot;�_u�ϴ�����a��Wk[7iq]���3���$�!K(�Q�Y�/�)����Q�Ȱ���~�T�������v{���~�T��I�-B|�m~��������a������#��pJ.iߍ�O	��f��t ��0� ��l�������沫u9�cx`cկ�0����%S���8f�v%�q��$� �~3��$��9���&lt;�o=9,��u@!��w��L�4!2?�X��~|�3��iL�Kk+B	�p��[�X8����M&amp;G�����	��S�*�w��C�u�����P�p?ֈJrB�̻��N�3��E�C���贮���0�&#39;#&quot;a8�[�� v}����)lԧ	�}�ʩ�x����1.B��&#39;Λ���� &lt;��2֛���/P%-�2�|�hG�B~9�#6P�|\��[��ƛ�CVb寣Qq�26�O�����b]��g 9��
-�;!N��V�)4&amp;���
-Y/Q�7~&#39;m��9�U�ڴN9�M�X�f�I�_���lO���5VX �&#39;�������z[=	�ϻ�� MW��&gt;�YE�T�|`��-�vX�K����ה��U� E	J�ٲ�ٺx	4�H
-������-�4���D��L*{�M��Ў.׋��i&#39;���&gt;��Q}Z���x8��IJba�� �W� �`��7��?y_�x�����I��PGST٦B��ȣ���[X�5 a�vJcSOH_��P������*�l3�����p�=���Hx��Q� ���[����ޘtp�      </td>
+						<td width="80%">��,z�?&quot;w�f���Չ�&gt;��4u��</td>
 					</tr>
 				
 					<tr>
@@ -2308,62 +2548,12 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">/assets/MentionsLegales-c1bed037</td>
+						<td width="80%">/assets/MentionsLegales-4899f3c2</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">��,z�?1�튉�-���&gt;sV�wM�</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/mentions-legales/">https://www.dossierfacile.logement.gouv.fr/mentions-legales/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">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</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">RIFF$  WEBPVP8X
-      ? �  ALPH\  ��ڶ�Hz|�&gt;�Є&gt;.�ڊv�q��wwwwwww��qwwww	�㍅�r~TUꓛ�ъ�	0������mrȥ���o���w�����V�G�����&amp;��|�~K�F��ş#q�h���(�s�CZ��#������^0+�	��#�����`�ב��^`ƫ�p〒�F܋����J&#39;w#��v)n��!��V:b&gt;?De�^��v3�m� ��Ee&#39;C�g#U� ��Uy&quot;/YIM�.��c���c�ݜ���c�m�k)��6������4� �(&#39;�r[�����-�|���� �E�7�2d�\-�S�J�y�m���J9
-b[���N�t�e��sC�^��Kc�*��-ǁף@��T��~eu\�-#�G�1B[F��W�q�P��oBU,�-#�ˣ@�d�6&#39;�1&quot;[F�gS��kE�����j�6%�����@�A`�H�T���YF*W�L�����)Ll�:1����c)��^M�G�l�E�8���9T��$Hk�=��8D�H��T����XF�&#39;P1��MY,#ݻP9��Q-#�WR5�&quot;�e��m� �-����Ba��T�LΠr��@�ߋjyoZ���(�y��ED��wP�{�(�yg�����9��v�D��wk�C&#39;Us޽moE9�alƺ�rޓٳ������YF�G��h�ɌYF#k#r��ٲ�����wo�,C�a���,Y���-�԰!�Gy��Y��歳�c~���X�&#39;�$+���Ɉex�r6,��/�`&gt;��8Fܬ�����7T�F�#Ɇ�:8e��lCa��t9F���*�H������il�+�&gt;=��Ά�̹�q��6��Z��]k+��1��[{Y��&#39;����t8F��c�T8�� N�c�s{r��7�J�1&lt;�y:!ǐ�u1#��A]���p���)c�C�+�R�Y�c�lǩ���c}�Ü�c�a�BJ��B�&lt;R�Y)ǐ�JR�9�_�!��]D4M!�7��Rw�&quot;&quot;�3C�㉈�C4b�j�1�~�ND�@&#39;�ܾC�G�R
-��b/Y����hŔ���b7�!&quot;���p�y;&quot;�Z�3�[���&quot;&quot;�
-F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�d
-u�T2j2��/%:�(��;=�1;��yLq�͞���z���^_��&lt;�[�cL�ڹ��^ǘ�F����9&amp;#uг��O���a�h�������g�&gt;�SDD�k������n3��|�1AX���6:�����ٿO�Ooa�	�
-�X��;;��f���x��ŎJ�K��E�r)0�x��A��\�E���T0�����&gt;4}z3���0����Bw��Zwk�(�b���!�|3_������j������VP8 �  �; �*@� &gt;�D�J��#!��)��	cn�o ���[���_5��x��qz��,�;�����%��{���O�9E���@?�u� ~��s�%~�~�����^��~���ڛ����*�j^4���k���R��TBL,���Q�! ���) H�3�e��
-\���\����F�$�K}Rܐ��YulC_�Q�ے�!�	w7��]!���Z5�/���z�&#39;&lt;����#d|���F��1y`�4 Kw-�|���L��
-]R �� tO9������P�V9��)�! &quot;�A!�J�����n�Pc������������^]�&#39;�nL��W��ʨ�Rg�C�o3�#�y���M�ֶ��y�Na�-�g曇�����$�;�����˭U�9
-��YFq��꓉�~]]�۹�_�}�_)�	�)������L~�O�����	2�.���Ъ�Q�~F���h��1�A�����]���1�BL,���P�  ���0 	ML�����і#�5�e�p�o���1��z�4�l�J-�!�m�+�&amp;�ĵ�Lفs�ܹ����6܃ퟲ�,�������L@6�̑��Y���IѶ�A	��&gt;5f��O7����308��K�:L��MW6�d���aI�m�:�+����I#d���6	&#39;�+$B$��2:�#m}(����`������D���,̞��v�9#g��B�Ğ5Kyٜn�ög���%r�9S�J2Rf��#�٤�P0.Z���EJrv!3m��ݬ�����0�$�^����&quot;��&amp;E?�$�#a�~`YY��pU=zac��M���ŵK�`�wf��%c��,R�Զ��-�a�R�GD�A5Ҹ��G攙�O�r�(߀ �R�.Ѕ�Z�Yե�[͝%vL6\@i��yl�UM�ިqp([d�����ɼ�����+n�Vج���utĐ)&lt;�3���CGb��B��!�O�$2��^�40y�(�r&gt;d�O/�o������`f���*M�5��F�)L�	 ��k�Yժ��ZY5��S�A��0;�&amp;��R��C;�j���Vp�5���oԇH8:I�&lt;�Yjp=�M	@�
-�M%� ��l�fp
-������Y�����X��ܯ�CLx�c��~Ӥߍ�w;��2�ॶU����D�Y����xi����v?��\�f)� $�T�k��&quot;������Q���&amp;3�%�=02)��7cF��ؙ�
-��j�r5�)E
-��:�`�L� �A��ؒ�+�%憁�+���P�Z�����K�N=ڨ��*�
-1��&lt;ځ5j����z��Ӎ��3��⍟R�ᾶF)P������z�,��]��?�����0Zv������{�7�LB�P�3�
-�N�6_F#�h���uI���%��д^�6�y����
-��wGa��#yU4�R��+S��e&amp;���#�{�+&#39;tl�?+��&quot;�_u�ϴ�����a��Wk[7iq]���3���$�!K(�Q�Y�/�)����Q�Ȱ���~�T�������v{���~�T��I�-B|�m~��������a������#��pJ.iߍ�O	��f��t ��0� ��l�������沫u9�cx`cկ�0����%S���8f�v%�q��$� �~3��$��9���&lt;�o=9,��u@!��w��L�4!2?�X��~|�3��iL�Kk+B	�p��[�X8����M&amp;G�����	��S�*�w��C�u�����P�p?ֈJrB�̻��N�3��E�C���贮���0�&#39;#&quot;a8�[�� v}����)lԧ	�}�ʩ�x����1.B��&#39;Λ���� &lt;��2֛���/P%-�2�|�hG�B~9�#6P�|\��[��ƛ�CVb寣Qq�26�O�����b]��g 9��
-�;!N��V�)4&amp;���
-Y/Q�7~&#39;m��9�U�ڴN9�M�X�f�I�_���lO���5VX �&#39;�������z[=	�ϻ�� MW��&gt;�YE�T�|`��-�vX�K����ה��U� E	J�ٲ�ٺx	4�H
-������-�4���D��L*{�M��Ў.׋��i&#39;���&gt;��Q}Z���x8��IJba�� �W� �`��7��?y_�x�����I��PGST٦B��ȣ���[X�5 a�vJcSOH_��P������*�l3�����p�=���Hx��Q� ���[����ޘtp�      </td>
+						<td width="80%">��,z�?1�튉�-���&gt;��}w6</td>
 					</tr>
 				
 					<tr>
@@ -2389,12 +2579,12 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">/assets/MainStatistics-a4b40ee3</td>
+						<td width="80%">/assets/MainStatistics-cf6a9d7a</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">��,z�?1��J֭��brϚ�4y�</td>
+						<td width="80%">��,z�?1��J֭��brϜ��w�</td>
 					</tr>
 				
 				<tr>
@@ -2534,7 +2724,69 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-c2dc67e8.js">https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-c2dc67e8.js</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js">https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">db</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bDB\b and was detected 2 times, the first in the element starting with: &quot;  */function qA(){typeof __INTLIFY_PROD_DEVTOOLS__!=&quot;boolean&quot;&amp;&amp;(ba().__INTLIFY_PROD_DEVTOOLS__=!1),typeof __INTLIFY_JIT_COMPILAT&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js">https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Debug</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bDEBUG\b and was detected 3 times, the first in the element starting with: &quot;The transaction will not be sampled. Please use the ${s} instrumentation to start transactions.`),e.sampled=!1);let i=new $m(e,t&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js">https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2559,44 +2811,13 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d as v,u as m,o as i,c as s,a as e,F as l,x as n,t as r,k as o,p as f,j as g,_ as h}from&quot;./app-4ad3ac49.js&quot;;const d=t=&gt;(f&quot;, see evidence field for the suspicious comment/snippet.</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected 6 times, the first in the element starting with: &quot;**/function $n(e,t,n,r){let s;try{s=r?e(...r):e()}catch(o){Si(o,t,n)}return s}function Ot(e,t,n,r){if(le(e)){const o=$n(e,t,n,r)&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-4ad3ac49.js">https://www.dossierfacile.logement.gouv.fr/assets/app-4ad3ac49.js</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">from</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected 4 times, the first in the element starting with: &quot;**/function bn(e,t,n,r){let o;try{o=r?e(...r):e()}catch(s){Qo(s,t,n)}return o}function pt(e,t,n,r){if(ae(e)){const s=bn(e,t,n,r)&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-4ad3ac49.js">https://www.dossierfacile.logement.gouv.fr/assets/app-4ad3ac49.js</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js">https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2621,13 +2842,13 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bQUERY\b and was detected 2 times, the first in the element starting with: &quot;  */const Qn=typeof window&lt;&quot;u&quot;;function Qg(e){return e.__esModule||e[Symbol.toStringTag]===&quot;Module&quot;}const _e=Object.assign;funct&quot;, see evidence field for the suspicious comment/snippet.</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected 3 times, the first in the element starting with: &quot;  */const Pr=typeof window&lt;&quot;u&quot;;function iT(e){return e.__esModule||e[Symbol.toStringTag]===&quot;Module&quot;}const Te=Object.assign;funct&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-4ad3ac49.js">https://www.dossierfacile.logement.gouv.fr/assets/app-4ad3ac49.js</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js">https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2652,13 +2873,13 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bSELECT\b and was detected in the element starting with: &quot;**/const rm=&quot;http://www.w3.org/2000/svg&quot;,om=&quot;http://www.w3.org/1998/Math/MathML&quot;,gn=typeof document&lt;&quot;u&quot;?document:null,Ua=gn&amp;&amp;gn.&quot;, see evidence field for the suspicious comment/snippet.</td>
+						<td width="80%">The following pattern was used: \bSELECT\b and was detected in the element starting with: &quot;**/const yy=&quot;http://www.w3.org/2000/svg&quot;,Ay=&quot;http://www.w3.org/1998/Math/MathML&quot;,Kn=typeof document&lt;&quot;u&quot;?document:null,ku=Kn&amp;&amp;Kn.&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-4ad3ac49.js">https://www.dossierfacile.logement.gouv.fr/assets/app-4ad3ac49.js</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js">https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2678,18 +2899,18 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">User</td>
+						<td width="80%">user</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bUSER\b and was detected in the element starting with: &quot;`)}get[Symbol.toStringTag](){return&quot;AxiosHeaders&quot;}static from(t){return t instanceof this?t:new this(t)}static concat(t,...n){co&quot;, see evidence field for the suspicious comment/snippet.</td>
+						<td width="80%">The following pattern was used: \bUSER\b and was detected 4 times, the first in the element starting with: &quot;`),typeof c==&quot;string&quot;||c instanceof Uint8Array)o(c);else{let l;try{l=JSON.stringify(c)}catch{l=JSON.stringify(ur(c))}o(l)}}retur&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/BlogView-244b6e2b.js">https://www.dossierfacile.logement.gouv.fr/assets/BlogView-244b6e2b.js</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/BlogView-3f55fab4.js">https://www.dossierfacile.logement.gouv.fr/assets/BlogView-3f55fab4.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2714,13 +2935,13 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d,r as g,o as p,c as m,a as e,b as s,w as o,e as n,t as a,f as v,_ as f,u as h,g as b,h as t}from&quot;./app-4ad3ac49.js&quot;;impo&quot;, see evidence field for the suspicious comment/snippet.</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d,r as g,o as p,c as m,a as e,b as s,w as o,e as n,t as a,f as v,_ as f,u as h,g as b,h as t}from&quot;./app-3d122ef5.js&quot;;impo&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/ContactView-b6a197c5.js">https://www.dossierfacile.logement.gouv.fr/assets/ContactView-b6a197c5.js</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/ContactView-05ae9ca1.js">https://www.dossierfacile.logement.gouv.fr/assets/ContactView-05ae9ca1.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2751,7 +2972,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/ContactView-b6a197c5.js">https://www.dossierfacile.logement.gouv.fr/assets/ContactView-b6a197c5.js</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/ContactView-05ae9ca1.js">https://www.dossierfacile.logement.gouv.fr/assets/ContactView-05ae9ca1.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2782,7 +3003,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/InformationView-050f1b6f.js">https://www.dossierfacile.logement.gouv.fr/assets/InformationView-050f1b6f.js</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/InformationView-9a00dbae.js">https://www.dossierfacile.logement.gouv.fr/assets/InformationView-9a00dbae.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2807,13 +3028,13 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d as e,u as s,o as a,c as t,k as i,_ as r}from&quot;./app-4ad3ac49.js&quot;;const o={class:&quot;fr-mb-12w&quot;},n=i(&#39;&lt;article data-v-1827d8&quot;, see evidence field for the suspicious comment/snippet.</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d as e,u as s,o as a,c as t,k as i,_ as r}from&quot;./app-3d122ef5.js&quot;;const o={class:&quot;fr-mb-12w&quot;},n=i(&#39;&lt;article data-v-1827d8&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-a4b40ee3.js">https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-a4b40ee3.js</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-cf6a9d7a.js">https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-cf6a9d7a.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2838,13 +3059,13 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d as a,u as i,g as n,o,c as r,a as s,t as c,h as l}from&quot;./app-4ad3ac49.js&quot;;const d={class:&quot;full-width&quot;},u={class:&quot;fr-h1&quot;}&quot;, see evidence field for the suspicious comment/snippet.</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d as a,u as i,g as n,o,c as r,a as s,t as c,h as l}from&quot;./app-3d122ef5.js&quot;;const d={class:&quot;full-width&quot;},u={class:&quot;fr-h1&quot;}&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-c1bed037.js">https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-c1bed037.js</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-4899f3c2.js">https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-4899f3c2.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2869,13 +3090,13 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d as l,u,n as c,l as p,q as f,o as t,c as a,a as e,s as v,v as m,k as i,_ as b}from&quot;./app-4ad3ac49.js&quot;;const g={class:&quot;fr&quot;, see evidence field for the suspicious comment/snippet.</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d as l,u,n as c,l as p,q as f,o as t,c as a,a as e,s as v,v as m,k as i,_ as b}from&quot;./app-3d122ef5.js&quot;;const g={class:&quot;fr&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-f4bf5548.js">https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-f4bf5548.js</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-f7ca0894.js">https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-f7ca0894.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2900,12 +3121,12 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d as m,u as f,o as s,c as o,a as e,F as r,x as n,t as i,e as h}from&quot;./app-4ad3ac49.js&quot;;const _={class:&quot;fr-mb-12w&quot;},p={cla&quot;, see evidence field for the suspicious comment/snippet.</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d as m,u as f,o as s,c as o,a as e,F as r,x as n,t as i,e as h}from&quot;./app-3d122ef5.js&quot;;const _={class:&quot;fr-mb-12w&quot;},p={cla&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">12</td>
+					<td width="80%">13</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -3080,7 +3301,69 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-devient-dossierfacile-logement-gouv-fr">https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-devient-dossierfacile-logement-gouv-fr</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;a class=&quot;fr-translate__language fr-nav__link&quot; hreflang=&quot;fr&quot; lang=&quot;fr&quot; href=&quot;#&quot; aria-current=&quot;page&quot;&gt;FR - Français&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;a class=&quot;fr-translate__language fr-nav__link&quot; hreflang=&quot;fr&quot; lang=&quot;fr&quot; href=&quot;#&quot; aria-current=&quot;page&quot;&gt;FR - Français&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact?acceptCgu=true&amp;email=zaproxy%40example.com&amp;firstname=ZAP&amp;lastname=ZAP&amp;message=Zaproxy+alias+impedit+expedita+quisquam+pariatur+exercitationem.+Nemo+rerum+eveniet+dolores+rem+quia+dignissimos.&amp;profile=profile-tenant&amp;subject=Zaproxy+dolore+alias+impedit+expedita+quisquam.">https://www.dossierfacile.logement.gouv.fr/contact?acceptCgu=true&amp;email=zaproxy%40example.com&amp;firstname=ZAP&amp;lastname=ZAP&amp;message=Zaproxy+alias+impedit+expedita+quisquam+pariatur+exercitationem.+Nemo+rerum+eveniet+dolores+rem+quia+dignissimos.&amp;profile=profile-tenant&amp;subject=Zaproxy+dolore+alias+impedit+expedita+quisquam.</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3173,37 +3456,6 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/mentions-legales/">https://www.dossierfacile.logement.gouv.fr/mentions-legales/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;a class=&quot;fr-translate__language fr-nav__link&quot; hreflang=&quot;fr&quot; lang=&quot;fr&quot; href=&quot;#&quot; aria-current=&quot;page&quot;&gt;FR - Français&lt;/a&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/plan-du-site">https://www.dossierfacile.logement.gouv.fr/plan-du-site</a></td>
 					</tr>
 					<tr>
@@ -3236,37 +3488,6 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/stats">https://www.dossierfacile.logement.gouv.fr/stats</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;a class=&quot;fr-translate__language fr-nav__link&quot; hreflang=&quot;fr&quot; lang=&quot;fr&quot; href=&quot;#&quot; aria-current=&quot;page&quot;&gt;FR - Français&lt;/a&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/stats/">https://www.dossierfacile.logement.gouv.fr/stats/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3746,7 +3967,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr">https://www.dossierfacile.logement.gouv.fr</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3892,7 +4113,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr">https://www.dossierfacile.logement.gouv.fr</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4038,7 +4259,38 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr">https://www.dossierfacile.logement.gouv.fr</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Sec-Fetch-Site</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/robots.txt">https://www.dossierfacile.logement.gouv.fr/robots.txt</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4099,7 +4351,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -4153,7 +4405,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr">https://www.dossierfacile.logement.gouv.fr</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4361,7 +4613,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/accessibilite">https://www.dossierfacile.logement.gouv.fr/accessibilite</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog">https://www.dossierfacile.logement.gouv.fr/blog</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4423,7 +4675,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/favicon.svg">https://www.dossierfacile.logement.gouv.fr/favicon.svg</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/cover-features-mobile-0119.webp">https://www.dossierfacile.logement.gouv.fr/cover-features-mobile-0119.webp</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
