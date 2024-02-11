@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 4 Feb 2024 00:39:33",
+	"@generated": "Sun, 11 Feb 2024 00:40:22",
 	"site":[ 
 		{
 			"@name": "https://api.dossierfacile.logement.gouv.fr",
@@ -219,9 +219,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://api.dossierfacile.logement.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
@@ -262,9 +270,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://api.dossierfacile.logement.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
@@ -305,9 +321,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://api.dossierfacile.logement.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
@@ -348,9 +372,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://api.dossierfacile.logement.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
@@ -370,14 +402,6 @@
 					"instances":[ 
 						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/",
-							"method": "GET",
-							"param": "sc-sticky-session",
-							"attack": "",
-							"evidence": "ZC3CFZjOHKh8ya8ZCdX2UWQyOx+cZ0/qCwfG/ckXQxJIvPYBi2WbQex9XrGZjqa+26npGNIl+v1S4jXA7/WC9OnK+rxRZ1z+oSzWceAN54E=",
-							"otherinfo": "\ncookie:sc-sticky-session"
-						},
-						{
-							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator",
 							"method": "GET",
 							"param": "sc-sticky-session",
 							"attack": "",
@@ -409,13 +433,13 @@
 							"otherinfo": "\ncookie:sc-sticky-session"
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p></p><p>cookie:sc-sticky-session</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "10"
+					"sourceid": "12"
 				}
 			]
 		}
