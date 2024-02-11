@@ -127,7 +127,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 4 Feb 2024 00:17:58
+		Generated on Sun, 11 Feb 2024 00:17:46
 	</h3>
 
 	<h3>
@@ -205,22 +205,22 @@ td {
 			<tr>
 				<td><a href="#10055">CSP: Wildcard Directive</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">2</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: script-src unsafe-eval</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">2</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: script-src unsafe-inline</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">2</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: style-src unsafe-inline</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">2</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10038">Content Security Policy (CSP) Header Not Set</a></td>
@@ -235,7 +235,7 @@ td {
 			<tr>
 				<td><a href="#10063">Permissions Policy Header Not Set</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">11</td>
+				<td align="center">12</td>
 			</tr>
 			<tr>
 				<td><a href="#10021">X-Content-Type-Options Header Missing</a></td>
@@ -255,7 +255,7 @@ td {
 			<tr>
 				<td><a href="#10027">Information Disclosure - Suspicious Comments</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">13</td>
+				<td align="center">17</td>
 			</tr>
 			<tr>
 				<td><a href="#10109">Modern Web Application</a></td>
@@ -537,6 +537,40 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog">https://www.dossierfacile.logement.gouv.fr/blog</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Content-Security-Policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;none&#39;; script-src &#39;self&#39; *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net &#39;unsafe-eval&#39; &#39;unsafe-inline&#39; ; style-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css &#39;unsafe-inline&#39; fonts.googleapis.com ; img-src &#39;self&#39; *.helpscout.net *.cloudfront.net data:; font-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src &#39;none&#39;; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
+frame-ancestors, form-action
+
+The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
@@ -570,7 +604,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -667,6 +701,37 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog">https://www.dossierfacile.logement.gouv.fr/blog</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Content-Security-Policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;none&#39;; script-src &#39;self&#39; *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net &#39;unsafe-eval&#39; &#39;unsafe-inline&#39; ; style-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css &#39;unsafe-inline&#39; fonts.googleapis.com ; img-src &#39;self&#39; *.helpscout.net *.cloudfront.net data:; font-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src &#39;none&#39;; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">script-src includes unsafe-eval.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
@@ -697,7 +762,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -794,6 +859,37 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog">https://www.dossierfacile.logement.gouv.fr/blog</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Content-Security-Policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;none&#39;; script-src &#39;self&#39; *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net &#39;unsafe-eval&#39; &#39;unsafe-inline&#39; ; style-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css &#39;unsafe-inline&#39; fonts.googleapis.com ; img-src &#39;self&#39; *.helpscout.net *.cloudfront.net data:; font-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src &#39;none&#39;; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">script-src includes unsafe-inline.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
@@ -824,7 +920,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -921,6 +1017,37 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog">https://www.dossierfacile.logement.gouv.fr/blog</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Content-Security-Policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;none&#39;; script-src &#39;self&#39; *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net &#39;unsafe-eval&#39; &#39;unsafe-inline&#39; ; style-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css &#39;unsafe-inline&#39; fonts.googleapis.com ; img-src &#39;self&#39; *.helpscout.net *.cloudfront.net data:; font-src &#39;self&#39; https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src &#39;none&#39;; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
@@ -951,7 +1078,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -1513,7 +1640,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile">https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1544,7 +1671,38 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact?acceptCgu=true&amp;email=zaproxy%40example.com&amp;firstname=ZAP&amp;lastname=ZAP&amp;message=Zaproxy+alias+impedit+expedita+quisquam+pariatur+exercitationem.+Nemo+rerum+eveniet+dolores+rem+quia+dignissimos.&amp;profile=profile-tenant&amp;subject=Zaproxy+dolore+alias+impedit+expedita+quisquam.">https://www.dossierfacile.logement.gouv.fr/contact?acceptCgu=true&amp;email=zaproxy%40example.com&amp;firstname=ZAP&amp;lastname=ZAP&amp;message=Zaproxy+alias+impedit+expedita+quisquam+pariatur+exercitationem.+Nemo+rerum+eveniet+dolores+rem+quia+dignissimos.&amp;profile=profile-tenant&amp;subject=Zaproxy+dolore+alias+impedit+expedita+quisquam.</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/guide-aide-etudiant-logement">https://www.dossierfacile.logement.gouv.fr/blog/guide-aide-etudiant-logement</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1698,7 +1856,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">11</td>
+					<td width="80%">12</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -2373,37 +2531,6 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/index-1c439553.css">https://www.dossierfacile.logement.gouv.fr/assets/index-1c439553.css</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">/assets/Marianne-Light-7b92c55f</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">��,z�?1��jy�����߻oݜ�</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile">https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile</a></td>
 					</tr>
 					<tr>
@@ -2461,6 +2588,37 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 						<td width="20%"
 							class="indent2">Other Info</td>
 						<td width="80%">~��j�br�bz�?�������v��</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/passoires-thermiques-top-depart-du-gel-des-loyers">https://www.dossierfacile.logement.gouv.fr/blog/passoires-thermiques-top-depart-du-gel-des-loyers</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">fr/jorf/article_jo/JORFARTI000043957099</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">~�㢷�j�brW����9@E24�M8��{��</td>
 					</tr>
 				
 					<tr>
@@ -2724,6 +2882,37 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-c6077f35.js">https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-c6077f35.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">from</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d as v,u as m,o as i,c as s,a as e,F as l,x as n,t as r,k as o,p as f,j as g,_ as h}from&quot;./app-3d122ef5.js&quot;;const d=t=&gt;(f&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js">https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js</a></td>
 					</tr>
 					<tr>
@@ -2905,6 +3094,99 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 						<td width="20%"
 							class="indent2">Other Info</td>
 						<td width="80%">The following pattern was used: \bUSER\b and was detected 4 times, the first in the element starting with: &quot;`),typeof c==&quot;string&quot;||c instanceof Uint8Array)o(c);else{let l;try{l=JSON.stringify(c)}catch{l=JSON.stringify(ur(c))}o(l)}}retur&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/Article21-368236c2.js">https://www.dossierfacile.logement.gouv.fr/assets/Article21-368236c2.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">from</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{_ as a}from&quot;./blog-article21-524ec30f.js&quot;;import{B as l}from&quot;./BlogArticle-359f7636.js&quot;;import{d as u,u as c,o as d,i as &quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/Article22-d317760b.js">https://www.dossierfacile.logement.gouv.fr/assets/Article22-d317760b.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">from</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{_ as r}from&quot;./blog-article22-cac75aaf.js&quot;;import{B as a}from&quot;./BlogArticle-359f7636.js&quot;;import{d as u,u as l,o as c,i as &quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-359f7636.js">https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-359f7636.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">from</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;import{d as c,g as m,l as v,o as _,c as d,a as e,m as b,t as i,e as w,f as $,b as I,p as y,j as C,_ as x}from&quot;./app-3d122ef5.js&quot;&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
@@ -3126,7 +3408,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">13</td>
+					<td width="80%">17</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -3332,7 +3614,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile">https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3363,7 +3645,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact?acceptCgu=true&amp;email=zaproxy%40example.com&amp;firstname=ZAP&amp;lastname=ZAP&amp;message=Zaproxy+alias+impedit+expedita+quisquam+pariatur+exercitationem.+Nemo+rerum+eveniet+dolores+rem+quia+dignissimos.&amp;profile=profile-tenant&amp;subject=Zaproxy+dolore+alias+impedit+expedita+quisquam.">https://www.dossierfacile.logement.gouv.fr/contact?acceptCgu=true&amp;email=zaproxy%40example.com&amp;firstname=ZAP&amp;lastname=ZAP&amp;message=Zaproxy+alias+impedit+expedita+quisquam+pariatur+exercitationem.+Nemo+rerum+eveniet+dolores+rem+quia+dignissimos.&amp;profile=profile-tenant&amp;subject=Zaproxy+dolore+alias+impedit+expedita+quisquam.</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/contact">https://www.dossierfacile.logement.gouv.fr/contact</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4613,6 +4895,37 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/accessibilite">https://www.dossierfacile.logement.gouv.fr/accessibilite</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/blog">https://www.dossierfacile.logement.gouv.fr/blog</a></td>
 					</tr>
 					<tr>
@@ -4675,7 +4988,7 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/cover-features-mobile-0119.webp">https://www.dossierfacile.logement.gouv.fr/cover-features-mobile-0119.webp</a></td>
+						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/favicon.svg">https://www.dossierfacile.logement.gouv.fr/favicon.svg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4707,37 +5020,6 @@ F5f�א�r�Y4�1]_�ufDD%����\Qhd���E%�&quot;�(Vh�
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/information">https://www.dossierfacile.logement.gouv.fr/information</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.dossierfacile.logement.gouv.fr/mentions-legales">https://www.dossierfacile.logement.gouv.fr/mentions-legales</a></td>
 					</tr>
 					<tr>
 						<td width="20%"

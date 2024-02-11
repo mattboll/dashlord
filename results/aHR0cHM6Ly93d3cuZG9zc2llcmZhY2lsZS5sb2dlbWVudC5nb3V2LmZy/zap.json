@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 4 Feb 2024 00:17:58",
+	"@generated": "Sun, 11 Feb 2024 00:17:46",
 	"site":[ 
 		{
 			"@name": "https://www.dossierfacile.logement.gouv.fr.",
@@ -77,7 +77,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "39"
+					"sourceid": "40"
 				},
 				{
 					"pluginid": "10055",
@@ -98,6 +98,14 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: \nframe-ancestors, form-action\n\nThe directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything."
 						},
 						{
+							"uri": "https://www.dossierfacile.logement.gouv.fr/blog",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'none'; script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-eval' 'unsafe-inline' ; style-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css 'unsafe-inline' fonts.googleapis.com ; img-src 'self' *.helpscout.net *.cloudfront.net data:; font-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src 'none'; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr",
+							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: \nframe-ancestors, form-action\n\nThe directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything."
+						},
+						{
 							"uri": "https://www.dossierfacile.logement.gouv.fr/contact",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -106,13 +114,13 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: \nframe-ancestors, form-action\n\nThe directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: </p><p>frame-ancestors, form-action</p><p></p><p>The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "9"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -133,6 +141,14 @@
 							"otherinfo": "script-src includes unsafe-eval."
 						},
 						{
+							"uri": "https://www.dossierfacile.logement.gouv.fr/blog",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'none'; script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-eval' 'unsafe-inline' ; style-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css 'unsafe-inline' fonts.googleapis.com ; img-src 'self' *.helpscout.net *.cloudfront.net data:; font-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src 'none'; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr",
+							"otherinfo": "script-src includes unsafe-eval."
+						},
+						{
 							"uri": "https://www.dossierfacile.logement.gouv.fr/contact",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -141,13 +157,13 @@
 							"otherinfo": "script-src includes unsafe-eval."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>script-src includes unsafe-eval.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "9"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -168,6 +184,14 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
+							"uri": "https://www.dossierfacile.logement.gouv.fr/blog",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'none'; script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-eval' 'unsafe-inline' ; style-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css 'unsafe-inline' fonts.googleapis.com ; img-src 'self' *.helpscout.net *.cloudfront.net data:; font-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src 'none'; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr",
+							"otherinfo": "script-src includes unsafe-inline."
+						},
+						{
 							"uri": "https://www.dossierfacile.logement.gouv.fr/contact",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -176,13 +200,13 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>script-src includes unsafe-inline.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "9"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -203,6 +227,14 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
+							"uri": "https://www.dossierfacile.logement.gouv.fr/blog",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'none'; script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-eval' 'unsafe-inline' ; style-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css 'unsafe-inline' fonts.googleapis.com ; img-src 'self' *.helpscout.net *.cloudfront.net data:; font-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src 'none'; frame-src http://metabase.dossierfacile.logement.gouv.fr ; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr",
+							"otherinfo": "style-src includes unsafe-inline."
+						},
+						{
 							"uri": "https://www.dossierfacile.logement.gouv.fr/contact",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -211,13 +243,13 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>style-src includes unsafe-inline.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "9"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10038",
@@ -276,7 +308,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "334"
+					"sourceid": "316"
 				},
 				{
 					"pluginid": "10110",
@@ -364,7 +396,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.dossierfacile.logement.gouv.fr/contact",
+							"uri": "https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -372,7 +404,15 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.dossierfacile.logement.gouv.fr/contact?acceptCgu=true&email=zaproxy%40example.com&firstname=ZAP&lastname=ZAP&message=Zaproxy+alias+impedit+expedita+quisquam+pariatur+exercitationem.+Nemo+rerum+eveniet+dolores+rem+quia+dignissimos.&profile=profile-tenant&subject=Zaproxy+dolore+alias+impedit+expedita+quisquam.",
+							"uri": "https://www.dossierfacile.logement.gouv.fr/blog/guide-aide-etudiant-logement",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.dossierfacile.logement.gouv.fr/contact",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -412,7 +452,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
@@ -533,7 +573,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "107"
+					"sourceid": "111"
 				},
 				{
 					"pluginid": "10094",
@@ -578,14 +618,6 @@
 							"otherinfo": "RIFF\uFFFD\\x0004\\x0000\\x0000WEBPVP8X\n\\x0000\\x0000\\x00000\\x0000\\x0000\\x00009\\x0000\\x0000'\\x0000\\x0000ICCP\uFFFD\\x0002\\x0000\\x0000\\x0000\\x0000\\x0002\uFFFDlcms\\x00040\\x0000\\x0000mntrRGB XYZ \\x0007\uFFFD\\x0000\\x0005\\x0000\r\\x0000\\x0008\\x0000\\x001d\\x0000\\x000facspAPPL\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\\x0000\\x0001\\x0000\\x0000\\x0000\\x0000\uFFFD-lcms\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\rdesc\\x0000\\x0000\\x0001 \\x0000\\x0000\\x0000@cprt\\x0000\\x0000\\x0001`\\x0000\\x0000\\x00006wtpt\\x0000\\x0000\\x0001\uFFFD\\x0000\\x0000\\x0000\\x0014chad\\x0000\\x0000\\x0001\uFFFD\\x0000\\x0000\\x0000,rXYZ\\x0000\\x0000\\x0001\uFFFD\\x0000\\x0000\\x0000\\x0014bXYZ\\x0000\\x0000\\x0001\uFFFD\\x0000\\x0000\\x0000\\x0014gXYZ\\x0000\\x0000\\x0002\\x0000\\x0000\\x0000\\x0000\\x0014rTRC\\x0000\\x0000\\x0002\\x0014\\x0000\\x0000\\x0000 gTRC\\x0000\\x0000\\x0002\\x0014\\x0000\\x0000\\x0000 bTRC\\x0000\\x0000\\x0002\\x0014\\x0000\\x0000\\x0000 chrm\\x0000\\x0000\\x00024\\x0000\\x0000\\x0000$dmnd\\x0000\\x0000\\x0002X\\x0000\\x0000\\x0000$dmdd\\x0000\\x0000\\x0002|\\x0000\\x0000\\x0000$mluc\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x0000\\x000cenUS\\x0000\\x0000\\x0000$\\x0000\\x0000\\x0000\\x001c\\x0000G\\x0000I\\x0000M\\x0000P\\x0000 \\x0000b\\x0000u\\x0000i\\x0000l\\x0000t\\x0000-\\x0000i\\x0000n\\x0000 \\x0000s\\x0000R\\x0000G\\x0000Bmluc\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x0000\\x000cenUS\\x0000\\x0000\\x0000\\x001a\\x0000\\x0000\\x0000\\x001c\\x0000P\\x0000u\\x0000b\\x0000l\\x0000i\\x0000c\\x0000 \\x0000D\\x0000o\\x0000m\\x0000a\\x0000i\\x0000n\\x0000\\x0000XYZ \\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\\x0000\\x0001\\x0000\\x0000\\x0000\\x0000\uFFFD-sf32\\x0000\\x0000\\x0000\\x0000\\x0000\\x0001\\x000cB\\x0000\\x0000\\x0005\uFFFD\uFFFD\uFFFD\uFFFD%\\x0000\\x0000\\x0007\uFFFD\\x0000\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0000\\x0000\\x0003\uFFFD\\x0000\\x0000\uFFFDnXYZ \\x0000\\x0000\\x0000\\x0000\\x0000\\x0000o\uFFFD\\x0000\\x00008\uFFFD\\x0000\\x0000\\x0003\uFFFDXYZ \\x0000\\x0000\\x0000\\x0000\\x0000\\x0000$\uFFFD\\x0000\\x0000\\x000f\uFFFD\\x0000\\x0000\uFFFD\uFFFDXYZ \\x0000\\x0000\\x0000\\x0000\\x0000\\x0000b\uFFFD\\x0000\\x0000\uFFFD\uFFFD\\x0000\\x0000\\x0018\uFFFDpara\\x0000\\x0000\\x0000\\x0000\\x0000\\x0003\\x0000\\x0000\\x0000\\x0002ff\\x0000\\x0000\uFFFD\\x0000\\x0000\rY\\x0000\\x0000\\x0013\uFFFD\\x0000\\x0000\n[chrm\\x0000\\x0000\\x0000\\x0000\\x0000\\x0003\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\\x0000\\x0000T|\\x0000\\x0000L\uFFFD\\x0000\\x0000\uFFFD\uFFFD\\x0000\\x0000&g\\x0000\\x0000\\x000f\\mluc\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x0000\\x000cenUS\\x0000\\x0000\\x0000\\x0008\\x0000\\x0000\\x0000\\x001c\\x0000G\\x0000I\\x0000M\\x0000Pmluc\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x0000\\x000cenUS\\x0000\\x0000\\x0000\\x0008\\x0000\\x0000\\x0000\\x001c\\x0000s\\x0000R\\x0000G\\x0000BALPHF\\x0000\\x0000\\x0000\\x0001`\\x001a\u0676\uFFFD\uFFFDsW_~@\uFFFD?\uFFFD*P\u0502\uFFFD\uFFFDL\t\uFFFD\\x0018<W3\\x0013\\x0011\\x0013\uFFFD\uFFFD\uFFFD\uFFFD|^kE\uFFFD\\x001d\uFFFD\uFFFD\\x0001\uFFFD\uFFFD1\uFFFD\\x0017\uFFFD\uFFFD8m\uFFFD\uFFFD\uFFFD\uFFFD\"N%\uFFFD\uFFFD\uFFFD\\x0011\uFFFD^I\\x0002\uFFFD\\x0000VP8 p\\x0001\\x0000\\x0000\uFFFD\n\\x0000\uFFFD\\x0001*:\\x0000(\\x0000>)\\x000e\uFFFDB\uFFFD\uFFFDT\\x0006\\x0000\uFFFD- \\x001al;\uFFFDn\uFFFDP\\x000f\u049E\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFD\"q\uFFFD\uFFFD\uFFFDb)\uFFFDlL`\uFFFDmm\uFFFD\uFFFD\uFFFDq\u01ED\u07865\uFFFD;O\uFFFD\uFFFD*GU\uFFFD\\x0000!K\uFFFD\uFFFD\u0759.\uFFFD\uFFFD`\uFFFD\uFFFD|T\uFFFD\u040B\uFFFD\u077F\uFFFD\\x0000\uFFFD\uFFFDp\\x0008\\x0001\uFFFD\uFFFDa\\x001f\\x0012\uFFFD\\x0012\uFFFD\\x0017\uFFFD\\x0008\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\uFFFD\uFFFD\uFFFD;K\uFFFD</\\x0008Dw\\x0014\uFFFD1I\n\uFFFDY\uFFFDg&\uFFFD/))d\uFFFD\\x0008\uFFFDX\uFFFD\uFFFDK\uFFFD3\uFFFD?u@fk\uFFFD]k\\x001b><\uFFFD\uFFFD2\uFFFD=\uFFFD\uFFFD\\x0019+y\uFFFD\uFFFD\uFFFD*\uFFFD\u07BA\uFFFDv\\x00056\uFFFD\uFFFD(O\uFFFDHi9}\\x0014\uFFFD\uFFFD'\\x001f\uFFFD\\x0000>Pxde\uFFFD\uFFFD\uFFFDQ\uFFFD\uFFFD\uFFFD$\uFFFD\uFFFD\uFFFDX\uFFFD\\x0001gTr/\uFFFDb\\x000e\uFFFD|\\x000f0\\x0007/\uFFFD\uFFFD\u053C=\uFFFDd\uFFFD\\x0008\uFFFD\uFFFD\\K?\uFFFD4\uFFFD\uFFFDi\uFFFD%\uFFFD\uFFFD\u95B3-IL\\j\uFFFD\uFFFD\uFFFD&\uFFFDq\uFFFD~\uFFFDJ\uFFFDm\uFFFDP\uFFFD7\uFFFD\u024B\\x0007B\uFFFDJ\uFFFDN\uFFFD\uFFFDq\uFFFD\uFFFDjT\uFFFD\uFFFD\\x001fP\\x0001\uFFFD\\x0003\uFFFD:\\x0001\uFFFD\uFFFD\\x0004\uFFFD\uFFFD\\x000e\\x0019=\t6c\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFD%pT\uFFFD\\x0001Mq\uFFFDw \\x0000)+wl\uFFFD\uFFFD0Z\uFFFD\uFFFD)O\\x001f95\uFFFD\uFFFD\uFFFDPZ\\x0006\uFFFDu\\x0000\\x0000"
 						},
 						{
-							"uri": "https://www.dossierfacile.logement.gouv.fr/assets/index-1c439553.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/assets/Marianne-Light-7b92c55f",
-							"otherinfo": "\uFFFD\uFFFD,z\uFFFD?1\uFFFD\uFFFDjy\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u07FBo\u075C\uFFFD"
-						},
-						{
 							"uri": "https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile",
 							"method": "GET",
 							"param": "",
@@ -600,6 +632,14 @@
 							"attack": "",
 							"evidence": "fr/particuliers/vosdroits/R2972",
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDv\uFFFD\uFFFD"
+						},
+						{
+							"uri": "https://www.dossierfacile.logement.gouv.fr/blog/passoires-thermiques-top-depart-du-gel-des-loyers",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "fr/jorf/article_jo/JORFARTI000043957099",
+							"otherinfo": "~\uFFFD\u38B7\uFFFDj\uFFFDbrW\uFFFD\uFFFD\uFFFD\uFFFD9\\x0011@E24\uFFFDM8\uFFFD\uFFFD{\uFFFD\uFFFD"
 						},
 						{
 							"uri": "https://www.dossierfacile.logement.gouv.fr/blog/tout-ce-que-vous-devez-savoir-avant-de-quitter-votre-logement",
@@ -640,7 +680,7 @@
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "9"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10024",
@@ -667,7 +707,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "136"
+					"sourceid": "215"
 				},
 				{
 					"pluginid": "10027",
@@ -679,6 +719,14 @@
 					"riskdesc": "Informational (Low)",
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
+						{
+							"uri": "https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-c6077f35.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "from",
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"import{d as v,u as m,o as i,c as s,a as e,F as l,x as n,t as r,k as o,p as f,j as g,_ as h}from\"./app-3d122ef5.js\";const d=t=>(f\", see evidence field for the suspicious comment/snippet."
+						},
 						{
 							"uri": "https://www.dossierfacile.logement.gouv.fr/assets/app-3d122ef5.js",
 							"method": "GET",
@@ -726,6 +774,30 @@
 							"attack": "",
 							"evidence": "user",
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected 4 times, the first in the element starting with: \"`),typeof c==\"string\"||c instanceof Uint8Array)o(c);else{let l;try{l=JSON.stringify(c)}catch{l=JSON.stringify(ur(c))}o(l)}}retur\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"uri": "https://www.dossierfacile.logement.gouv.fr/assets/Article21-368236c2.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "from",
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"import{_ as a}from\"./blog-article21-524ec30f.js\";import{B as l}from\"./BlogArticle-359f7636.js\";import{d as u,u as c,o as d,i as \", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"uri": "https://www.dossierfacile.logement.gouv.fr/assets/Article22-d317760b.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "from",
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"import{_ as r}from\"./blog-article22-cac75aaf.js\";import{B as a}from\"./BlogArticle-359f7636.js\";import{d as u,u as l,o as c,i as \", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"uri": "https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-359f7636.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "from",
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"import{d as c,g as m,l as v,o as _,c as d,a as e,m as b,t as i,e as w,f as $,b as I,p as y,j as C,_ as x}from\"./app-3d122ef5.js\"\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://www.dossierfacile.logement.gouv.fr/assets/BlogView-3f55fab4.js",
@@ -784,13 +856,13 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"import{d as m,u as f,o as s,c as o,a as e,F as r,x as n,t as i,e as h}from\"./app-3d122ef5.js\";const _={class:\"fr-mb-12w\"},p={cla\", see evidence field for the suspicious comment/snippet."
 						}
 					],
-					"count": "13",
+					"count": "17",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bDB\\b and was detected 2 times, the first in the element starting with: \"  */function qA(){typeof __INTLIFY_PROD_DEVTOOLS__!=\"boolean\"&&(ba().__INTLIFY_PROD_DEVTOOLS__=!1),typeof __INTLIFY_JIT_COMPILAT\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"import{d as v,u as m,o as i,c as s,a as e,F as l,x as n,t as r,k as o,p as f,j as g,_ as h}from\"./app-3d122ef5.js\";const d=t=>(f\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "114"
+					"sourceid": "243"
 				},
 				{
 					"pluginid": "10109",
@@ -843,7 +915,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"uri": "https://www.dossierfacile.logement.gouv.fr/contact",
+							"uri": "https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -851,7 +923,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"uri": "https://www.dossierfacile.logement.gouv.fr/contact?acceptCgu=true&email=zaproxy%40example.com&firstname=ZAP&lastname=ZAP&message=Zaproxy+alias+impedit+expedita+quisquam+pariatur+exercitationem.+Nemo+rerum+eveniet+dolores+rem+quia+dignissimos.&profile=profile-tenant&subject=Zaproxy+dolore+alias+impedit+expedita+quisquam.",
+							"uri": "https://www.dossierfacile.logement.gouv.fr/contact",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -897,7 +969,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "9"
 				},
 				{
 					"pluginid": "10015",
@@ -1047,7 +1119,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "39"
+					"sourceid": "40"
 				},
 				{
 					"pluginid": "90005",
@@ -1090,7 +1162,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "39"
+					"sourceid": "40"
 				},
 				{
 					"pluginid": "90005",
@@ -1133,7 +1205,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "39"
+					"sourceid": "40"
 				},
 				{
 					"pluginid": "90005",
@@ -1176,7 +1248,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "39"
+					"sourceid": "40"
 				},
 				{
 					"pluginid": "10049",
@@ -1205,6 +1277,14 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
+							"uri": "https://www.dossierfacile.logement.gouv.fr/accessibilite",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
 							"uri": "https://www.dossierfacile.logement.gouv.fr/blog",
 							"method": "GET",
 							"param": "",
@@ -1221,7 +1301,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://www.dossierfacile.logement.gouv.fr/cover-features-mobile-0119.webp",
+							"uri": "https://www.dossierfacile.logement.gouv.fr/favicon.svg",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1230,14 +1310,6 @@
 						},
 						{
 							"uri": "https://www.dossierfacile.logement.gouv.fr/information",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"uri": "https://www.dossierfacile.logement.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1283,7 +1355,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "9"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10031",
@@ -1358,7 +1430,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "136"
+					"sourceid": "215"
 				}
 			]
 		}
