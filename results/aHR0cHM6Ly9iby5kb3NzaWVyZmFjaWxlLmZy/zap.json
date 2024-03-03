@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 25 Feb 2024 00:40:41",
+	"@generated": "Sun, 3 Mar 2024 00:43:52",
 	"site":[ 
 		{
 			"@name": "https://bo.dossierfacile.fr",
@@ -120,7 +120,7 @@
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "9"
 				},
 				{
 					"pluginid": "10063",
@@ -172,13 +172,13 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "xQmyRNFiLQEK88OzYFvfuVP_xaEAbZ-pg8nNApAsxBQ",
-							"otherinfo": "\uFFFD\t\uFFFDD\uFFFDb-\\x0001\n\uFFFD\u00F3`[\u07F9S\uFFFD\u0161\\x0000m\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0002\uFFFD,\uFFFD\\x0014"
+							"evidence": "7ejpak0wqnGVRftsir-gTRLE6XPfc9-LSjSdvLewhEM",
+							"otherinfo": "\uFFFD\uFFFD\uFFFDjM0\uFFFDq\uFFFDE\uFFFDl\uFFFD\uFFFD\uFFFDM\\x0012\uFFFD\uFFFDs\uFFFDs\u07CBJ4\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDC"
 						}
 					],
 					"count": "1",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\t\uFFFDD\uFFFDb-\\x0001</p><p>\uFFFD\u00F3`[\u07F9S\uFFFD\u0161\\x0000m\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0002\uFFFD,\uFFFD\\x0014</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDjM0\uFFFDq\uFFFDE\uFFFDl\uFFFD\uFFFD\uFFFDM\\x0012\uFFFD\uFFFDs\uFFFDs\u07CBJ4\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDC</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -292,7 +292,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "9"
 				},
 				{
 					"pluginid": "90005",
@@ -335,7 +335,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "9"
 				},
 				{
 					"pluginid": "90005",
@@ -362,23 +362,15 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"uri": "https://bo.dossierfacile.fr/sitemap.xml",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -421,7 +413,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10112",
@@ -438,7 +430,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "54156240875201613248358A54C3E0F6",
+							"evidence": "27FF1F37EF458CE6D13C2A1E70658227",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -446,7 +438,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "C9C7811DCFFCAD1D0548C303BE513983",
+							"evidence": "7B886ED9192BF37E2E6760345BFBBC34",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -454,7 +446,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "48BE90D2BB026B21336E765AE9742408",
+							"evidence": "A1D4DA061550C63252D95C5BAF88019E",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -462,7 +454,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "E3302AC70EDF19705BA9FD12B4E61E28",
+							"evidence": "39A4180E9CDA5520886F7C8C19B4D428",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -470,7 +462,7 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "48BE90D2BB026B21336E765AE9742408",
+							"evidence": "27FF1F37EF458CE6D13C2A1E70658227",
 							"otherinfo": "\ncookie:JSESSIONID"
 						}
 					],
@@ -480,7 +472,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "9"
 				}
 			]
 		}

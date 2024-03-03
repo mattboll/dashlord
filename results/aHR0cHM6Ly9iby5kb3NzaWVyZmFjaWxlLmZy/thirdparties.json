@@ -36,7 +36,7 @@
   "cookies": [
     {
       "name": "JSESSIONID",
-      "value": "9076680951A3FCF4C22896E0CEA4F678",
+      "value": "B5EB86B4A1183B466A62F57757BD34A9",
       "domain": "bo.dossierfacile.fr",
       "path": "/",
       "expires": -1,
@@ -55,19 +55,19 @@
     "content-language": "en-US",
     "content-security-policy": "frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Sun, 25 Feb 2024 00:41:42 GMT",
+    "date": "Sun, 03 Mar 2024 00:44:46 GMT",
     "expires": "0",
     "pragma": "no-cache",
     "strict-transport-security": "max-age=31536000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
-    "x-request-id": "d38ea5b2-fb23-4fea-a4b0-b88f5180d69c",
+    "x-request-id": "0012b31a-4153-4d28-98cc-150e87c6d82d",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
     {
       "hostname": "bo.dossierfacile.fr",
-      "ip": "80.247.12.255",
+      "ip": "185.21.194.105",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -123,7 +123,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.40.42",
+      "ip": "142.251.16.95",
       "geoip": {
         "city": {
           "geoname_id": 5133273,
@@ -203,7 +203,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.189.3",
+      "ip": "142.250.31.94",
       "geoip": {
         "continent": {
           "code": "NA",
