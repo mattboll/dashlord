@@ -10,7 +10,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://beacon-v2.helpscout.net/static/js/main.04d72001.js"
+      "url": "https://beacon-v2.helpscout.net/static/js/main.e246cd3b.js"
     },
     {
       "type": "cloudfront",
@@ -34,19 +34,19 @@
     "accept-ranges": "bytes",
     "cache-control": "public, max-age=0",
     "content-security-policy": "default-src 'none'; script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://www.google.com https://www.gstatic.com https://beacon-v2.helpscout.net https://stats.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ data:; object-src 'none'; connect-src https://sentry.incubateur.net *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com https://dossierfacile-api-owner-prod.osc-secnum-fr1.scalingo.io https://stats.beta.gouv.fr blob:; frame-src https://www.google.com *.dossierfacile.fr *.dossierfacile.logement.gouv.fr ; child-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr",
-    "date": "Sun, 03 Mar 2024 00:18:02 GMT",
+    "date": "Sun, 10 Mar 2024 00:18:05 GMT",
     "etag": "W/\"256-18dcb8cf0a0\"",
     "last-modified": "Wed, 21 Feb 2024 12:03:48 GMT",
     "strict-transport-security": "max-age=31536000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "deny",
     "x-powered-by": "Express",
-    "x-request-id": "2c4bbd85-77ed-4114-9b4a-6989138ed70a"
+    "x-request-id": "7b5e9093-81fa-4f78-b99d-7009064ecf01"
   },
   "endpoints": [
     {
       "hostname": "proprietaire.dossierfacile.logement.gouv.fr",
-      "ip": "148.253.96.193",
+      "ip": "185.21.194.105",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -102,7 +102,7 @@
     },
     {
       "hostname": "beacon-v2.helpscout.net",
-      "ip": "18.238.192.46",
+      "ip": "3.162.174.83",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -156,7 +156,7 @@
     },
     {
       "hostname": "d3hb14vkzrxvla.cloudfront.net",
-      "ip": "18.155.204.19",
+      "ip": "13.33.163.155",
       "geoip": {
         "continent": {
           "code": "NA",
