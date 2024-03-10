@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 3 Mar 2024 00:44:46",
+	"@generated": "Sun, 10 Mar 2024 00:39:49",
 	"site":[ 
 		{
 			"@name": "https://api.dossierfacile.logement.gouv.fr",
@@ -50,23 +50,15 @@
 							"attack": "",
 							"evidence": "Set-Cookie: sc-sticky-session",
 							"otherinfo": ""
-						},
-						{
-							"uri": "https://api.dossierfacile.logement.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "sc-sticky-session",
-							"attack": "",
-							"evidence": "Set-Cookie: sc-sticky-session",
-							"otherinfo": ""
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"solution": "<p>Ensure that the SameSite attribute is set to either 'lax' or ideally 'strict' for all cookies.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10094",
@@ -79,45 +71,53 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
+							"uri": "https://api.dossierfacile.logement.gouv.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
+							"otherinfo": "\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD"
+						},
+						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "GFMQizE4PzKDSh3bRjLx1hFmHevBE5dwLZJwYWwZSLR8xE8TiEHCrazRawGcx9WeZAlVc0l5zCFz8bL2j5S+Lw8Mhm/CHZ45eIxYw+g/+SQ=",
-							"otherinfo": "\\x0018S\\x0010\uFFFD18?2\uFFFDJ\\x001d\uFFFDF2\uFFFD\uFFFD\\x0011f\\x001d\uFFFD\uFFFD\\x0013\uFFFDp-\uFFFDpal\\x0019H\uFFFD|\uFFFDO\\x0013\uFFFDA\u00AD\uFFFD\uFFFDk\\x0001\uFFFD\uFFFD\u055Ed\tUsIy\uFFFD!s\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD/\\x000f\\x000c\uFFFDo\uFFFD\\x001d\uFFFD9x\uFFFDX\uFFFD\uFFFD?\uFFFD$"
+							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
+							"otherinfo": "\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD"
 						},
 						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "GFMQizE4PzKDSh3bRjLx1hFmHevBE5dwLZJwYWwZSLR8xE8TiEHCrazRawGcx9WeZAlVc0l5zCFz8bL2j5S+Lw8Mhm/CHZ45eIxYw+g/+SQ=",
-							"otherinfo": "\\x0018S\\x0010\uFFFD18?2\uFFFDJ\\x001d\uFFFDF2\uFFFD\uFFFD\\x0011f\\x001d\uFFFD\uFFFD\\x0013\uFFFDp-\uFFFDpal\\x0019H\uFFFD|\uFFFDO\\x0013\uFFFDA\u00AD\uFFFD\uFFFDk\\x0001\uFFFD\uFFFD\u055Ed\tUsIy\uFFFD!s\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD/\\x000f\\x000c\uFFFDo\uFFFD\\x001d\uFFFD9x\uFFFDX\uFFFD\uFFFD?\uFFFD$"
+							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
+							"otherinfo": "\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD"
 						},
 						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "GFMQizE4PzKDSh3bRjLx1hFmHevBE5dwLZJwYWwZSLR8xE8TiEHCrazRawGcx9WeZAlVc0l5zCFz8bL2j5S+Lw8Mhm/CHZ45eIxYw+g/+SQ=",
-							"otherinfo": "\\x0018S\\x0010\uFFFD18?2\uFFFDJ\\x001d\uFFFDF2\uFFFD\uFFFD\\x0011f\\x001d\uFFFD\uFFFD\\x0013\uFFFDp-\uFFFDpal\\x0019H\uFFFD|\uFFFDO\\x0013\uFFFDA\u00AD\uFFFD\uFFFDk\\x0001\uFFFD\uFFFD\u055Ed\tUsIy\uFFFD!s\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD/\\x000f\\x000c\uFFFDo\uFFFD\\x001d\uFFFD9x\uFFFDX\uFFFD\uFFFD?\uFFFD$"
+							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
+							"otherinfo": "\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD"
 						},
 						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "GFMQizE4PzKDSh3bRjLx1hFmHevBE5dwLZJwYWwZSLR8xE8TiEHCrazRawGcx9WeZAlVc0l5zCFz8bL2j5S+Lw8Mhm/CHZ45eIxYw+g/+SQ=",
-							"otherinfo": "\\x0018S\\x0010\uFFFD18?2\uFFFDJ\\x001d\uFFFDF2\uFFFD\uFFFD\\x0011f\\x001d\uFFFD\uFFFD\\x0013\uFFFDp-\uFFFDpal\\x0019H\uFFFD|\uFFFDO\\x0013\uFFFDA\u00AD\uFFFD\uFFFDk\\x0001\uFFFD\uFFFD\u055Ed\tUsIy\uFFFD!s\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD/\\x000f\\x000c\uFFFDo\uFFFD\\x001d\uFFFD9x\uFFFDX\uFFFD\uFFFD?\uFFFD$"
+							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
+							"otherinfo": "\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD"
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\\x0018S\\x0010\uFFFD18?2\uFFFDJ\\x001d\uFFFDF2\uFFFD\uFFFD\\x0011f\\x001d\uFFFD\uFFFD\\x0013\uFFFDp-\uFFFDpal\\x0019H\uFFFD|\uFFFDO\\x0013\uFFFDA\u00AD\uFFFD\uFFFDk\\x0001\uFFFD\uFFFD\u055Ed\tUsIy\uFFFD!s\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD/\\x000f\\x000c\uFFFDo\uFFFD\\x001d\uFFFD9x\uFFFDX\uFFFD\uFFFD?\uFFFD$</p>",
+					"otherinfo": "<p>\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "12"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "10049",
@@ -176,7 +176,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "90005",
@@ -219,7 +219,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "10"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "90005",
@@ -262,7 +262,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "10"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "90005",
@@ -305,7 +305,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "10"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "90005",
@@ -348,7 +348,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "10"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "10112",
@@ -365,7 +365,7 @@
 							"method": "GET",
 							"param": "sc-sticky-session",
 							"attack": "",
-							"evidence": "GFMQizE4PzKDSh3bRjLx1hFmHevBE5dwLZJwYWwZSLR8xE8TiEHCrazRawGcx9WeZAlVc0l5zCFz8bL2j5S+Lw8Mhm/CHZ45eIxYw+g/+SQ=",
+							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
 							"otherinfo": "\ncookie:sc-sticky-session"
 						},
 						{
@@ -373,7 +373,7 @@
 							"method": "GET",
 							"param": "sc-sticky-session",
 							"attack": "",
-							"evidence": "GFMQizE4PzKDSh3bRjLx1hFmHevBE5dwLZJwYWwZSLR8xE8TiEHCrazRawGcx9WeZAlVc0l5zCFz8bL2j5S+Lw8Mhm/CHZ45eIxYw+g/+SQ=",
+							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
 							"otherinfo": "\ncookie:sc-sticky-session"
 						},
 						{
@@ -381,7 +381,7 @@
 							"method": "GET",
 							"param": "sc-sticky-session",
 							"attack": "",
-							"evidence": "GFMQizE4PzKDSh3bRjLx1hFmHevBE5dwLZJwYWwZSLR8xE8TiEHCrazRawGcx9WeZAlVc0l5zCFz8bL2j5S+Lw8Mhm/CHZ45eIxYw+g/+SQ=",
+							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
 							"otherinfo": "\ncookie:sc-sticky-session"
 						},
 						{
@@ -389,7 +389,7 @@
 							"method": "GET",
 							"param": "sc-sticky-session",
 							"attack": "",
-							"evidence": "GFMQizE4PzKDSh3bRjLx1hFmHevBE5dwLZJwYWwZSLR8xE8TiEHCrazRawGcx9WeZAlVc0l5zCFz8bL2j5S+Lw8Mhm/CHZ45eIxYw+g/+SQ=",
+							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
 							"otherinfo": "\ncookie:sc-sticky-session"
 						},
 						{
@@ -397,7 +397,7 @@
 							"method": "GET",
 							"param": "sc-sticky-session",
 							"attack": "",
-							"evidence": "GFMQizE4PzKDSh3bRjLx1hFmHevBE5dwLZJwYWwZSLR8xE8TiEHCrazRawGcx9WeZAlVc0l5zCFz8bL2j5S+Lw8Mhm/CHZ45eIxYw+g/+SQ=",
+							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
 							"otherinfo": "\ncookie:sc-sticky-session"
 						}
 					],
