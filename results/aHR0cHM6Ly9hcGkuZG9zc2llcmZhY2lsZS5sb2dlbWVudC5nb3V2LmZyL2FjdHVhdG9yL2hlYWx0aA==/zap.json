@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 10 Mar 2024 00:39:49",
+	"@generated": "Sun, 17 Mar 2024 00:45:02",
 	"site":[ 
 		{
 			"@name": "https://api.dossierfacile.logement.gouv.fr",
@@ -50,15 +50,23 @@
 							"attack": "",
 							"evidence": "Set-Cookie: sc-sticky-session",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://api.dossierfacile.logement.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "sc-sticky-session",
+							"attack": "",
+							"evidence": "Set-Cookie: sc-sticky-session",
+							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"solution": "<p>Ensure that the SameSite attribute is set to either 'lax' or ideally 'strict' for all cookies.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10094",
@@ -75,49 +83,49 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
-							"otherinfo": "\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD"
+							"evidence": "kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD'|\uFFFD8Y\uFFFD,\\x000eD\uFFFD\uFFFD\uFFFD\\x0011\\x001b\uFFFD\uFFFD]!A\uFFFD\\x00148=\uFFFD\\x0016\\x0019|\\x0018I\uFFFDi\uFFFD7,\\x0017r4M<\\x0017\uFFFDS\uFFFD\uB55F\uFFFDZ\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDmQ\uFFFD\u00B18f\uFFFD\uFFFDB7\uFFFD"
 						},
 						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
-							"otherinfo": "\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD"
+							"evidence": "kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD'|\uFFFD8Y\uFFFD,\\x000eD\uFFFD\uFFFD\uFFFD\\x0011\\x001b\uFFFD\uFFFD]!A\uFFFD\\x00148=\uFFFD\\x0016\\x0019|\\x0018I\uFFFDi\uFFFD7,\\x0017r4M<\\x0017\uFFFDS\uFFFD\uB55F\uFFFDZ\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDmQ\uFFFD\u00B18f\uFFFD\uFFFDB7\uFFFD"
 						},
 						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
-							"otherinfo": "\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD"
+							"evidence": "kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD'|\uFFFD8Y\uFFFD,\\x000eD\uFFFD\uFFFD\uFFFD\\x0011\\x001b\uFFFD\uFFFD]!A\uFFFD\\x00148=\uFFFD\\x0016\\x0019|\\x0018I\uFFFDi\uFFFD7,\\x0017r4M<\\x0017\uFFFDS\uFFFD\uB55F\uFFFDZ\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDmQ\uFFFD\u00B18f\uFFFD\uFFFDB7\uFFFD"
 						},
 						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
-							"otherinfo": "\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD"
+							"evidence": "kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD'|\uFFFD8Y\uFFFD,\\x000eD\uFFFD\uFFFD\uFFFD\\x0011\\x001b\uFFFD\uFFFD]!A\uFFFD\\x00148=\uFFFD\\x0016\\x0019|\\x0018I\uFFFDi\uFFFD7,\\x0017r4M<\\x0017\uFFFDS\uFFFD\uB55F\uFFFDZ\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDmQ\uFFFD\u00B18f\uFFFD\uFFFDB7\uFFFD"
 						},
 						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
-							"otherinfo": "\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD"
+							"evidence": "kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD'|\uFFFD8Y\uFFFD,\\x000eD\uFFFD\uFFFD\uFFFD\\x0011\\x001b\uFFFD\uFFFD]!A\uFFFD\\x00148=\uFFFD\\x0016\\x0019|\\x0018I\uFFFDi\uFFFD7,\\x0017r4M<\\x0017\uFFFDS\uFFFD\uB55F\uFFFDZ\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDmQ\uFFFD\u00B18f\uFFFD\uFFFDB7\uFFFD"
 						}
 					],
 					"count": "5",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\\x0001&4\uFFFD\uFFFD\\x000c/\uFFFD\uFFFD}\uFFFD\uFFFDB\"@2\uFFFD4\uFFFD\uFFFD7\\x000c\uFFFD\uFFFD:\\x001b}\uFFFD-\uFFFD\uFFFDVa\u0C24\uFFFD\uFFFD\\x0011}\uFFFD\"\\x0015\uFFFDs\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x0010R\uFFFD\uDBB0\uDE2F\uFFFD\\x0014\uFFFD\uFFFD+-O}\uFFFD\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDVM\uFFFD\uFFFD\uFFFD</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD'|\uFFFD8Y\uFFFD,\\x000eD\uFFFD\uFFFD\uFFFD\\x0011\\x001b\uFFFD\uFFFD]!A\uFFFD\\x00148=\uFFFD\\x0016\\x0019|\\x0018I\uFFFDi\uFFFD7,\\x0017r4M<\\x0017\uFFFDS\uFFFD\uB55F\uFFFDZ\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDmQ\uFFFD\u00B18f\uFFFD\uFFFDB7\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "11"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10049",
@@ -197,14 +205,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
-							"method": "GET",
-							"param": "Sec-Fetch-Dest",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -213,13 +213,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "11"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90005",
@@ -240,14 +240,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
-							"method": "GET",
-							"param": "Sec-Fetch-Mode",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -256,13 +248,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "11"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90005",
@@ -283,14 +275,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -299,13 +283,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "11"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90005",
@@ -326,14 +310,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
-							"method": "GET",
-							"param": "Sec-Fetch-User",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://api.dossierfacile.logement.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -342,13 +318,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "11"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10112",
@@ -365,7 +341,7 @@
 							"method": "GET",
 							"param": "sc-sticky-session",
 							"attack": "",
-							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
+							"evidence": "kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=",
 							"otherinfo": "\ncookie:sc-sticky-session"
 						},
 						{
@@ -373,7 +349,7 @@
 							"method": "GET",
 							"param": "sc-sticky-session",
 							"attack": "",
-							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
+							"evidence": "kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=",
 							"otherinfo": "\ncookie:sc-sticky-session"
 						},
 						{
@@ -381,7 +357,7 @@
 							"method": "GET",
 							"param": "sc-sticky-session",
 							"attack": "",
-							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
+							"evidence": "kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=",
 							"otherinfo": "\ncookie:sc-sticky-session"
 						},
 						{
@@ -389,19 +365,11 @@
 							"method": "GET",
 							"param": "sc-sticky-session",
 							"attack": "",
-							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
-							"otherinfo": "\ncookie:sc-sticky-session"
-						},
-						{
-							"uri": "https://api.dossierfacile.logement.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "sc-sticky-session",
-							"attack": "",
-							"evidence": "ASY09a0ML9DNfY+4QiJAMsE0nb03DKuTOht9nC2s/FZh4LCko54RfcgiFb5zp872V4KlEFLK87yIr5sUkrUrLU99ygCZ2P+3H+zNVk3A69o=",
+							"evidence": "kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=",
 							"otherinfo": "\ncookie:sc-sticky-session"
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p></p><p>cookie:sc-sticky-session</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
