@@ -346,7 +346,7 @@
               "ip"           : "filigrane.beta.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "60 >= 30 days"
+              "finding"      : "53 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "filigrane.beta.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710031475"
+              "finding"      : "1710636612"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1433,7 +1433,7 @@
               "ip"           : "filigrane.beta.gouv.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "60 >= 30 days"
+              "finding"      : "53 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1594,7 +1594,7 @@
               "ip"           : "filigrane.beta.gouv.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710031530"
+              "finding"      : "1710636671"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -2380,7 +2380,7 @@
               "ip"           : "filigrane.beta.gouv.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -2520,7 +2520,7 @@
               "ip"           : "filigrane.beta.gouv.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "60 >= 30 days"
+              "finding"      : "53 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -2681,7 +2681,7 @@
               "ip"           : "filigrane.beta.gouv.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710031583"
+              "finding"      : "1710636729"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -3607,7 +3607,7 @@
               "ip"           : "filigrane.beta.gouv.fr/185.21.194.105",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "60 >= 30 days"
+              "finding"      : "53 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -3768,7 +3768,7 @@
               "ip"           : "filigrane.beta.gouv.fr/185.21.194.105",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710031634"
+              "finding"      : "1710636784"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -4352,6 +4352,6 @@
               "ip"           : "filigrane.beta.gouv.fr/185.21.194.105",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "214"
+              "finding"      : "232"
           }
 ]
