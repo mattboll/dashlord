@@ -6,7 +6,7 @@
       "value": "kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=",
       "domain": "api.dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1710722751.766416,
+      "expires": 1711327245.944045,
       "size": 125,
       "httpOnly": true,
       "secure": true,
@@ -21,21 +21,21 @@
     "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
     "content-security-policy": "frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';",
     "content-type": "application/vnd.spring-boot.actuator.v3+json",
-    "date": "Sun, 17 Mar 2024 00:45:51 GMT",
+    "date": "Sun, 24 Mar 2024 00:40:45 GMT",
     "expires": "0",
     "pragma": "no-cache",
-    "set-cookie": "sc-sticky-session=kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=; Expires=Mon, 18-Mar-24 00:45:51 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None",
+    "set-cookie": "sc-sticky-session=kOaL4sx9+yd8hjhZniwORKuioxEbnLpdIUHuFDg9hxYZfBhJ+2mCNywXcjRNPBf+U+nrlZ+4WoOgG4N/x+vr+bUt39JtUcHCsThm9uZCN7k=; Expires=Mon, 25-Mar-24 00:40:45 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None",
     "strict-transport-security": "max-age=31536000",
     "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
-    "x-request-id": "40dbd4f1-1812-4350-9983-f824c259d48a",
+    "x-request-id": "af8ea1f7-2dbb-4947-a4bd-3087742fc4b7",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
     {
       "hostname": "api.dossierfacile.logement.gouv.fr",
-      "ip": "185.21.194.105",
+      "ip": "148.253.96.193",
       "geoip": {
         "continent": {
           "code": "EU",
