@@ -6,14 +6,14 @@
     "content-encoding": "gzip",
     "content-security-policy": "default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 17 Mar 2024 00:49:08 GMT",
+    "date": "Sun, 24 Mar 2024 00:45:53 GMT",
     "etag": "W/\"565-18e370e9b80\"",
     "last-modified": "Wed, 13 Mar 2024 09:04:48 GMT",
     "strict-transport-security": "max-age=31536000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "deny",
     "x-powered-by": "Express",
-    "x-request-id": "417e303e-6f93-4334-ad98-a508d18179b7"
+    "x-request-id": "581f9a18-3fca-479b-ae29-ab203b74ba02"
   },
   "endpoints": [
     {
