@@ -36,7 +36,7 @@
   "cookies": [
     {
       "name": "JSESSIONID",
-      "value": "AAC496776DC0C677B1B7C465E174DBE1",
+      "value": "3DEC0BC22AD35B5981777B70E87DA462",
       "domain": "bo.dossierfacile.fr",
       "path": "/",
       "expires": -1,
@@ -55,19 +55,19 @@
     "content-language": "en-US",
     "content-security-policy": "frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Sun, 24 Mar 2024 00:39:31 GMT",
+    "date": "Sun, 31 Mar 2024 00:40:33 GMT",
     "expires": "0",
     "pragma": "no-cache",
     "strict-transport-security": "max-age=31536000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
-    "x-request-id": "36a385c7-bcb5-485f-b13d-4c3e69b880bf",
+    "x-request-id": "d9267e74-bca7-478c-a9a7-d2332f36d847",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
     {
       "hostname": "bo.dossierfacile.fr",
-      "ip": "80.247.12.255",
+      "ip": "80.247.13.145",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -123,12 +123,12 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.16.95",
+      "ip": "142.250.72.170",
       "geoip": {
         "city": {
-          "geoname_id": 5133273,
+          "geoname_id": 5131638,
           "names": {
-            "en": "Queens"
+            "en": "Plainview"
           }
         },
         "continent": {
@@ -160,14 +160,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.66,
-          "longitude": -73.839,
+          "accuracy_radius": 100,
+          "latitude": 40.7746,
+          "longitude": -73.4761,
           "metro_code": 501,
           "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "11414"
+          "code": "11803"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -203,7 +203,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.62.94",
+      "ip": "142.250.217.131",
       "geoip": {
         "continent": {
           "code": "NA",
