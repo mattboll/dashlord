@@ -10,7 +10,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://beacon-v2.helpscout.net/static/js/main.ef5355cf.js"
+      "url": "https://beacon-v2.helpscout.net/static/js/main.58cd0f0a.js"
     },
     {
       "type": "cloudfront",
@@ -35,7 +35,7 @@
       "value": "fr",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1742775531,
+      "expires": 1743380412,
       "size": 6,
       "httpOnly": false,
       "secure": true,
@@ -49,20 +49,26 @@
   "headers": {
     "cache-control": "no-store, must-revalidate, max-age=0",
     "content-length": "0",
-    "date": "Sun, 24 Mar 2024 00:18:51 GMT",
-    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=79b05828-addc-40f3-8b18-47843fdd0a76",
+    "date": "Sun, 31 Mar 2024 00:20:12 GMT",
+    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=ab0255ad-40de-41c8-9842-df00b5549596",
     "referrer-policy": "no-referrer",
-    "set-cookie": "AUTH_SESSION_ID=0e937f4f-43b0-4a75-a6e4-6aec4ea6bb7a.dossierfacile-keycloak-prod-web-1-9082; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=0e937f4f-43b0-4a75-a6e4-6aec4ea6bb7a.dossierfacile-keycloak-prod-web-1-9082; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
+    "set-cookie": "AUTH_SESSION_ID=f7f92b63-9ed9-48dd-8494-29fcb1d6517b.dossierfacile-keycloak-prod-web-1-9082; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=f7f92b63-9ed9-48dd-8494-29fcb1d6517b.dossierfacile-keycloak-prod-web-1-9082; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "x-content-type-options": "nosniff",
-    "x-request-id": "9cc0aa88-9c9e-426a-9605-bc92af84d24e",
+    "x-request-id": "2c4ff3c6-598f-43ba-b340-deb36f6bb79c",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
     {
       "hostname": "locataire.dossierfacile.logement.gouv.fr",
-      "ip": "109.232.236.90",
+      "ip": "5.104.101.30",
       "geoip": {
+        "city": {
+          "geoname_id": 2977356,
+          "names": {
+            "en": "Saint-Priest"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -93,10 +99,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "accuracy_radius": 200,
+          "latitude": 45.7088,
+          "longitude": 4.9303,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "69800"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -112,12 +121,41 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071625,
+            "iso_code": "ARA",
+            "names": {
+              "de": "Auvergne-Rhône-Alpes",
+              "en": "Auvergne-Rhône-Alpes",
+              "es": "Auvernia-Ródano-Alpes",
+              "fr": "Auvergne-Rhône-Alpes",
+              "ja": "オーヴェルニュ＝ローヌ＝アルプ地域圏",
+              "pt-BR": "Auvérnia-Ródano-Alpes",
+              "ru": "Овернь — Рона — Альпы"
+            }
+          },
+          {
+            "geoname_id": 2987410,
+            "iso_code": "69",
+            "names": {
+              "de": "Rhône",
+              "en": "Rhône",
+              "es": "Ródano",
+              "fr": "Rhône",
+              "ja": "ローヌ県",
+              "pt-BR": "Ródano",
+              "ru": "Рона",
+              "zh-CN": "罗讷省"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "beacon-v2.helpscout.net",
-      "ip": "13.249.39.126",
+      "ip": "18.238.192.91",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -171,7 +209,7 @@
     },
     {
       "hostname": "d3hb14vkzrxvla.cloudfront.net",
-      "ip": "13.32.207.95",
+      "ip": "18.155.204.172",
       "geoip": {
         "continent": {
           "code": "NA",
