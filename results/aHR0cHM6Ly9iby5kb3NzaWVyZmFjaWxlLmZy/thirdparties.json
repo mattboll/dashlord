@@ -36,7 +36,7 @@
   "cookies": [
     {
       "name": "JSESSIONID",
-      "value": "3F3E035F62EFC299DAA635928C062930",
+      "value": "F5032C866575E0BD38FF8DC3C63B237A",
       "domain": "bo.dossierfacile.fr",
       "path": "/",
       "expires": -1,
@@ -55,19 +55,19 @@
     "content-language": "en-US",
     "content-security-policy": "frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Sun, 07 Apr 2024 00:42:55 GMT",
+    "date": "Sun, 14 Apr 2024 00:40:27 GMT",
     "expires": "0",
     "pragma": "no-cache",
     "strict-transport-security": "max-age=31536000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
-    "x-request-id": "9f352590-128b-408a-be24-d575985d63be",
+    "x-request-id": "0d11242a-2bb5-4a1a-a928-86238362db2b",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
     {
       "hostname": "bo.dossierfacile.fr",
-      "ip": "80.247.13.145",
+      "ip": "148.253.96.193",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -123,7 +123,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.188.234",
+      "ip": "142.250.176.10",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -177,8 +177,14 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.35",
+      "ip": "142.250.68.67",
       "geoip": {
+        "city": {
+          "geoname_id": 5131638,
+          "names": {
+            "en": "Plainview"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -208,10 +214,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 100,
+          "latitude": 40.7746,
+          "longitude": -73.4761,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11803"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -226,7 +236,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     }
   ]
