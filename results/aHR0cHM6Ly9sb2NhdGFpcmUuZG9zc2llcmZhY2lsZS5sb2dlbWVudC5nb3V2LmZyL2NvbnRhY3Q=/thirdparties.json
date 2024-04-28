@@ -10,7 +10,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://beacon-v2.helpscout.net/static/js/main.36ac59e6.js"
+      "url": "https://beacon-v2.helpscout.net/static/js/main.6396928b.js"
     },
     {
       "type": "cloudfront",
@@ -35,7 +35,7 @@
       "value": "fr",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1745194759,
+      "expires": 1745799546,
       "size": 6,
       "httpOnly": false,
       "secure": true,
@@ -49,26 +49,20 @@
   "headers": {
     "cache-control": "no-store, must-revalidate, max-age=0",
     "content-length": "0",
-    "date": "Sun, 21 Apr 2024 00:19:19 GMT",
-    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=5dc13f45-6d5c-4ec7-a7d0-048d5743b30d",
+    "date": "Sun, 28 Apr 2024 00:19:06 GMT",
+    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=b3a65c7f-05d9-49c1-8f8c-e9dddb183722",
     "referrer-policy": "no-referrer",
-    "set-cookie": "AUTH_SESSION_ID=27d7898f-b856-46dd-87af-0a3c7246e489.dossierfacile-keycloak-prod-web-1-25640; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=27d7898f-b856-46dd-87af-0a3c7246e489.dossierfacile-keycloak-prod-web-1-25640; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
+    "set-cookie": "AUTH_SESSION_ID=378a6181-309c-4c6c-82db-16075a52cb05.dossierfacile-keycloak-prod-web-1-25640; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=378a6181-309c-4c6c-82db-16075a52cb05.dossierfacile-keycloak-prod-web-1-25640; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "x-content-type-options": "nosniff",
-    "x-request-id": "1d84131b-3a83-4565-911b-73ea13c81138",
+    "x-request-id": "52efdc4e-9eb4-46f8-8902-3f1ac83792a7",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
     {
       "hostname": "locataire.dossierfacile.logement.gouv.fr",
-      "ip": "5.104.101.30",
+      "ip": "148.253.75.120",
       "geoip": {
-        "city": {
-          "geoname_id": 3006412,
-          "names": {
-            "en": "Lasgraisses"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -99,13 +93,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 43.8239,
-          "longitude": 2.0396,
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "81300"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -121,32 +112,12 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 11071623,
-            "iso_code": "OCC",
-            "names": {
-              "en": "Occitanie",
-              "fr": "Occitanie"
-            }
-          },
-          {
-            "geoname_id": 2973362,
-            "iso_code": "81",
-            "names": {
-              "de": "Tarn",
-              "en": "Tarn",
-              "es": "Tarn",
-              "fr": "Tarn"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "beacon-v2.helpscout.net",
-      "ip": "99.84.108.86",
+      "ip": "18.238.192.91",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -200,7 +171,7 @@
     },
     {
       "hostname": "d3hb14vkzrxvla.cloudfront.net",
-      "ip": "13.32.207.95",
+      "ip": "18.155.204.229",
       "geoip": {
         "continent": {
           "code": "NA",
