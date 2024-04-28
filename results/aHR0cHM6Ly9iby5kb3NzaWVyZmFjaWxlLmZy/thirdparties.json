@@ -36,7 +36,7 @@
   "cookies": [
     {
       "name": "JSESSIONID",
-      "value": "A92CAA577F83E90CCE01CF98C7862B97",
+      "value": "7908B35C5B3CD3F5C858CD6572C004B8",
       "domain": "bo.dossierfacile.fr",
       "path": "/",
       "expires": -1,
@@ -55,20 +55,20 @@
     "content-language": "en-US",
     "content-security-policy": "frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Sun, 21 Apr 2024 00:37:14 GMT",
+    "date": "Sun, 28 Apr 2024 00:42:51 GMT",
     "expires": "0",
     "pragma": "no-cache",
     "strict-transport-security": "max-age=31536000",
     "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
-    "x-request-id": "11c31ce2-6134-44a6-9599-3377f332a0d5",
+    "x-request-id": "e23829aa-392d-4188-a6ff-2b86624165f2",
     "x-xss-protection": "0"
   },
   "endpoints": [
     {
       "hostname": "bo.dossierfacile.fr",
-      "ip": "185.21.194.105",
+      "ip": "80.247.13.145",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -124,61 +124,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.122.95",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "fonts.gstatic.com",
-      "ip": "142.251.16.94",
+      "ip": "142.251.163.95",
       "geoip": {
         "city": {
           "geoname_id": 5116931,
@@ -254,6 +200,60 @@
             }
           }
         ]
+      }
+    },
+    {
+      "hostname": "fonts.gstatic.com",
+      "ip": "172.253.122.94",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
       }
     }
   ]
