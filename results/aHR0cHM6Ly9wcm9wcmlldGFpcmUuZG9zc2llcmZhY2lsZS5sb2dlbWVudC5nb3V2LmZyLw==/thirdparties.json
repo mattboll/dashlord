@@ -10,7 +10,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://beacon-v2.helpscout.net/static/js/main.63d07020.js"
+      "url": "https://beacon-v2.helpscout.net/static/js/main.898b28f0.js"
     },
     {
       "type": "cloudfront",
@@ -35,7 +35,7 @@
       "value": "1",
       "domain": "proprietaire.dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1719103690,
+      "expires": 1719708540,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -47,10 +47,10 @@
     },
     {
       "name": "_pk_id.32.5f04",
-      "value": "c853c71633cd0481.1719101891.",
+      "value": "2ae3321d10619b95.1719706740.",
       "domain": "proprietaire.dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1753057091,
+      "expires": 1753661940,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -65,19 +65,19 @@
     "accept-ranges": "bytes",
     "cache-control": "public, max-age=0",
     "content-security-policy": "default-src 'self'; script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://www.google.com https://www.gstatic.com https://beacon-v2.helpscout.net https://stats.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ data:; object-src 'none'; connect-src https://sentry.incubateur.net *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com https://dossierfacile-api-owner-prod.osc-secnum-fr1.scalingo.io https://stats.beta.gouv.fr blob:; frame-src https://www.google.com *.dossierfacile.fr *.dossierfacile.logement.gouv.fr ; child-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr",
-    "date": "Sun, 23 Jun 2024 00:18:09 GMT",
-    "etag": "W/\"5639b-1900c9790d0\"",
-    "last-modified": "Wed, 12 Jun 2024 13:16:18 GMT",
+    "date": "Sun, 30 Jun 2024 00:18:59 GMT",
+    "etag": "W/\"5639b-19054d48fd8\"",
+    "last-modified": "Wed, 26 Jun 2024 13:55:35 GMT",
     "strict-transport-security": "max-age=31536000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "deny",
     "x-powered-by": "Express",
-    "x-request-id": "a675e73f-4741-446d-9c4e-4409b478bc5f"
+    "x-request-id": "1ed06f2d-a761-4bde-84cc-bec0a03ac85c"
   },
   "endpoints": [
     {
       "hostname": "proprietaire.dossierfacile.logement.gouv.fr",
-      "ip": "148.253.96.193",
+      "ip": "80.247.13.145",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -133,7 +133,7 @@
     },
     {
       "hostname": "beacon-v2.helpscout.net",
-      "ip": "3.162.174.83",
+      "ip": "18.238.49.46",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -187,7 +187,7 @@
     },
     {
       "hostname": "d3hb14vkzrxvla.cloudfront.net",
-      "ip": "54.230.209.68",
+      "ip": "18.238.50.189",
       "geoip": {
         "continent": {
           "code": "NA",
