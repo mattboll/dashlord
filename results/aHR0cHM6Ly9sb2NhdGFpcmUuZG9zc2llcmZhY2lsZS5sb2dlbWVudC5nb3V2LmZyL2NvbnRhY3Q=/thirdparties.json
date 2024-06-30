@@ -10,7 +10,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://beacon-v2.helpscout.net/static/js/main.63d07020.js"
+      "url": "https://beacon-v2.helpscout.net/static/js/main.898b28f0.js"
     },
     {
       "type": "cloudfront",
@@ -35,7 +35,7 @@
       "value": "1",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1719103745,
+      "expires": 1719708571,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -47,10 +47,10 @@
     },
     {
       "name": "_pk_id.32.b0b0",
-      "value": "e77ca2fc63dabe39.1719101945.",
+      "value": "c537d3b462a7adf1.1719706772.",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1753057145,
+      "expires": 1753661972,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -65,7 +65,7 @@
       "value": "fr",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1750637944,
+      "expires": 1751242771,
       "size": 6,
       "httpOnly": false,
       "secure": true,
@@ -79,20 +79,26 @@
   "headers": {
     "cache-control": "no-store, must-revalidate, max-age=0",
     "content-length": "0",
-    "date": "Sun, 23 Jun 2024 00:19:04 GMT",
-    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=0d739007-010b-4918-80e0-62f3c6bc4957",
+    "date": "Sun, 30 Jun 2024 00:19:31 GMT",
+    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=fc014c5e-d01d-4cfa-8e96-2fa4fbbf8798",
     "referrer-policy": "no-referrer",
-    "set-cookie": "AUTH_SESSION_ID=3e1c39c7-3538-4e5c-aaec-1c58b8331057.dossierfacile-keycloak-prod-web-1-37981; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=3e1c39c7-3538-4e5c-aaec-1c58b8331057.dossierfacile-keycloak-prod-web-1-37981; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
+    "set-cookie": "AUTH_SESSION_ID=0f8ba0b6-94c7-4efd-978b-c3642d46455e.dossierfacile-keycloak-prod-web-1-12573; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=0f8ba0b6-94c7-4efd-978b-c3642d46455e.dossierfacile-keycloak-prod-web-1-12573; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "x-content-type-options": "nosniff",
-    "x-request-id": "0ca90447-1b2b-489f-b46c-307c73bf0c28",
+    "x-request-id": "2416a0b5-5caa-42b5-baef-5552b9388489",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
     {
       "hostname": "locataire.dossierfacile.logement.gouv.fr",
-      "ip": "109.232.236.90",
+      "ip": "5.104.101.30",
       "geoip": {
+        "city": {
+          "geoname_id": 3006412,
+          "names": {
+            "en": "Lasgraisses"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -123,10 +129,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "accuracy_radius": 200,
+          "latitude": 43.8239,
+          "longitude": 2.0396,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "81300"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -142,12 +151,32 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071623,
+            "iso_code": "OCC",
+            "names": {
+              "en": "Occitanie",
+              "fr": "Occitanie"
+            }
+          },
+          {
+            "geoname_id": 2973362,
+            "iso_code": "81",
+            "names": {
+              "de": "Tarn",
+              "en": "Tarn",
+              "es": "Tarn",
+              "fr": "Tarn"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "beacon-v2.helpscout.net",
-      "ip": "18.238.192.64",
+      "ip": "3.162.174.51",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -201,7 +230,7 @@
     },
     {
       "hostname": "d3hb14vkzrxvla.cloudfront.net",
-      "ip": "18.155.204.229",
+      "ip": "54.230.209.32",
       "geoip": {
         "continent": {
           "code": "NA",
