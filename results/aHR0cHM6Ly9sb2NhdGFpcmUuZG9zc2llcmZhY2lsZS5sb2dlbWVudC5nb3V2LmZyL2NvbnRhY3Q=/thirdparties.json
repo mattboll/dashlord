@@ -35,7 +35,7 @@
       "value": "1",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1719708571,
+      "expires": 1720313308,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -47,10 +47,10 @@
     },
     {
       "name": "_pk_id.32.b0b0",
-      "value": "c537d3b462a7adf1.1719706772.",
+      "value": "5cac392ae164a6fe.1720311509.",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1753661972,
+      "expires": 1754266709,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -65,7 +65,7 @@
       "value": "fr",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1751242771,
+      "expires": 1751847508,
       "size": 6,
       "httpOnly": false,
       "secure": true,
@@ -79,26 +79,20 @@
   "headers": {
     "cache-control": "no-store, must-revalidate, max-age=0",
     "content-length": "0",
-    "date": "Sun, 30 Jun 2024 00:19:31 GMT",
-    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=fc014c5e-d01d-4cfa-8e96-2fa4fbbf8798",
+    "date": "Sun, 07 Jul 2024 00:18:28 GMT",
+    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=110d76d5-a3b7-40b3-84c4-5fe4db1530cf",
     "referrer-policy": "no-referrer",
-    "set-cookie": "AUTH_SESSION_ID=0f8ba0b6-94c7-4efd-978b-c3642d46455e.dossierfacile-keycloak-prod-web-1-12573; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=0f8ba0b6-94c7-4efd-978b-c3642d46455e.dossierfacile-keycloak-prod-web-1-12573; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
+    "set-cookie": "AUTH_SESSION_ID=4b7842fd-cfb1-49ac-8763-0894ccdd5ce9.dossierfacile-keycloak-prod-web-1-12573; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=4b7842fd-cfb1-49ac-8763-0894ccdd5ce9.dossierfacile-keycloak-prod-web-1-12573; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "x-content-type-options": "nosniff",
-    "x-request-id": "2416a0b5-5caa-42b5-baef-5552b9388489",
+    "x-request-id": "a8a93277-e1c7-469d-a64a-eebd58562948",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
     {
       "hostname": "locataire.dossierfacile.logement.gouv.fr",
-      "ip": "5.104.101.30",
+      "ip": "109.232.233.130",
       "geoip": {
-        "city": {
-          "geoname_id": 3006412,
-          "names": {
-            "en": "Lasgraisses"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -129,13 +123,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 43.8239,
-          "longitude": 2.0396,
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "81300"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -151,32 +142,12 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 11071623,
-            "iso_code": "OCC",
-            "names": {
-              "en": "Occitanie",
-              "fr": "Occitanie"
-            }
-          },
-          {
-            "geoname_id": 2973362,
-            "iso_code": "81",
-            "names": {
-              "de": "Tarn",
-              "en": "Tarn",
-              "es": "Tarn",
-              "fr": "Tarn"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "beacon-v2.helpscout.net",
-      "ip": "3.162.174.51",
+      "ip": "18.238.49.22",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -230,7 +201,7 @@
     },
     {
       "hostname": "d3hb14vkzrxvla.cloudfront.net",
-      "ip": "54.230.209.32",
+      "ip": "18.238.50.46",
       "geoip": {
         "continent": {
           "code": "NA",
