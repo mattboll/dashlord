@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "sc-sticky-session",
-      "value": "uZ+mZIdnhx6ympB9bOtiVVZQDY8J7yBh+3xYu3ljHPlQ/RgT4/ruyT6vqDTB4/otakjjH3hSbgRutqoLOlkpIjpUuk6u6TJ9W5bExNpsg28=",
+      "value": "ymdqvwrO7xOdaow8/xvY8220QXIaNJ/ei0Kfd/DKhTzcfBGU1PTX2lS25uGUrHH8GbW3Chvo2cocGHrDagdrnrKHNpNx0nKz3p/F1kp1pgc=",
       "domain": "api.dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1719794456.31523,
+      "expires": 1720399308.498496,
       "size": 125,
       "httpOnly": true,
       "secure": true,
@@ -21,15 +21,15 @@
     "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
     "content-security-policy": "frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';",
     "content-type": "application/vnd.spring-boot.actuator.v3+json",
-    "date": "Sun, 30 Jun 2024 00:40:56 GMT",
+    "date": "Sun, 07 Jul 2024 00:41:48 GMT",
     "expires": "0",
     "pragma": "no-cache",
-    "set-cookie": "sc-sticky-session=uZ+mZIdnhx6ympB9bOtiVVZQDY8J7yBh+3xYu3ljHPlQ/RgT4/ruyT6vqDTB4/otakjjH3hSbgRutqoLOlkpIjpUuk6u6TJ9W5bExNpsg28=; Expires=Mon, 01-Jul-24 00:40:56 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None",
+    "set-cookie": "sc-sticky-session=ymdqvwrO7xOdaow8/xvY8220QXIaNJ/ei0Kfd/DKhTzcfBGU1PTX2lS25uGUrHH8GbW3Chvo2cocGHrDagdrnrKHNpNx0nKz3p/F1kp1pgc=; Expires=Mon, 08-Jul-24 00:41:48 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None",
     "strict-transport-security": "max-age=31536000",
     "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
-    "x-request-id": "76bc5edc-a5d3-4f74-9bf0-3770ad031bb5",
+    "x-request-id": "a3cd15e0-d352-4904-9fab-e4d4880f92b4",
     "x-xss-protection": "0"
   },
   "endpoints": [
