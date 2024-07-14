@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://proprietaire.dossierfacile.logement.gouv.fr/",
-        "size": 8448.656,
-        "nodes": 402,
-        "requests": 32,
+        "size": 6177.552,
+        "nodes": 404,
+        "requests": 38,
         "grade": "C",
-        "score": 61.0,
-        "ges": 1.78,
-        "water": 2.67,
+        "score": 60.0,
+        "ges": 1.8,
+        "water": 2.7,
         "ecoindex_version": "5.4.2",
-        "date": "2024-07-07 00:16:58.136471",
+        "date": "2024-07-14 00:17:34.761315",
         "page_type": null
     }
 ]
