@@ -6,11 +6,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://beacon-v2.helpscout.net/static/js/vendor.ec06f8ec.js"
+      "url": "https://beacon-v2.helpscout.net/static/js/vendor.5fe8f3bc.js"
     },
     {
       "type": "unknown",
-      "url": "https://beacon-v2.helpscout.net/static/js/main.22d5df09.js"
+      "url": "https://beacon-v2.helpscout.net/static/js/main.ec7c4297.js"
     },
     {
       "type": "cloudfront",
@@ -35,7 +35,7 @@
       "value": "1",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1720918173,
+      "expires": 1721522961,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -47,10 +47,10 @@
     },
     {
       "name": "_pk_id.32.b0b0",
-      "value": "40d11480ca83057f.1720916373.",
+      "value": "46a6cc957c0492af.1721521162.",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1754871573,
+      "expires": 1755476362,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -65,7 +65,7 @@
       "value": "fr",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1752452372,
+      "expires": 1753057161,
       "size": 6,
       "httpOnly": false,
       "secure": true,
@@ -79,13 +79,13 @@
   "headers": {
     "cache-control": "no-store, must-revalidate, max-age=0",
     "content-length": "0",
-    "date": "Sun, 14 Jul 2024 00:19:32 GMT",
-    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=e7f38bd1-0074-4976-a3d3-cb6ac8e0f307",
+    "date": "Sun, 21 Jul 2024 00:19:21 GMT",
+    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=b26e5451-0b08-48e4-8b13-a7d97a02f409",
     "referrer-policy": "no-referrer",
-    "set-cookie": "AUTH_SESSION_ID=cc99a638-04dc-4eca-bc7f-48e8250e5ebd.dossierfacile-keycloak-prod-web-1-26798; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=cc99a638-04dc-4eca-bc7f-48e8250e5ebd.dossierfacile-keycloak-prod-web-1-26798; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
+    "set-cookie": "AUTH_SESSION_ID=8fc96eb4-5b92-4a90-a185-c1d2166b88f5.dossierfacile-keycloak-prod-web-1-26798; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=8fc96eb4-5b92-4a90-a185-c1d2166b88f5.dossierfacile-keycloak-prod-web-1-26798; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "x-content-type-options": "nosniff",
-    "x-request-id": "f85461d1-a6a3-4bbc-9829-9c452e3d5a33",
+    "x-request-id": "75cfa47a-2bbd-4184-9145-3f9a0c2fb405",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
@@ -147,7 +147,7 @@
     },
     {
       "hostname": "beacon-v2.helpscout.net",
-      "ip": "18.238.49.22",
+      "ip": "3.162.174.53",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -201,7 +201,7 @@
     },
     {
       "hostname": "d3hb14vkzrxvla.cloudfront.net",
-      "ip": "18.238.50.46",
+      "ip": "54.230.209.32",
       "geoip": {
         "continent": {
           "code": "NA",
