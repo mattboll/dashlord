@@ -10,7 +10,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://beacon-v2.helpscout.net/static/js/main.5570767c.js"
+      "url": "https://beacon-v2.helpscout.net/static/js/main.2f9f21a8.js"
     },
     {
       "type": "cloudfront",
@@ -35,7 +35,7 @@
       "value": "fr",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1753661980,
+      "expires": 1754266809,
       "size": 6,
       "httpOnly": false,
       "secure": true,
@@ -49,13 +49,13 @@
   "headers": {
     "cache-control": "no-store, must-revalidate, max-age=0",
     "content-length": "0",
-    "date": "Sun, 28 Jul 2024 00:19:40 GMT",
-    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=e8afd965-a05a-42e3-b47b-ac1869bfa018",
+    "date": "Sun, 04 Aug 2024 00:20:09 GMT",
+    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=68cc663c-4bbc-49c2-8dde-61988bbc2bb2",
     "referrer-policy": "no-referrer",
-    "set-cookie": "AUTH_SESSION_ID=73e87c7a-a689-40a4-a72c-ab20b10acd67.dossierfacile-keycloak-prod-web-1-32845; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=73e87c7a-a689-40a4-a72c-ab20b10acd67.dossierfacile-keycloak-prod-web-1-32845; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
+    "set-cookie": "AUTH_SESSION_ID=bae45a2b-b23c-4c22-8fbd-5676f6038188.dossierfacile-keycloak-prod-web-1-32845; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=bae45a2b-b23c-4c22-8fbd-5676f6038188.dossierfacile-keycloak-prod-web-1-32845; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "x-content-type-options": "nosniff",
-    "x-request-id": "2d04af36-cd71-4380-a841-94797266be00",
+    "x-request-id": "f6e02448-c2f3-4896-93eb-7672359a6d87",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
@@ -117,7 +117,7 @@
     },
     {
       "hostname": "beacon-v2.helpscout.net",
-      "ip": "99.84.108.95",
+      "ip": "18.238.49.5",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -171,7 +171,7 @@
     },
     {
       "hostname": "d3hb14vkzrxvla.cloudfront.net",
-      "ip": "13.32.207.28",
+      "ip": "54.230.209.202",
       "geoip": {
         "continent": {
           "code": "NA",
