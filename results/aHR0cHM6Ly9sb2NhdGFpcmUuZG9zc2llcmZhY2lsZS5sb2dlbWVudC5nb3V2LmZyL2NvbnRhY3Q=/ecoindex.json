@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://locataire.dossierfacile.logement.gouv.fr/contact",
-        "size": 942.202,
+        "size": 942.098,
         "nodes": 350,
         "requests": 42,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.58,
         "water": 2.37,
         "ecoindex_version": "5.4.2",
-        "date": "2024-08-11 00:18:04.875924",
+        "date": "2024-08-18 00:18:20.859859",
         "page_type": null
     }
 ]
