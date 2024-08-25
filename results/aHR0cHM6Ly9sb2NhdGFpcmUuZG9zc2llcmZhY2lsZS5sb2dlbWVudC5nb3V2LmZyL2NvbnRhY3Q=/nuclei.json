@@ -32,9 +32,9 @@
       "extracted-results": [
         "dossierfacile-front-prod-locataire.osc-fr1.scalingo.io."
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 4852\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;locataire.dossierfacile.logement.gouv.fr.\tIN\t CNAME\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 4852\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;locataire.dossierfacile.logement.gouv.fr.\tIN\t CNAME\n\n;; ANSWER SECTION:\nlocataire.dossierfacile.logement.gouv.fr.\t3600\tIN\tCNAME\tdossierfacile-front-prod-locataire.osc-fr1.scalingo.io.\n",
-      "timestamp": "2024-08-18T00:25:29.252574793Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 60046\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;locataire.dossierfacile.logement.gouv.fr.\tIN\t CNAME\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 60046\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;locataire.dossierfacile.logement.gouv.fr.\tIN\t CNAME\n\n;; ANSWER SECTION:\nlocataire.dossierfacile.logement.gouv.fr.\t3600\tIN\tCNAME\tdossierfacile-front-prod-locataire.osc-fr1.scalingo.io.\n",
+      "timestamp": "2024-08-25T00:24:55.179829559Z",
       "matcher-status": true
     },
     {
@@ -69,165 +69,9 @@
       "type": "dns",
       "host": "locataire.dossierfacile.logement.gouv.fr.",
       "matched-at": "locataire.dossierfacile.logement.gouv.fr",
-      "request": ";; opcode: QUERY, status: NOERROR, id: 38260\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;locataire.dossierfacile.logement.gouv.fr.\tIN\t CAA\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 38260\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;locataire.dossierfacile.logement.gouv.fr.\tIN\t CAA\n\n;; ANSWER SECTION:\nlocataire.dossierfacile.logement.gouv.fr.\t3600\tIN\tCNAME\tdossierfacile-front-prod-locataire.osc-fr1.scalingo.io.\ndossierfacile-front-prod-locataire.osc-fr1.scalingo.io.\t300\tIN\tCNAME\tsc-lb-pool-01.osc-fr1.scalingo-network.com.\n\n;; AUTHORITY SECTION:\nscalingo-network.com.\t1800\tIN\tSOA\tburt.ns.cloudflare.com. dns.cloudflare.com. 2344697733 10000 2400 604800 1800\n",
-      "timestamp": "2024-08-18T00:25:29.259983231Z",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "permissions-policy",
-      "type": "http",
-      "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
-      "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact",
-      "request": "GET /contact HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 18 Aug 2024 00:26:17 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 030b7d62-8b19-4c29-a2ac-c5815739784d\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:26:17.644855791Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "x-permitted-cross-domain-policies",
-      "type": "http",
-      "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
-      "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact",
-      "request": "GET /contact HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 18 Aug 2024 00:26:17 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 030b7d62-8b19-4c29-a2ac-c5815739784d\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:26:17.644897279Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "referrer-policy",
-      "type": "http",
-      "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
-      "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact",
-      "request": "GET /contact HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 18 Aug 2024 00:26:17 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 030b7d62-8b19-4c29-a2ac-c5815739784d\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:26:17.644916414Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "clear-site-data",
-      "type": "http",
-      "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
-      "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact",
-      "request": "GET /contact HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 18 Aug 2024 00:26:17 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 030b7d62-8b19-4c29-a2ac-c5815739784d\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:26:17.644933917Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact'",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 40264\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;locataire.dossierfacile.logement.gouv.fr.\tIN\t CAA\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 40264\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;locataire.dossierfacile.logement.gouv.fr.\tIN\t CAA\n\n;; ANSWER SECTION:\nlocataire.dossierfacile.logement.gouv.fr.\t3600\tIN\tCNAME\tdossierfacile-front-prod-locataire.osc-fr1.scalingo.io.\ndossierfacile-front-prod-locataire.osc-fr1.scalingo.io.\t300\tIN\tCNAME\tsc-lb-pool-01.osc-fr1.scalingo-network.com.\n\n;; AUTHORITY SECTION:\nscalingo-network.com.\t1800\tIN\tSOA\tburt.ns.cloudflare.com. dns.cloudflare.com. 2349802513 10000 2400 604800 1800\n",
+      "timestamp": "2024-08-25T00:24:56.160313435Z",
       "matcher-status": true
     },
     {
@@ -263,9 +107,9 @@
       "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
       "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact",
       "request": "GET /contact HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 18 Aug 2024 00:26:17 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 030b7d62-8b19-4c29-a2ac-c5815739784d\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:26:17.644947663Z",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 25 Aug 2024 00:25:50 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 61fd0ddc-3fec-47c9-bb8a-bd5730d31cb3\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:25:50.482461897Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact'",
       "matcher-status": true
     },
@@ -302,9 +146,9 @@
       "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
       "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact",
       "request": "GET /contact HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 18 Aug 2024 00:26:17 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 030b7d62-8b19-4c29-a2ac-c5815739784d\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:26:17.644960978Z",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 25 Aug 2024 00:25:50 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 61fd0ddc-3fec-47c9-bb8a-bd5730d31cb3\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:25:50.482509546Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact'",
       "matcher-status": true
     },
@@ -341,9 +185,165 @@
       "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
       "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact",
       "request": "GET /contact HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 18 Aug 2024 00:26:17 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 030b7d62-8b19-4c29-a2ac-c5815739784d\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:26:17.644975004Z",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 25 Aug 2024 00:25:50 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 61fd0ddc-3fec-47c9-bb8a-bd5730d31cb3\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:25:50.482521278Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "permissions-policy",
+      "type": "http",
+      "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
+      "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact",
+      "request": "GET /contact HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 25 Aug 2024 00:25:50 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 61fd0ddc-3fec-47c9-bb8a-bd5730d31cb3\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:25:50.482537909Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "x-permitted-cross-domain-policies",
+      "type": "http",
+      "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
+      "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact",
+      "request": "GET /contact HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 25 Aug 2024 00:25:50 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 61fd0ddc-3fec-47c9-bb8a-bd5730d31cb3\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:25:50.482652663Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "referrer-policy",
+      "type": "http",
+      "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
+      "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact",
+      "request": "GET /contact HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 25 Aug 2024 00:25:50 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 61fd0ddc-3fec-47c9-bb8a-bd5730d31cb3\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:25:50.482672791Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "clear-site-data",
+      "type": "http",
+      "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
+      "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact",
+      "request": "GET /contact HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 25 Aug 2024 00:25:50 GMT\r\nEtag: W/\"66a10e2b-213\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:35 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Accept-Encoding\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 61fd0ddc-3fec-47c9-bb8a-bd5730d31cb3\r\nX-Robots-Tag: noindex, nofollow\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title></title>\n  <script nomodule type=\"text/javascript\">\n    import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n  </script>\n\n    <script type=\"module\" crossorigin src=\"/assets/index-DMtJO6ei.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cp47BvDW.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:25:50.482689753Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact'",
       "matcher-status": true
     },
@@ -372,9 +372,9 @@
       "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
       "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/robots.txt",
       "request": "GET /robots.txt HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 32\r\nAccept-Ranges: bytes\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/plain; charset=utf-8\r\nDate: Sun, 18 Aug 2024 00:26:27 GMT\r\nEtag: \"66a10e2a-20\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:34 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 4e69c747-5fed-4357-9423-f466981c469d\r\nX-Robots-Tag: noindex, nofollow\r\n\r\nUser-agent: *\nDisallow: /profile",
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:26:27.923648669Z",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 32\r\nAccept-Ranges: bytes\r\nContent-Security-Policy: script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://stats.beta.gouv.fr https://beacon-v2.helpscout.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net fonts.google.com https://fonts.gstatic.com fonts.googleapis.com data:; object-src 'none'; connect-src https://sentry.incubateur.net https://stats.beta.gouv.fr https://sso.dossierfacile.fr https://sso.dossierfacile.logement.gouv.fr *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com blob:; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src blob: *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; worker-src *.dossierfacile.logement.gouv.fr blob: 'self' 'unsafe-inline' 'unsafe-eval'\r\nContent-Type: text/plain; charset=utf-8\r\nDate: Sun, 25 Aug 2024 00:26:02 GMT\r\nEtag: \"66a10e2a-20\"\r\nLast-Modified: Wed, 24 Jul 2024 14:22:34 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Request-Id: 36421257-e74e-417c-a241-3764cdf3bb32\r\nX-Robots-Tag: noindex, nofollow\r\n\r\nUser-agent: *\nDisallow: /profile",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:26:02.550332233Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/robots.txt'",
       "matcher-status": true
     },
@@ -414,9 +414,9 @@
       "host": "https://locataire.dossierfacile.logement.gouv.fr/contact",
       "matched-at": "https://locataire.dossierfacile.logement.gouv.fr/contact/",
       "request": "POST /contact/ HTTP/1.1\r\nHost: locataire.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nContent-Length: 27\r\nContent-Type: application/x-www-form-urlencoded\r\nAccept-Encoding: gzip\r\n\r\n_=<script>alert(1)</script>",
-      "response": "HTTP/1.1 405 Not Allowed\r\nConnection: close\r\nContent-Length: 150\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 18 Aug 2024 00:26:41 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Request-Id: 9ff962d6-b633-416e-b111-06231a9faf18\r\n\r\n<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:26:41.695275795Z",
+      "response": "HTTP/1.1 405 Not Allowed\r\nConnection: close\r\nContent-Length: 150\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 25 Aug 2024 00:26:18 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Request-Id: 6140c909-7592-45f5-8509-62b1f60d7d1c\r\n\r\n<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:26:18.662004764Z",
       "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: locataire.dossierfacile.logement.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://locataire.dossierfacile.logement.gouv.fr/contact/'",
       "matcher-status": true
     },
@@ -446,8 +446,8 @@
       "extracted-results": [
         "Let's Encrypt"
       ],
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:32:22.558061941Z",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:32:02.713898319Z",
       "matcher-status": true
     },
     {
@@ -476,8 +476,8 @@
       "extracted-results": [
         "locataire.dossierfacile.logement.gouv.fr"
       ],
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:32:22.558183839Z",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:32:02.714006Z",
       "matcher-status": true
     },
     {
@@ -507,8 +507,8 @@
       "extracted-results": [
         "tls12"
       ],
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:32:23.741463863Z",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:32:04.209064069Z",
       "matcher-status": true
     },
     {
@@ -538,8 +538,8 @@
       "extracted-results": [
         "tls13"
       ],
-      "ip": "109.232.233.130",
-      "timestamp": "2024-08-18T00:32:23.934794664Z",
+      "ip": "109.232.236.90",
+      "timestamp": "2024-08-25T00:32:04.420712294Z",
       "matcher-status": true
     }
   ]
