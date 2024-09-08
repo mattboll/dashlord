@@ -1,20 +1,24 @@
 [
   [
     {
-      "template": "dns/nameserver-fingerprint.yaml",
-      "template-url": "https://templates.nuclei.sh/public/nameserver-fingerprint",
-      "template-id": "nameserver-fingerprint",
-      "template-path": "/home/runner/nuclei-templates/dns/nameserver-fingerprint.yaml",
+      "template": "dns/mx-fingerprint.yaml",
+      "template-url": "https://templates.nuclei.sh/public/mx-fingerprint",
+      "template-id": "mx-fingerprint",
+      "template-path": "/home/runner/nuclei-templates/dns/mx-fingerprint.yaml",
       "info": {
-        "name": "NS Record Detection",
+        "name": "MX Record Detection",
         "author": [
           "pdteam"
         ],
         "tags": [
           "dns",
-          "ns"
+          "mx"
         ],
-        "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers.",
+        "description": "An MX record was detected. MX records direct emails to a mail exchange server.",
+        "reference": [
+          "https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/",
+          "https://mxtoolbox.com/"
+        ],
         "severity": "info",
         "metadata": {
           "max-request": 1
@@ -30,49 +34,12 @@
       "host": "filigrane.beta.gouv.fr.",
       "matched-at": "filigrane.beta.gouv.fr",
       "extracted-results": [
-        "dns2.alwaysdata.com.",
-        "dns1.alwaysdata.com."
+        "20 mx2.alwaysdata.com.",
+        "10 mx1.alwaysdata.com."
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 31132\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t NS\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 31132\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t NS\n\n;; ANSWER SECTION:\nfiligrane.beta.gouv.fr.\t300\tIN\tNS\tdns1.alwaysdata.com.\nfiligrane.beta.gouv.fr.\t300\tIN\tNS\tdns2.alwaysdata.com.\n",
-      "timestamp": "2024-09-01T00:55:26.238938677Z",
-      "matcher-status": true
-    },
-    {
-      "template": "dns/caa-fingerprint.yaml",
-      "template-url": "https://templates.nuclei.sh/public/caa-fingerprint",
-      "template-id": "caa-fingerprint",
-      "template-path": "/home/runner/nuclei-templates/dns/caa-fingerprint.yaml",
-      "info": {
-        "name": "CAA Record",
-        "author": [
-          "pdteam"
-        ],
-        "tags": [
-          "dns",
-          "caa"
-        ],
-        "description": "A CAA record was discovered. A CAA record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain.",
-        "reference": [
-          "https://support.dnsimple.com/articles/caa-record/#whats-a-caa-record"
-        ],
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        },
-        "classification": {
-          "cve-id": null,
-          "cwe-id": [
-            "cwe-200"
-          ]
-        }
-      },
-      "type": "dns",
-      "host": "filigrane.beta.gouv.fr.",
-      "matched-at": "filigrane.beta.gouv.fr",
-      "request": ";; opcode: QUERY, status: NOERROR, id: 47545\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t CAA\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 47545\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t CAA\n\n;; AUTHORITY SECTION:\nfiligrane.beta.gouv.fr.\t300\tIN\tSOA\tdns1.alwaysdata.com. hostmaster.alwaysdata.com. 1723451768 3600 900 1209600 300\n",
-      "timestamp": "2024-09-01T00:55:26.562932855Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 14715\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t MX\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 14715\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t MX\n\n;; ANSWER SECTION:\nfiligrane.beta.gouv.fr.\t300\tIN\tMX\t20 mx2.alwaysdata.com.\nfiligrane.beta.gouv.fr.\t300\tIN\tMX\t10 mx1.alwaysdata.com.\n",
+      "timestamp": "2024-09-08T00:49:53.209399144Z",
       "matcher-status": true
     },
     {
@@ -104,9 +71,9 @@
       "extracted-results": [
         "v=spf1 mx include:_spf.alwaysdata.com include:helpscoutemail.com ~all\""
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 60516\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t TXT\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 60516\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t TXT\n\n;; ANSWER SECTION:\nfiligrane.beta.gouv.fr.\t300\tIN\tTXT\t\"v=spf1 mx include:_spf.alwaysdata.com include:helpscoutemail.com ~all\"\nfiligrane.beta.gouv.fr.\t300\tIN\tTXT\t\"google-site-verification=iQX_r6ZSWsiR2oL04_MLF9cnlOT4IepZkfjCpvbnuA4\"\n",
-      "timestamp": "2024-09-01T00:55:26.793242969Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 32366\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t TXT\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 32366\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t TXT\n\n;; ANSWER SECTION:\nfiligrane.beta.gouv.fr.\t300\tIN\tTXT\t\"google-site-verification=iQX_r6ZSWsiR2oL04_MLF9cnlOT4IepZkfjCpvbnuA4\"\nfiligrane.beta.gouv.fr.\t300\tIN\tTXT\t\"v=spf1 mx include:_spf.alwaysdata.com include:helpscoutemail.com ~all\"\n",
+      "timestamp": "2024-09-08T00:49:53.283321303Z",
       "matcher-status": true
     },
     {
@@ -145,30 +112,26 @@
         "\"v=spf1 mx include:_spf.alwaysdata.com include:helpscoutemail.com ~all\"",
         "\"google-site-verification=iQX_r6ZSWsiR2oL04_MLF9cnlOT4IepZkfjCpvbnuA4\""
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 60516\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t TXT\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 60516\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t TXT\n\n;; ANSWER SECTION:\nfiligrane.beta.gouv.fr.\t300\tIN\tTXT\t\"v=spf1 mx include:_spf.alwaysdata.com include:helpscoutemail.com ~all\"\nfiligrane.beta.gouv.fr.\t300\tIN\tTXT\t\"google-site-verification=iQX_r6ZSWsiR2oL04_MLF9cnlOT4IepZkfjCpvbnuA4\"\n",
-      "timestamp": "2024-09-01T00:55:26.793339751Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 32366\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t TXT\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 32366\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t TXT\n\n;; ANSWER SECTION:\nfiligrane.beta.gouv.fr.\t300\tIN\tTXT\t\"google-site-verification=iQX_r6ZSWsiR2oL04_MLF9cnlOT4IepZkfjCpvbnuA4\"\nfiligrane.beta.gouv.fr.\t300\tIN\tTXT\t\"v=spf1 mx include:_spf.alwaysdata.com include:helpscoutemail.com ~all\"\n",
+      "timestamp": "2024-09-08T00:49:53.283487623Z",
       "matcher-status": true
     },
     {
-      "template": "dns/mx-fingerprint.yaml",
-      "template-url": "https://templates.nuclei.sh/public/mx-fingerprint",
-      "template-id": "mx-fingerprint",
-      "template-path": "/home/runner/nuclei-templates/dns/mx-fingerprint.yaml",
+      "template": "dns/nameserver-fingerprint.yaml",
+      "template-url": "https://templates.nuclei.sh/public/nameserver-fingerprint",
+      "template-id": "nameserver-fingerprint",
+      "template-path": "/home/runner/nuclei-templates/dns/nameserver-fingerprint.yaml",
       "info": {
-        "name": "MX Record Detection",
+        "name": "NS Record Detection",
         "author": [
           "pdteam"
         ],
         "tags": [
           "dns",
-          "mx"
+          "ns"
         ],
-        "description": "An MX record was detected. MX records direct emails to a mail exchange server.",
-        "reference": [
-          "https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/",
-          "https://mxtoolbox.com/"
-        ],
+        "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers.",
         "severity": "info",
         "metadata": {
           "max-request": 1
@@ -184,12 +147,49 @@
       "host": "filigrane.beta.gouv.fr.",
       "matched-at": "filigrane.beta.gouv.fr",
       "extracted-results": [
-        "10 mx1.alwaysdata.com.",
-        "20 mx2.alwaysdata.com."
+        "dns1.alwaysdata.com.",
+        "dns2.alwaysdata.com."
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 18552\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t MX\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 18552\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t MX\n\n;; ANSWER SECTION:\nfiligrane.beta.gouv.fr.\t300\tIN\tMX\t10 mx1.alwaysdata.com.\nfiligrane.beta.gouv.fr.\t300\tIN\tMX\t20 mx2.alwaysdata.com.\n",
-      "timestamp": "2024-09-01T00:55:27.235872224Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 47134\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t NS\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 47134\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t NS\n\n;; ANSWER SECTION:\nfiligrane.beta.gouv.fr.\t300\tIN\tNS\tdns1.alwaysdata.com.\nfiligrane.beta.gouv.fr.\t300\tIN\tNS\tdns2.alwaysdata.com.\n",
+      "timestamp": "2024-09-08T00:49:53.289143134Z",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/caa-fingerprint.yaml",
+      "template-url": "https://templates.nuclei.sh/public/caa-fingerprint",
+      "template-id": "caa-fingerprint",
+      "template-path": "/home/runner/nuclei-templates/dns/caa-fingerprint.yaml",
+      "info": {
+        "name": "CAA Record",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "dns",
+          "caa"
+        ],
+        "description": "A CAA record was discovered. A CAA record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain.",
+        "reference": [
+          "https://support.dnsimple.com/articles/caa-record/#whats-a-caa-record"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "type": "dns",
+      "host": "filigrane.beta.gouv.fr.",
+      "matched-at": "filigrane.beta.gouv.fr",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 7156\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t CAA\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 7156\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;filigrane.beta.gouv.fr.\tIN\t CAA\n\n;; AUTHORITY SECTION:\nfiligrane.beta.gouv.fr.\t300\tIN\tSOA\tdns1.alwaysdata.com. hostmaster.alwaysdata.com. 1723451768 3600 900 1209600 300\n",
+      "timestamp": "2024-09-08T00:49:54.210370744Z",
       "matcher-status": true
     },
     {
@@ -229,9 +229,9 @@
       "extracted-results": [
         "\"v=DMARC1; p=quarantine; rua=mailto:dmarc@filigrane.beta.gouv.fr!10m; ruf=mailto:dmarc@filigrane.beta.gouv.fr!10m; rf=afrf; pct=100; ri=86400\""
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 21618\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;_dmarc.filigrane.beta.gouv.fr.\tIN\t TXT\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 21618\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;_dmarc.filigrane.beta.gouv.fr.\tIN\t TXT\n\n;; ANSWER SECTION:\n_dmarc.filigrane.beta.gouv.fr.\t300\tIN\tTXT\t\"v=DMARC1; p=quarantine; rua=mailto:dmarc@filigrane.beta.gouv.fr!10m; ruf=mailto:dmarc@filigrane.beta.gouv.fr!10m; rf=afrf; pct=100; ri=86400\"\n",
-      "timestamp": "2024-09-01T00:55:27.566056828Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 78\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;_dmarc.filigrane.beta.gouv.fr.\tIN\t TXT\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 78\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;_dmarc.filigrane.beta.gouv.fr.\tIN\t TXT\n\n;; ANSWER SECTION:\n_dmarc.filigrane.beta.gouv.fr.\t300\tIN\tTXT\t\"v=DMARC1; p=quarantine; rua=mailto:dmarc@filigrane.beta.gouv.fr!10m; ruf=mailto:dmarc@filigrane.beta.gouv.fr!10m; rf=afrf; pct=100; ri=86400\"\n",
+      "timestamp": "2024-09-08T00:49:54.368097791Z",
       "matcher-status": true
     },
     {
@@ -258,165 +258,9 @@
       "host": "https://filigrane.beta.gouv.fr",
       "matched-at": "https://filigrane.beta.gouv.fr",
       "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 01 Sep 2024 00:56:29 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: a33ee91d-e7b8-4e43-a156-b28e7236e7e2\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T00:56:29.933430847Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "clear-site-data",
-      "type": "http",
-      "host": "https://filigrane.beta.gouv.fr",
-      "matched-at": "https://filigrane.beta.gouv.fr",
-      "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 01 Sep 2024 00:56:46 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: fee82352-e904-4ed0-99c6-05f6ce72f68c\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T00:56:47.064324312Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-embedder-policy",
-      "type": "http",
-      "host": "https://filigrane.beta.gouv.fr",
-      "matched-at": "https://filigrane.beta.gouv.fr",
-      "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 01 Sep 2024 00:56:46 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: fee82352-e904-4ed0-99c6-05f6ce72f68c\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T00:56:47.064364998Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-opener-policy",
-      "type": "http",
-      "host": "https://filigrane.beta.gouv.fr",
-      "matched-at": "https://filigrane.beta.gouv.fr",
-      "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 01 Sep 2024 00:56:46 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: fee82352-e904-4ed0-99c6-05f6ce72f68c\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T00:56:47.064383904Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-resource-policy",
-      "type": "http",
-      "host": "https://filigrane.beta.gouv.fr",
-      "matched-at": "https://filigrane.beta.gouv.fr",
-      "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 01 Sep 2024 00:56:46 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: fee82352-e904-4ed0-99c6-05f6ce72f68c\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T00:56:47.064393222Z",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 08 Sep 2024 00:50:32 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: 46ab02c8-74e6-47d5-9f8e-aa064baae6f8\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:50:32.920191931Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
       "matcher-status": true
     },
@@ -453,9 +297,9 @@
       "host": "https://filigrane.beta.gouv.fr",
       "matched-at": "https://filigrane.beta.gouv.fr",
       "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 01 Sep 2024 00:56:46 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: fee82352-e904-4ed0-99c6-05f6ce72f68c\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T00:56:47.06440284Z",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 08 Sep 2024 00:50:43 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: 22f081a1-1f6e-4b13-a6fc-d360dec06458\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:50:43.119728568Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
       "matcher-status": true
     },
@@ -492,9 +336,9 @@
       "host": "https://filigrane.beta.gouv.fr",
       "matched-at": "https://filigrane.beta.gouv.fr",
       "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 01 Sep 2024 00:56:46 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: fee82352-e904-4ed0-99c6-05f6ce72f68c\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T00:56:47.064416435Z",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 08 Sep 2024 00:50:43 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: 22f081a1-1f6e-4b13-a6fc-d360dec06458\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:50:43.119765347Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
       "matcher-status": true
     },
@@ -531,9 +375,165 @@
       "host": "https://filigrane.beta.gouv.fr",
       "matched-at": "https://filigrane.beta.gouv.fr",
       "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 01 Sep 2024 00:56:46 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: fee82352-e904-4ed0-99c6-05f6ce72f68c\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T00:56:47.064467812Z",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 08 Sep 2024 00:50:43 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: 22f081a1-1f6e-4b13-a6fc-d360dec06458\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:50:43.119778151Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "clear-site-data",
+      "type": "http",
+      "host": "https://filigrane.beta.gouv.fr",
+      "matched-at": "https://filigrane.beta.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 08 Sep 2024 00:50:43 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: 22f081a1-1f6e-4b13-a6fc-d360dec06458\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:50:43.119793379Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-embedder-policy",
+      "type": "http",
+      "host": "https://filigrane.beta.gouv.fr",
+      "matched-at": "https://filigrane.beta.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 08 Sep 2024 00:50:43 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: 22f081a1-1f6e-4b13-a6fc-d360dec06458\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:50:43.119806764Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-opener-policy",
+      "type": "http",
+      "host": "https://filigrane.beta.gouv.fr",
+      "matched-at": "https://filigrane.beta.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 08 Sep 2024 00:50:43 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: 22f081a1-1f6e-4b13-a6fc-d360dec06458\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:50:43.11982085Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-resource-policy",
+      "type": "http",
+      "host": "https://filigrane.beta.gouv.fr",
+      "matched-at": "https://filigrane.beta.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: public, max-age=0\r\nContent-Security-Policy: default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 08 Sep 2024 00:50:43 GMT\r\nEtag: W/\"567-1919d1f58f8\"\r\nLast-Modified: Thu, 29 Aug 2024 07:52:43 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: 22f081a1-1f6e-4b13-a6fc-d360dec06458\r\n\r\n<!DOCTYPE html>\n<html lang=\"fr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script nomodule type=\"text/javascript\">\n      import(\"/assets/dsfr.nomodule.min-BJEnSs5M.js\");\n    </script>\n    <title>Filigrane Facile</title>\n    <meta name=\"theme-color\" content=\"#000091\">\n    <!-- Matomo -->\n    <script>\n      var _paq = window._paq = window._paq || [];\n      /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n      _paq.push(['trackPageView']);\n      _paq.push(['enableLinkTracking']);\n      (function() {\n        var u=\"https://stats.beta.gouv.fr/\";\n        _paq.push(['setTrackerUrl', u+'matomo.php']);\n        _paq.push(['setSiteId', '42']);\n        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n      })();\n    </script>\n    <!-- End Matomo Code -->\n    <script type=\"module\" crossorigin src=\"/assets/index-BW5-4er_.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DVNI4lUy.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"><script id=\"vite-plugin-pwa:register-sw\" src=\"/registerSW.js\"></script></head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:50:43.119834055Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr'",
       "matcher-status": true
     },
@@ -573,9 +573,9 @@
       "host": "https://filigrane.beta.gouv.fr",
       "matched-at": "https://filigrane.beta.gouv.fr/",
       "request": "POST / HTTP/1.1\r\nHost: filigrane.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nContent-Length: 27\r\nContent-Type: application/x-www-form-urlencoded\r\nAccept-Encoding: gzip\r\n\r\n_=<script>alert(1)</script>",
-      "response": "HTTP/1.1 404 Not Found\r\nConnection: close\r\nContent-Length: 140\r\nContent-Security-Policy: default-src 'none'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 01 Sep 2024 00:57:29 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: 66f23132-f309-49e9-a487-f04e61116ee6\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /</pre>\n</body>\n</html>\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T00:57:29.138156323Z",
+      "response": "HTTP/1.1 404 Not Found\r\nConnection: close\r\nContent-Length: 140\r\nContent-Security-Policy: default-src 'none'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 08 Sep 2024 00:51:08 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-Powered-By: Express\r\nX-Request-Id: 1b09d3d8-9332-480c-be8e-11e7cc1f76e0\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /</pre>\n</body>\n</html>\n",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:51:08.157190275Z",
       "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: filigrane.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://filigrane.beta.gouv.fr/'",
       "matcher-status": true
     },
@@ -605,8 +605,8 @@
       "extracted-results": [
         "Let's Encrypt"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T01:03:24.374159139Z",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:56:49.712442388Z",
       "matcher-status": true
     },
     {
@@ -635,8 +635,8 @@
       "extracted-results": [
         "filigrane.beta.gouv.fr"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T01:03:24.374264767Z",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:56:49.712561529Z",
       "matcher-status": true
     },
     {
@@ -666,8 +666,8 @@
       "extracted-results": [
         "tls12"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T01:03:26.900219149Z",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:56:51.403616888Z",
       "matcher-status": true
     },
     {
@@ -697,8 +697,8 @@
       "extracted-results": [
         "tls13"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-09-01T01:03:27.211326509Z",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-09-08T00:56:51.596972365Z",
       "matcher-status": true
     }
   ]
