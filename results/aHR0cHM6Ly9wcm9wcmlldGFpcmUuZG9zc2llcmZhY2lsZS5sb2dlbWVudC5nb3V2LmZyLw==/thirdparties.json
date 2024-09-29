@@ -35,19 +35,19 @@
     "content-encoding": "gzip",
     "content-security-policy": "default-src 'self'; script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://www.google.com https://www.gstatic.com https://beacon-v2.helpscout.net https://stats.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ data:; object-src 'none'; connect-src https://sentry.incubateur.net *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com https://dossierfacile-api-owner-prod.osc-secnum-fr1.scalingo.io https://stats.beta.gouv.fr blob:; frame-src https://www.google.com *.dossierfacile.fr *.dossierfacile.logement.gouv.fr ; child-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 22 Sep 2024 00:21:17 GMT",
-    "etag": "W/\"5639b-191e569f848\"",
-    "last-modified": "Thu, 12 Sep 2024 08:46:53 GMT",
+    "date": "Sun, 29 Sep 2024 00:21:47 GMT",
+    "etag": "W/\"5639b-1922d6fab10\"",
+    "last-modified": "Thu, 26 Sep 2024 08:25:46 GMT",
     "strict-transport-security": "max-age=31536000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "deny",
     "x-powered-by": "Express",
-    "x-request-id": "78a31c54-bbbb-4f84-86de-a62c9da183d2"
+    "x-request-id": "afdc64c5-c093-40e1-88b1-8cec8e7fc658"
   },
   "endpoints": [
     {
       "hostname": "proprietaire.dossierfacile.logement.gouv.fr",
-      "ip": "80.247.12.255",
+      "ip": "148.253.96.193",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -103,7 +103,7 @@
     },
     {
       "hostname": "beacon-v2.helpscout.net",
-      "ip": "3.162.174.51",
+      "ip": "18.238.192.46",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -157,7 +157,7 @@
     },
     {
       "hostname": "d3hb14vkzrxvla.cloudfront.net",
-      "ip": "54.230.209.41",
+      "ip": "18.155.204.172",
       "geoip": {
         "continent": {
           "code": "NA",
