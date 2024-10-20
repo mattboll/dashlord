@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "sc-sticky-session",
-      "value": "7lvTJyCH5jG5Xujwxma1JKZH/8Eo/dCte9xRsp6AerlssQjZQuQVhWPfU7dn8ry1J3hOn1ezx6lkCCgE6V3nUIMVBqHb8fj5xvqSl7GKE94=",
+      "value": "0+4gYeuZAQFAAO20HQW0fX4nUWW6zBMeUrr7DpISzUhErQdkO/31HQsvVruixrdVQ0NnmVPe8CdIH+vbWHAfdDTHS/iDZ2aPNdoG1lBhUMk=",
       "domain": "api.dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1728866664.122714,
+      "expires": 1729471626.238489,
       "size": 125,
       "httpOnly": true,
       "secure": true,
@@ -21,21 +21,21 @@
     "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
     "content-security-policy": "frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';",
     "content-type": "application/vnd.spring-boot.actuator.v3+json",
-    "date": "Sun, 13 Oct 2024 00:44:24 GMT",
+    "date": "Sun, 20 Oct 2024 00:47:06 GMT",
     "expires": "0",
     "pragma": "no-cache",
-    "set-cookie": "sc-sticky-session=7lvTJyCH5jG5Xujwxma1JKZH/8Eo/dCte9xRsp6AerlssQjZQuQVhWPfU7dn8ry1J3hOn1ezx6lkCCgE6V3nUIMVBqHb8fj5xvqSl7GKE94=; Expires=Mon, 14-Oct-24 00:44:24 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None",
+    "set-cookie": "sc-sticky-session=0+4gYeuZAQFAAO20HQW0fX4nUWW6zBMeUrr7DpISzUhErQdkO/31HQsvVruixrdVQ0NnmVPe8CdIH+vbWHAfdDTHS/iDZ2aPNdoG1lBhUMk=; Expires=Mon, 21-Oct-24 00:47:06 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None",
     "strict-transport-security": "max-age=31536000",
     "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
-    "x-request-id": "0b5f15fd-959e-4182-9276-8de42a4cd9cf",
+    "x-request-id": "a2eb0f76-5b45-4882-9e09-ab159171ff73",
     "x-xss-protection": "0"
   },
   "endpoints": [
     {
       "hostname": "api.dossierfacile.logement.gouv.fr",
-      "ip": "80.247.13.145",
+      "ip": "148.253.96.193",
       "geoip": {
         "continent": {
           "code": "EU",
