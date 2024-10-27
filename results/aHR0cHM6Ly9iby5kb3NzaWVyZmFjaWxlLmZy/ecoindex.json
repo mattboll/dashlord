@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://bo.dossierfacile.fr",
-        "size": 6.272,
+        "size": 6.137,
         "nodes": 12,
         "requests": 3,
         "grade": "A",
@@ -11,7 +11,7 @@
         "ges": 1.06,
         "water": 1.59,
         "ecoindex_version": "5.4.2",
-        "date": "2024-10-20 00:40:27.957584",
+        "date": "2024-10-27 00:42:48.464236",
         "page_type": null
     }
 ]
