@@ -10,7 +10,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://beacon-v2.helpscout.net/static/js/main.a4c5e672.js"
+      "url": "https://beacon-v2.helpscout.net/static/js/main.cec4b1f5.js"
     },
     {
       "type": "cloudfront",
@@ -35,7 +35,7 @@
       "value": "1",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1729385514,
+      "expires": 1729990293,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -47,10 +47,10 @@
     },
     {
       "name": "_pk_id.32.b0b0",
-      "value": "f7ef99dfcabe7c84.1729383715.",
+      "value": "6e8cb2b04aa15ca2.1729988493.",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1763338915,
+      "expires": 1763943693,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -65,7 +65,7 @@
       "value": "fr",
       "domain": ".dossierfacile.logement.gouv.fr",
       "path": "/",
-      "expires": 1760919714,
+      "expires": 1761524492,
       "size": 6,
       "httpOnly": false,
       "secure": true,
@@ -79,19 +79,19 @@
   "headers": {
     "cache-control": "no-store, must-revalidate, max-age=0",
     "content-length": "0",
-    "date": "Sun, 20 Oct 2024 00:21:53 GMT",
-    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=2a210c8b-afdd-431b-86bd-3aec23c58f0c",
+    "date": "Sun, 27 Oct 2024 00:21:32 GMT",
+    "location": "https://locataire.dossierfacile.logement.gouv.fr/contact#error=login_required&state=bc198054-5e31-4c6d-80fc-8f47052aeb74",
     "referrer-policy": "no-referrer",
-    "set-cookie": "AUTH_SESSION_ID=bfa368ee-6827-4524-826e-04b0b5c255de.dossierfacile-keycloak-prod-web-1-59365; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=bfa368ee-6827-4524-826e-04b0b5c255de.dossierfacile-keycloak-prod-web-1-59365; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
+    "set-cookie": "AUTH_SESSION_ID=a34afad7-66e9-4f8f-b754-38e66781a52f.dossierfacile-keycloak-prod-web-1-9615; Version=1; Path=/auth/realms/dossier-facile/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=a34afad7-66e9-4f8f-b754-38e66781a52f.dossierfacile-keycloak-prod-web-1-9615; Version=1; Path=/auth/realms/dossier-facile/; Secure; HttpOnly",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "x-content-type-options": "nosniff",
-    "x-request-id": "b3cb2f89-539d-46a4-a100-5ec15ff35cec",
+    "x-request-id": "82ebc11b-3341-4275-8696-aeaba339d6fd",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
     {
       "hostname": "locataire.dossierfacile.logement.gouv.fr",
-      "ip": "148.253.75.120",
+      "ip": "109.232.233.130",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -147,7 +147,7 @@
     },
     {
       "hostname": "beacon-v2.helpscout.net",
-      "ip": "18.238.192.100",
+      "ip": "52.85.132.109",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -201,7 +201,7 @@
     },
     {
       "hostname": "d3hb14vkzrxvla.cloudfront.net",
-      "ip": "18.155.204.28",
+      "ip": "13.32.207.198",
       "geoip": {
         "continent": {
           "code": "NA",
