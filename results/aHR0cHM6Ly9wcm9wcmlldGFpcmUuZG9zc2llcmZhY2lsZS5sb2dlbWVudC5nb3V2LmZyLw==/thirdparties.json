@@ -16,19 +16,19 @@
     "content-length": "536",
     "content-security-policy": "default-src 'self'; script-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr https://www.google.com https://www.gstatic.com https://beacon-v2.helpscout.net https://stats.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' blob: https://client.crisp.chat; style-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css https://fonts.googleapis.com 'unsafe-inline' https://client.crisp.chat; img-src 'self' https://fonts.gstatic.com https://voxusagers.numerique.gouv.fr *.helpscout.net *.cloudfront.net *.gitbook.com data: client.crisp.chat image.crisp.chat; font-src 'self' https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/ data: https://client.crisp.chat; object-src 'none'; connect-src https://sentry.incubateur.net *.cloudfront.net *.dossierfacile.fr *.dossierfacile.logement.gouv.fr 'unsafe-eval' *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com https://dossierfacile-api-owner-prod.osc-secnum-fr1.scalingo.io https://stats.beta.gouv.fr blob: client.crisp.chat wss://client.relay.crisp.chat; frame-src https://www.google.com *.dossierfacile.fr *.dossierfacile.logement.gouv.fr dossierfacile.crisp.help; child-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 10 Nov 2024 00:20:55 GMT",
-    "etag": "W/\"218-19306508eb8\"",
-    "last-modified": "Thu, 07 Nov 2024 11:09:23 GMT",
+    "date": "Sun, 17 Nov 2024 00:22:14 GMT",
+    "etag": "W/\"218-19325ea0510\"",
+    "last-modified": "Wed, 13 Nov 2024 14:25:14 GMT",
     "strict-transport-security": "max-age=31536000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "deny",
     "x-powered-by": "Express",
-    "x-request-id": "1bb15f7c-82d5-48e8-bb34-ebb1d12fcd5c"
+    "x-request-id": "458d875f-54ac-4678-8f54-a1558fd3d014"
   },
   "endpoints": [
     {
       "hostname": "proprietaire.dossierfacile.logement.gouv.fr",
-      "ip": "185.21.194.105",
+      "ip": "80.247.12.255",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -84,7 +84,7 @@
     },
     {
       "hostname": "client.crisp.chat",
-      "ip": "104.18.28.104",
+      "ip": "104.18.29.104",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
