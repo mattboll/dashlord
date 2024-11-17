@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "JSESSIONID",
-      "value": "CA8300036A7A2AC8E4415A60B2B67670",
+      "value": "7B985621AD4B5A8BC7602C9286E380EA",
       "domain": "bo.dossierfacile.fr",
       "path": "/",
       "expires": -1,
@@ -20,21 +20,21 @@
     "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
     "content-encoding": "gzip",
     "content-language": "en-US",
-    "content-security-policy": "frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';",
+    "content-security-policy": "frame-ancestors *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; frame-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; object-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; img-src 'self' *.dossierfacile.fr *.dossierfacile.logement.gouv.fr data:; font-src 'self' fonts.gstatic.com; connect-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; base-uri 'self'; media-src 'none'; worker-src *.dossierfacile.fr *.dossierfacile.logement.gouv.fr; manifest-src 'none';",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Sun, 10 Nov 2024 00:43:24 GMT",
+    "date": "Sun, 17 Nov 2024 00:44:24 GMT",
     "expires": "0",
     "pragma": "no-cache",
     "strict-transport-security": "max-age=31536000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
-    "x-request-id": "ff8b3a50-6d46-4492-a0de-08d185f875b5",
+    "x-request-id": "9dcdeec4-dee2-4c1f-9a15-eb894193e823",
     "x-xss-protection": "0"
   },
   "endpoints": [
     {
       "hostname": "bo.dossierfacile.fr",
-      "ip": "185.21.194.105",
+      "ip": "148.253.96.193",
       "geoip": {
         "continent": {
           "code": "EU",
