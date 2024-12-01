@@ -32,9 +32,9 @@
       "extracted-results": [
         "dossierfacile-api-tenant-prod.osc-secnum-fr1.scalingo.io."
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 33794\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;api.dossierfacile.logement.gouv.fr.\tIN\t CNAME\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 33794\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;api.dossierfacile.logement.gouv.fr.\tIN\t CNAME\n\n;; ANSWER SECTION:\napi.dossierfacile.logement.gouv.fr.\t300\tIN\tCNAME\tdossierfacile-api-tenant-prod.osc-secnum-fr1.scalingo.io.\n",
-      "timestamp": "2024-11-24T00:52:26.638061819Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 16474\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;api.dossierfacile.logement.gouv.fr.\tIN\t CNAME\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 16474\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;api.dossierfacile.logement.gouv.fr.\tIN\t CNAME\n\n;; ANSWER SECTION:\napi.dossierfacile.logement.gouv.fr.\t299\tIN\tCNAME\tdossierfacile-api-tenant-prod.osc-secnum-fr1.scalingo.io.\n",
+      "timestamp": "2024-12-01T00:54:26.966555109Z",
       "matcher-status": true
     },
     {
@@ -69,9 +69,9 @@
       "type": "dns",
       "host": "api.dossierfacile.logement.gouv.fr.",
       "matched-at": "api.dossierfacile.logement.gouv.fr",
-      "request": ";; opcode: QUERY, status: NOERROR, id: 62451\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;api.dossierfacile.logement.gouv.fr.\tIN\t CAA\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 62451\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;api.dossierfacile.logement.gouv.fr.\tIN\t CAA\n\n;; ANSWER SECTION:\napi.dossierfacile.logement.gouv.fr.\t300\tIN\tCNAME\tdossierfacile-api-tenant-prod.osc-secnum-fr1.scalingo.io.\ndossierfacile-api-tenant-prod.osc-secnum-fr1.scalingo.io.\t300\tIN\tCNAME\tsc-lb-pool-01.osc-secnum-fr1.scalingo-network.com.\n\n;; AUTHORITY SECTION:\nscalingo-network.com.\t1800\tIN\tSOA\tburt.ns.cloudflare.com. dns.cloudflare.com. 2357753281 10000 2400 604800 1800\n",
-      "timestamp": "2024-11-24T00:52:27.082825941Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 15233\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;api.dossierfacile.logement.gouv.fr.\tIN\t CAA\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 15233\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;api.dossierfacile.logement.gouv.fr.\tIN\t CAA\n\n;; ANSWER SECTION:\napi.dossierfacile.logement.gouv.fr.\t300\tIN\tCNAME\tdossierfacile-api-tenant-prod.osc-secnum-fr1.scalingo.io.\ndossierfacile-api-tenant-prod.osc-secnum-fr1.scalingo.io.\t300\tIN\tCNAME\tsc-lb-pool-01.osc-secnum-fr1.scalingo-network.com.\n\n;; AUTHORITY SECTION:\nscalingo-network.com.\t1800\tIN\tSOA\tburt.ns.cloudflare.com. dns.cloudflare.com. 2358382973 10000 2400 604800 1800\n",
+      "timestamp": "2024-12-01T00:54:27.05925807Z",
       "matcher-status": true
     },
     {
@@ -101,130 +101,10 @@
         "GET,HEAD,OPTIONS"
       ],
       "request": "OPTIONS /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nAccept-Patch: \r\nAllow: GET,HEAD,OPTIONS\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nDate: Sun, 24 Nov 2024 00:52:35 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=HcIXEc42+rFLuX+YpKMQFheJZZMMSFOVPwxFZGc1E+SEcp9QIdHBBoM7MoZZOz9Y3R0Hkkda1Fu/dS2bYT7TQCGHPJOQfEZEJu88Ctq7u8w=; Expires=Mon, 25-Nov-24 00:52:35 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: da0b4cc6-118c-480c-a836-9bf52ec04f04\r\nX-Xss-Protection: 0\r\nContent-Length: 0\r\n\r\n",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T00:52:35.385773968Z",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nAccept-Patch: \r\nAllow: GET,HEAD,OPTIONS\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nDate: Sun, 01 Dec 2024 00:54:32 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=1mLO/jw89a5jb9+d0nEAM4w6Rblll2Ipa9bGjniCqANzFnYEJx/rxOiaJ2+fnWKPq/e/7c/ELcO0O+JERAtunX31wMPAv1JuKStAODyGLk8=; Expires=Mon, 02-Dec-24 00:54:32 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 81caf21f-eb4b-42ca-8253-2f6cdfb60cd8\r\nX-Xss-Protection: 0\r\nContent-Length: 0\r\n\r\n",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T00:54:32.72821464Z",
       "curl-command": "curl -X 'OPTIONS' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs",
-          "userdehghani"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-embedder-policy",
-      "type": "http",
-      "host": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
-      "matched-at": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
-      "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 24 Nov 2024 00:53:41 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=HcIXEc42+rFLuX+YpKMQFheJZZMMSFOVPwxFZGc1E+SEcp9QIdHBBoM7MoZZOz9Y3R0Hkkda1Fu/dS2bYT7TQCGHPJOQfEZEJu88Ctq7u8w=; Expires=Mon, 25-Nov-24 00:53:41 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 0b7e74a4-b6e1-44ee-9e11-01af54b24d50\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T00:53:41.24670424Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs",
-          "userdehghani"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-opener-policy",
-      "type": "http",
-      "host": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
-      "matched-at": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
-      "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 24 Nov 2024 00:53:41 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=HcIXEc42+rFLuX+YpKMQFheJZZMMSFOVPwxFZGc1E+SEcp9QIdHBBoM7MoZZOz9Y3R0Hkkda1Fu/dS2bYT7TQCGHPJOQfEZEJu88Ctq7u8w=; Expires=Mon, 25-Nov-24 00:53:41 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 0b7e74a4-b6e1-44ee-9e11-01af54b24d50\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T00:53:41.246754145Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs",
-          "userdehghani"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-resource-policy",
-      "type": "http",
-      "host": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
-      "matched-at": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
-      "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 24 Nov 2024 00:53:41 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=HcIXEc42+rFLuX+YpKMQFheJZZMMSFOVPwxFZGc1E+SEcp9QIdHBBoM7MoZZOz9Y3R0Hkkda1Fu/dS2bYT7TQCGHPJOQfEZEJu88Ctq7u8w=; Expires=Mon, 25-Nov-24 00:53:41 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 0b7e74a4-b6e1-44ee-9e11-01af54b24d50\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T00:53:41.2467726Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
       "matcher-status": true
     },
     {
@@ -261,9 +141,9 @@
       "host": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
       "matched-at": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
       "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 24 Nov 2024 00:53:41 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=HcIXEc42+rFLuX+YpKMQFheJZZMMSFOVPwxFZGc1E+SEcp9QIdHBBoM7MoZZOz9Y3R0Hkkda1Fu/dS2bYT7TQCGHPJOQfEZEJu88Ctq7u8w=; Expires=Mon, 25-Nov-24 00:53:41 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 0b7e74a4-b6e1-44ee-9e11-01af54b24d50\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T00:53:41.246786125Z",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 01 Dec 2024 00:55:15 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=1mLO/jw89a5jb9+d0nEAM4w6Rblll2Ipa9bGjniCqANzFnYEJx/rxOiaJ2+fnWKPq/e/7c/ELcO0O+JERAtunX31wMPAv1JuKStAODyGLk8=; Expires=Mon, 02-Dec-24 00:55:15 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: eb75ae77-f246-4297-860f-60fa891fd16e\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T00:55:15.941047867Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
       "matcher-status": true
     },
@@ -301,9 +181,9 @@
       "host": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
       "matched-at": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
       "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 24 Nov 2024 00:53:41 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=HcIXEc42+rFLuX+YpKMQFheJZZMMSFOVPwxFZGc1E+SEcp9QIdHBBoM7MoZZOz9Y3R0Hkkda1Fu/dS2bYT7TQCGHPJOQfEZEJu88Ctq7u8w=; Expires=Mon, 25-Nov-24 00:53:41 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 0b7e74a4-b6e1-44ee-9e11-01af54b24d50\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T00:53:41.24679905Z",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 01 Dec 2024 00:55:15 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=1mLO/jw89a5jb9+d0nEAM4w6Rblll2Ipa9bGjniCqANzFnYEJx/rxOiaJ2+fnWKPq/e/7c/ELcO0O+JERAtunX31wMPAv1JuKStAODyGLk8=; Expires=Mon, 02-Dec-24 00:55:15 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: eb75ae77-f246-4297-860f-60fa891fd16e\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T00:55:15.941104883Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
       "matcher-status": true
     },
@@ -341,9 +221,9 @@
       "host": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
       "matched-at": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
       "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 24 Nov 2024 00:53:41 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=HcIXEc42+rFLuX+YpKMQFheJZZMMSFOVPwxFZGc1E+SEcp9QIdHBBoM7MoZZOz9Y3R0Hkkda1Fu/dS2bYT7TQCGHPJOQfEZEJu88Ctq7u8w=; Expires=Mon, 25-Nov-24 00:53:41 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 0b7e74a4-b6e1-44ee-9e11-01af54b24d50\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T00:53:41.246812916Z",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 01 Dec 2024 00:55:15 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=1mLO/jw89a5jb9+d0nEAM4w6Rblll2Ipa9bGjniCqANzFnYEJx/rxOiaJ2+fnWKPq/e/7c/ELcO0O+JERAtunX31wMPAv1JuKStAODyGLk8=; Expires=Mon, 02-Dec-24 00:55:15 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: eb75ae77-f246-4297-860f-60fa891fd16e\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T00:55:15.941121244Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
       "matcher-status": true
     },
@@ -381,9 +261,129 @@
       "host": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
       "matched-at": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
       "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 24 Nov 2024 00:53:41 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=HcIXEc42+rFLuX+YpKMQFheJZZMMSFOVPwxFZGc1E+SEcp9QIdHBBoM7MoZZOz9Y3R0Hkkda1Fu/dS2bYT7TQCGHPJOQfEZEJu88Ctq7u8w=; Expires=Mon, 25-Nov-24 00:53:41 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 0b7e74a4-b6e1-44ee-9e11-01af54b24d50\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T00:53:41.24683059Z",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 01 Dec 2024 00:55:15 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=1mLO/jw89a5jb9+d0nEAM4w6Rblll2Ipa9bGjniCqANzFnYEJx/rxOiaJ2+fnWKPq/e/7c/ELcO0O+JERAtunX31wMPAv1JuKStAODyGLk8=; Expires=Mon, 02-Dec-24 00:55:15 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: eb75ae77-f246-4297-860f-60fa891fd16e\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T00:55:15.941138316Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-embedder-policy",
+      "type": "http",
+      "host": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
+      "matched-at": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
+      "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 01 Dec 2024 00:55:15 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=1mLO/jw89a5jb9+d0nEAM4w6Rblll2Ipa9bGjniCqANzFnYEJx/rxOiaJ2+fnWKPq/e/7c/ELcO0O+JERAtunX31wMPAv1JuKStAODyGLk8=; Expires=Mon, 02-Dec-24 00:55:15 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: eb75ae77-f246-4297-860f-60fa891fd16e\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T00:55:15.941154145Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-opener-policy",
+      "type": "http",
+      "host": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
+      "matched-at": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
+      "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 01 Dec 2024 00:55:15 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=1mLO/jw89a5jb9+d0nEAM4w6Rblll2Ipa9bGjniCqANzFnYEJx/rxOiaJ2+fnWKPq/e/7c/ELcO0O+JERAtunX31wMPAv1JuKStAODyGLk8=; Expires=Mon, 02-Dec-24 00:55:15 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: eb75ae77-f246-4297-860f-60fa891fd16e\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T00:55:15.9411672Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-resource-policy",
+      "type": "http",
+      "host": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
+      "matched-at": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
+      "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 01 Dec 2024 00:55:15 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=1mLO/jw89a5jb9+d0nEAM4w6Rblll2Ipa9bGjniCqANzFnYEJx/rxOiaJ2+fnWKPq/e/7c/ELcO0O+JERAtunX31wMPAv1JuKStAODyGLk8=; Expires=Mon, 02-Dec-24 00:55:15 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: eb75ae77-f246-4297-860f-60fa891fd16e\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T00:55:15.941186456Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
       "matcher-status": true
     },
@@ -423,14 +423,14 @@
       "type": "http",
       "host": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
       "matched-at": "https://api.dossierfacile.logement.gouv.fr/actuator/health",
-      "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nOrigin: https://g9rjllogement.gouv.fr\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nAccess-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Origin: https://g9rjllogement.gouv.fr\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 24 Nov 2024 00:54:27 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=HcIXEc42+rFLuX+YpKMQFheJZZMMSFOVPwxFZGc1E+SEcp9QIdHBBoM7MoZZOz9Y3R0Hkkda1Fu/dS2bYT7TQCGHPJOQfEZEJu88Ctq7u8w=; Expires=Mon, 25-Nov-24 00:54:27 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 8403cd41-0631-4082-846c-228ca8839ac2\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
+      "request": "GET /actuator/health HTTP/1.1\r\nHost: api.dossierfacile.logement.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nOrigin: https://3nj3xlogement.gouv.fr\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 \r\nConnection: close\r\nTransfer-Encoding: chunked\r\nAccess-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Origin: https://3nj3xlogement.gouv.fr\r\nCache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nContent-Security-Policy: frame-ancestors 'none'; frame-src 'none'; child-src 'none'; upgrade-insecure-requests; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; img-src 'self' data:; font-src 'self'; connect-src *.dossierfacile.fr *.dossierfacile.fr:*; base-uri 'self'; form-action 'none'; media-src 'none'; worker-src 'none'; manifest-src 'none'; prefetch-src 'none';\r\nContent-Type: application/vnd.spring-boot.actuator.v3+json\r\nDate: Sun, 01 Dec 2024 00:55:45 GMT\r\nExpires: 0\r\nPragma: no-cache\r\nSet-Cookie: sc-sticky-session=1mLO/jw89a5jb9+d0nEAM4w6Rblll2Ipa9bGjniCqANzFnYEJx/rxOiaJ2+fnWKPq/e/7c/ELcO0O+JERAtunX31wMPAv1JuKStAODyGLk8=; Expires=Mon, 02-Dec-24 00:55:45 GMT; Max-Age=86400; Path=/; Secure; HttpOnly; SameSite=None\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Origin\r\nVary: Access-Control-Request-Method\r\nVary: Access-Control-Request-Headers\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Request-Id: 639afcf0-0ca7-4c8a-bf2a-56ba8d5c1392\r\nX-Xss-Protection: 0\r\n\r\n{\"status\":\"UP\",\"components\":{\"db\":{\"status\":\"UP\",\"details\":{\"database\":\"PostgreSQL\",\"validationQuery\":\"isValid()\"}},\"fr.dossierfacile.api.front.config.Custom\":{\"status\":\"UP\",\"details\":{\"Service\":\"Running\",\"Error\":\"No Error- Healthy status\",\"error\":\"java.lang.RuntimeException: null\"}},\"ping\":{\"status\":\"UP\"},\"rabbit\":{\"status\":\"UP\",\"details\":{\"version\":\"3.11.14\"}}}}",
       "meta": {
-        "cors_origin": "https://g9rjllogement.gouv.fr"
+        "cors_origin": "https://3nj3xlogement.gouv.fr"
       },
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T00:54:27.922190608Z",
-      "curl-command": "curl -X 'GET' -d '' -H 'Host: api.dossierfacile.logement.gouv.fr' -H 'Origin: https://g9rjllogement.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T00:55:45.68213633Z",
+      "curl-command": "curl -X 'GET' -d '' -H 'Host: api.dossierfacile.logement.gouv.fr' -H 'Origin: https://3nj3xlogement.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://api.dossierfacile.logement.gouv.fr/actuator/health'",
       "matcher-status": true
     },
     {
@@ -459,8 +459,8 @@
       "extracted-results": [
         "Let's Encrypt"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T01:00:11.957749975Z",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T01:01:21.425254493Z",
       "matcher-status": true
     },
     {
@@ -489,8 +489,8 @@
       "extracted-results": [
         "api.dossierfacile.logement.gouv.fr"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T01:00:11.957884076Z",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T01:01:21.425403201Z",
       "matcher-status": true
     },
     {
@@ -520,8 +520,8 @@
       "extracted-results": [
         "tls12"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T01:00:14.145751815Z",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T01:01:22.734280175Z",
       "matcher-status": true
     },
     {
@@ -551,8 +551,8 @@
       "extracted-results": [
         "tls13"
       ],
-      "ip": "148.253.96.193",
-      "timestamp": "2024-11-24T01:00:14.479893161Z",
+      "ip": "80.247.12.255",
+      "timestamp": "2024-12-01T01:01:22.90942315Z",
       "matcher-status": true
     }
   ]
