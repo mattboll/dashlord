@@ -16,7 +16,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/",
-      "line": "--2024-12-01 00:23:05--  https://www.dossierfacile.logement.gouv.fr/",
+      "line": "--2024-12-08 00:21:27--  https://www.dossierfacile.logement.gouv.fr/",
       "broken": false
     },
     {
@@ -35,7 +35,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/robots.txt"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/robots.txt",
-      "line": "--2024-12-01 00:23:05--  https://www.dossierfacile.logement.gouv.fr/robots.txt",
+      "line": "--2024-12-08 00:21:28--  https://www.dossierfacile.logement.gouv.fr/robots.txt",
       "broken": false
     },
     {
@@ -54,7 +54,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/favicon.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/favicon.svg",
-      "line": "--2024-12-01 00:23:05--  https://www.dossierfacile.logement.gouv.fr/favicon.svg",
+      "line": "--2024-12-08 00:21:28--  https://www.dossierfacile.logement.gouv.fr/favicon.svg",
       "broken": false
     },
     {
@@ -73,7 +73,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/cover-features-mobile-0119.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/cover-features-mobile-0119.webp",
-      "line": "--2024-12-01 00:23:06--  https://www.dossierfacile.logement.gouv.fr/cover-features-mobile-0119.webp",
+      "line": "--2024-12-08 00:21:28--  https://www.dossierfacile.logement.gouv.fr/cover-features-mobile-0119.webp",
       "broken": false
     },
     {
@@ -87,12 +87,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/app-PIytcs22.js",
-        "path": "/assets/app-PIytcs22.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/app-PIytcs22.js"
+        "pathname": "/assets/app-0tlOXsUJ.js",
+        "path": "/assets/app-0tlOXsUJ.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/app-0tlOXsUJ.js"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/app-PIytcs22.js",
-      "line": "--2024-12-01 00:23:06--  https://www.dossierfacile.logement.gouv.fr/assets/app-PIytcs22.js",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/app-0tlOXsUJ.js",
+      "line": "--2024-12-08 00:21:28--  https://www.dossierfacile.logement.gouv.fr/assets/app-0tlOXsUJ.js",
       "broken": false
     },
     {
@@ -106,373 +106,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/app-BhMUijo0.css",
-        "path": "/assets/app-BhMUijo0.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/app-BhMUijo0.css"
+        "pathname": "/assets/app-C2dJBgyy.css",
+        "path": "/assets/app-C2dJBgyy.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/app-C2dJBgyy.css"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/app-BhMUijo0.css",
-      "line": "--2024-12-01 00:23:06--  https://www.dossierfacile.logement.gouv.fr/assets/app-BhMUijo0.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/information",
-        "path": "/information",
-        "href": "https://www.dossierfacile.logement.gouv.fr/information"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/information",
-      "line": "--2024-12-01 00:23:06--  https://www.dossierfacile.logement.gouv.fr/information",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/blog",
-        "path": "/blog",
-        "href": "https://www.dossierfacile.logement.gouv.fr/blog"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/blog",
-      "line": "--2024-12-01 00:23:06--  https://www.dossierfacile.logement.gouv.fr/blog",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/partenaires",
-        "path": "/partenaires",
-        "href": "https://www.dossierfacile.logement.gouv.fr/partenaires"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/partenaires",
-      "line": "--2024-12-01 00:23:06--  https://www.dossierfacile.logement.gouv.fr/partenaires",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/contact",
-        "path": "/contact",
-        "href": "https://www.dossierfacile.logement.gouv.fr/contact"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/contact",
-      "line": "--2024-12-01 00:23:07--  https://www.dossierfacile.logement.gouv.fr/contact",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/approval-Cg12R6yl.svg",
-        "path": "/assets/approval-Cg12R6yl.svg",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/approval-Cg12R6yl.svg"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/approval-Cg12R6yl.svg",
-      "line": "--2024-12-01 00:23:07--  https://www.dossierfacile.logement.gouv.fr/assets/approval-Cg12R6yl.svg",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/sports-B4YJDPKW.svg",
-        "path": "/assets/sports-B4YJDPKW.svg",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/sports-B4YJDPKW.svg"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/sports-B4YJDPKW.svg",
-      "line": "--2024-12-01 00:23:07--  https://www.dossierfacile.logement.gouv.fr/assets/sports-B4YJDPKW.svg",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/reading-D7e3hS8N.svg",
-        "path": "/assets/reading-D7e3hS8N.svg",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/reading-D7e3hS8N.svg"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/reading-D7e3hS8N.svg",
-      "line": "--2024-12-01 00:23:07--  https://www.dossierfacile.logement.gouv.fr/assets/reading-D7e3hS8N.svg",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/justif-300-DOgGvzI_.webp",
-        "path": "/assets/justif-300-DOgGvzI_.webp",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/justif-300-DOgGvzI_.webp"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/justif-300-DOgGvzI_.webp",
-      "line": "--2024-12-01 00:23:07--  https://www.dossierfacile.logement.gouv.fr/assets/justif-300-DOgGvzI_.webp",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/stats",
-        "path": "/stats",
-        "href": "https://www.dossierfacile.logement.gouv.fr/stats"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/stats",
-      "line": "--2024-12-01 00:23:07--  https://www.dossierfacile.logement.gouv.fr/stats",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/loc_service-ZLdwAlEs.webp",
-        "path": "/assets/loc_service-ZLdwAlEs.webp",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/loc_service-ZLdwAlEs.webp"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/loc_service-ZLdwAlEs.webp",
-      "line": "--2024-12-01 00:23:08--  https://www.dossierfacile.logement.gouv.fr/assets/loc_service-ZLdwAlEs.webp",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/flatsy-DNpfPRqG.webp",
-        "path": "/assets/flatsy-DNpfPRqG.webp",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/flatsy-DNpfPRqG.webp"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/flatsy-DNpfPRqG.webp",
-      "line": "--2024-12-01 00:23:08--  https://www.dossierfacile.logement.gouv.fr/assets/flatsy-DNpfPRqG.webp",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/monsieur_hugo-Cqv9hhGH.webp",
-        "path": "/assets/monsieur_hugo-Cqv9hhGH.webp",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/monsieur_hugo-Cqv9hhGH.webp"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/monsieur_hugo-Cqv9hhGH.webp",
-      "line": "--2024-12-01 00:23:08--  https://www.dossierfacile.logement.gouv.fr/assets/monsieur_hugo-Cqv9hhGH.webp",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/clickandrent-DnXWPOPG.webp",
-        "path": "/assets/clickandrent-DnXWPOPG.webp",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/clickandrent-DnXWPOPG.webp"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/clickandrent-DnXWPOPG.webp",
-      "line": "--2024-12-01 00:23:08--  https://www.dossierfacile.logement.gouv.fr/assets/clickandrent-DnXWPOPG.webp",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/anil-C1ZFDXGW.webp",
-        "path": "/assets/anil-C1ZFDXGW.webp",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/anil-C1ZFDXGW.webp"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/anil-C1ZFDXGW.webp",
-      "line": "--2024-12-01 00:23:08--  https://www.dossierfacile.logement.gouv.fr/assets/anil-C1ZFDXGW.webp",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/UNML-B9kv336t.webp",
-        "path": "/assets/UNML-B9kv336t.webp",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/UNML-B9kv336t.webp"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/UNML-B9kv336t.webp",
-      "line": "--2024-12-01 00:23:08--  https://www.dossierfacile.logement.gouv.fr/assets/UNML-B9kv336t.webp",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/logo-betagouvfr-DhVUOYob.svg",
-        "path": "/assets/logo-betagouvfr-DhVUOYob.svg",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/logo-betagouvfr-DhVUOYob.svg"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/logo-betagouvfr-DhVUOYob.svg",
-      "line": "--2024-12-01 00:23:08--  https://www.dossierfacile.logement.gouv.fr/assets/logo-betagouvfr-DhVUOYob.svg",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/plan-du-site",
-        "path": "/plan-du-site",
-        "href": "https://www.dossierfacile.logement.gouv.fr/plan-du-site"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/plan-du-site",
-      "line": "--2024-12-01 00:23:08--  https://www.dossierfacile.logement.gouv.fr/plan-du-site",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/accessibilite",
-        "path": "/accessibilite",
-        "href": "https://www.dossierfacile.logement.gouv.fr/accessibilite"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/accessibilite",
-      "line": "--2024-12-01 00:23:09--  https://www.dossierfacile.logement.gouv.fr/accessibilite",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/mentions-legales",
-        "path": "/mentions-legales",
-        "href": "https://www.dossierfacile.logement.gouv.fr/mentions-legales"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/mentions-legales",
-      "line": "--2024-12-01 00:23:09--  https://www.dossierfacile.logement.gouv.fr/mentions-legales",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/app-C2dJBgyy.css",
+      "line": "--2024-12-08 00:21:28--  https://www.dossierfacile.logement.gouv.fr/assets/app-C2dJBgyy.css",
       "broken": false
     },
     {
@@ -491,7 +130,368 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/politique-de-confidentialite"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/politique-de-confidentialite",
-      "line": "--2024-12-01 00:23:09--  https://www.dossierfacile.logement.gouv.fr/politique-de-confidentialite",
+      "line": "--2024-12-08 00:21:29--  https://www.dossierfacile.logement.gouv.fr/politique-de-confidentialite",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/information",
+        "path": "/information",
+        "href": "https://www.dossierfacile.logement.gouv.fr/information"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/information",
+      "line": "--2024-12-08 00:21:29--  https://www.dossierfacile.logement.gouv.fr/information",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/blog",
+        "path": "/blog",
+        "href": "https://www.dossierfacile.logement.gouv.fr/blog"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/blog",
+      "line": "--2024-12-08 00:21:29--  https://www.dossierfacile.logement.gouv.fr/blog",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/partenaires",
+        "path": "/partenaires",
+        "href": "https://www.dossierfacile.logement.gouv.fr/partenaires"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/partenaires",
+      "line": "--2024-12-08 00:21:29--  https://www.dossierfacile.logement.gouv.fr/partenaires",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/contact",
+        "path": "/contact",
+        "href": "https://www.dossierfacile.logement.gouv.fr/contact"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/contact",
+      "line": "--2024-12-08 00:21:29--  https://www.dossierfacile.logement.gouv.fr/contact",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/approval-Cg12R6yl.svg",
+        "path": "/assets/approval-Cg12R6yl.svg",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/approval-Cg12R6yl.svg"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/approval-Cg12R6yl.svg",
+      "line": "--2024-12-08 00:21:30--  https://www.dossierfacile.logement.gouv.fr/assets/approval-Cg12R6yl.svg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/sports-B4YJDPKW.svg",
+        "path": "/assets/sports-B4YJDPKW.svg",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/sports-B4YJDPKW.svg"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/sports-B4YJDPKW.svg",
+      "line": "--2024-12-08 00:21:30--  https://www.dossierfacile.logement.gouv.fr/assets/sports-B4YJDPKW.svg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/reading-D7e3hS8N.svg",
+        "path": "/assets/reading-D7e3hS8N.svg",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/reading-D7e3hS8N.svg"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/reading-D7e3hS8N.svg",
+      "line": "--2024-12-08 00:21:30--  https://www.dossierfacile.logement.gouv.fr/assets/reading-D7e3hS8N.svg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/justif-300-DOgGvzI_.webp",
+        "path": "/assets/justif-300-DOgGvzI_.webp",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/justif-300-DOgGvzI_.webp"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/justif-300-DOgGvzI_.webp",
+      "line": "--2024-12-08 00:21:30--  https://www.dossierfacile.logement.gouv.fr/assets/justif-300-DOgGvzI_.webp",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/stats",
+        "path": "/stats",
+        "href": "https://www.dossierfacile.logement.gouv.fr/stats"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/stats",
+      "line": "--2024-12-08 00:21:30--  https://www.dossierfacile.logement.gouv.fr/stats",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/loc_service-ZLdwAlEs.webp",
+        "path": "/assets/loc_service-ZLdwAlEs.webp",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/loc_service-ZLdwAlEs.webp"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/loc_service-ZLdwAlEs.webp",
+      "line": "--2024-12-08 00:21:30--  https://www.dossierfacile.logement.gouv.fr/assets/loc_service-ZLdwAlEs.webp",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/flatsy-DNpfPRqG.webp",
+        "path": "/assets/flatsy-DNpfPRqG.webp",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/flatsy-DNpfPRqG.webp"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/flatsy-DNpfPRqG.webp",
+      "line": "--2024-12-08 00:21:30--  https://www.dossierfacile.logement.gouv.fr/assets/flatsy-DNpfPRqG.webp",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/monsieur_hugo-Cqv9hhGH.webp",
+        "path": "/assets/monsieur_hugo-Cqv9hhGH.webp",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/monsieur_hugo-Cqv9hhGH.webp"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/monsieur_hugo-Cqv9hhGH.webp",
+      "line": "--2024-12-08 00:21:30--  https://www.dossierfacile.logement.gouv.fr/assets/monsieur_hugo-Cqv9hhGH.webp",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/clickandrent-DnXWPOPG.webp",
+        "path": "/assets/clickandrent-DnXWPOPG.webp",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/clickandrent-DnXWPOPG.webp"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/clickandrent-DnXWPOPG.webp",
+      "line": "--2024-12-08 00:21:30--  https://www.dossierfacile.logement.gouv.fr/assets/clickandrent-DnXWPOPG.webp",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/anil-C1ZFDXGW.webp",
+        "path": "/assets/anil-C1ZFDXGW.webp",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/anil-C1ZFDXGW.webp"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/anil-C1ZFDXGW.webp",
+      "line": "--2024-12-08 00:21:31--  https://www.dossierfacile.logement.gouv.fr/assets/anil-C1ZFDXGW.webp",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/UNML-B9kv336t.webp",
+        "path": "/assets/UNML-B9kv336t.webp",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/UNML-B9kv336t.webp"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/UNML-B9kv336t.webp",
+      "line": "--2024-12-08 00:21:31--  https://www.dossierfacile.logement.gouv.fr/assets/UNML-B9kv336t.webp",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/logo-betagouvfr-DhVUOYob.svg",
+        "path": "/assets/logo-betagouvfr-DhVUOYob.svg",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/logo-betagouvfr-DhVUOYob.svg"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/logo-betagouvfr-DhVUOYob.svg",
+      "line": "--2024-12-08 00:21:31--  https://www.dossierfacile.logement.gouv.fr/assets/logo-betagouvfr-DhVUOYob.svg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/plan-du-site",
+        "path": "/plan-du-site",
+        "href": "https://www.dossierfacile.logement.gouv.fr/plan-du-site"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/plan-du-site",
+      "line": "--2024-12-08 00:21:31--  https://www.dossierfacile.logement.gouv.fr/plan-du-site",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/accessibilite",
+        "path": "/accessibilite",
+        "href": "https://www.dossierfacile.logement.gouv.fr/accessibilite"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/accessibilite",
+      "line": "--2024-12-08 00:21:31--  https://www.dossierfacile.logement.gouv.fr/accessibilite",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/mentions-legales",
+        "path": "/mentions-legales",
+        "href": "https://www.dossierfacile.logement.gouv.fr/mentions-legales"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/mentions-legales",
+      "line": "--2024-12-08 00:21:31--  https://www.dossierfacile.logement.gouv.fr/mentions-legales",
       "broken": false
     },
     {
@@ -510,7 +510,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/cgu"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/cgu",
-      "line": "--2024-12-01 00:23:09--  https://www.dossierfacile.logement.gouv.fr/cgu",
+      "line": "--2024-12-08 00:21:31--  https://www.dossierfacile.logement.gouv.fr/cgu",
       "broken": false
     },
     {
@@ -524,12 +524,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/fr--tiktok-fill-CgOVQwR0.svg",
-        "path": "/assets/fr--tiktok-fill-CgOVQwR0.svg",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/fr--tiktok-fill-CgOVQwR0.svg"
+        "pathname": "/node_modules/@gouvfr/dsfr/dist/icons/logo/fr--tiktok-fill.svg",
+        "path": "/node_modules/@gouvfr/dsfr/dist/icons/logo/fr--tiktok-fill.svg",
+        "href": "https://www.dossierfacile.logement.gouv.fr/node_modules/@gouvfr/dsfr/dist/icons/logo/fr--tiktok-fill.svg"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/fr--tiktok-fill-CgOVQwR0.svg",
-      "line": "--2024-12-01 00:23:09--  https://www.dossierfacile.logement.gouv.fr/assets/fr--tiktok-fill-CgOVQwR0.svg",
+      "link": "https://www.dossierfacile.logement.gouv.fr/node_modules/@gouvfr/dsfr/dist/icons/logo/fr--tiktok-fill.svg",
+      "line": "--2024-12-08 00:21:32--  https://www.dossierfacile.logement.gouv.fr/node_modules/@gouvfr/dsfr/dist/icons/logo/fr--tiktok-fill.svg",
       "broken": false
     },
     {
@@ -548,7 +548,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/mail-line-vwkrm5D_.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/mail-line-vwkrm5D_.svg",
-      "line": "--2024-12-01 00:23:10--  https://www.dossierfacile.logement.gouv.fr/assets/mail-line-vwkrm5D_.svg",
+      "line": "--2024-12-08 00:21:32--  https://www.dossierfacile.logement.gouv.fr/assets/mail-line-vwkrm5D_.svg",
       "broken": false
     },
     {
@@ -567,7 +567,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/external-link-line-DP7hnMdA.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/external-link-line-DP7hnMdA.svg",
-      "line": "--2024-12-01 00:23:10--  https://www.dossierfacile.logement.gouv.fr/assets/external-link-line-DP7hnMdA.svg",
+      "line": "--2024-12-08 00:21:32--  https://www.dossierfacile.logement.gouv.fr/assets/external-link-line-DP7hnMdA.svg",
       "broken": false
     },
     {
@@ -586,7 +586,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light-DsZfzyg9.woff2"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light-DsZfzyg9.woff2",
-      "line": "--2024-12-01 00:23:10--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light-DsZfzyg9.woff2",
+      "line": "--2024-12-08 00:21:32--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light-DsZfzyg9.woff2",
       "broken": false
     },
     {
@@ -605,7 +605,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light-DqWaxKdz.woff"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light-DqWaxKdz.woff",
-      "line": "--2024-12-01 00:23:10--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light-DqWaxKdz.woff",
+      "line": "--2024-12-08 00:21:32--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light-DqWaxKdz.woff",
       "broken": false
     },
     {
@@ -624,7 +624,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light_Italic-Yne2G_jl.woff2"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light_Italic-Yne2G_jl.woff2",
-      "line": "--2024-12-01 00:23:10--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light_Italic-Yne2G_jl.woff2",
+      "line": "--2024-12-08 00:21:32--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light_Italic-Yne2G_jl.woff2",
       "broken": false
     },
     {
@@ -643,7 +643,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light_Italic-BJOCXSxu.woff"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light_Italic-BJOCXSxu.woff",
-      "line": "--2024-12-01 00:23:10--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light_Italic-BJOCXSxu.woff",
+      "line": "--2024-12-08 00:21:32--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Light_Italic-BJOCXSxu.woff",
       "broken": false
     },
     {
@@ -662,7 +662,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular-CaCqrnJM.woff2"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular-CaCqrnJM.woff2",
-      "line": "--2024-12-01 00:23:11--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular-CaCqrnJM.woff2",
+      "line": "--2024-12-08 00:21:32--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular-CaCqrnJM.woff2",
       "broken": false
     },
     {
@@ -681,7 +681,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular-DxIeSxmB.woff"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular-DxIeSxmB.woff",
-      "line": "--2024-12-01 00:23:11--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular-DxIeSxmB.woff",
+      "line": "--2024-12-08 00:21:32--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular-DxIeSxmB.woff",
       "broken": false
     },
     {
@@ -700,7 +700,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular_Italic-DdH8FtNo.woff2"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular_Italic-DdH8FtNo.woff2",
-      "line": "--2024-12-01 00:23:11--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular_Italic-DdH8FtNo.woff2",
+      "line": "--2024-12-08 00:21:32--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular_Italic-DdH8FtNo.woff2",
       "broken": false
     },
     {
@@ -719,7 +719,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular_Italic-BQJsTSNr.woff"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular_Italic-BQJsTSNr.woff",
-      "line": "--2024-12-01 00:23:11--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular_Italic-BQJsTSNr.woff",
+      "line": "--2024-12-08 00:21:32--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Regular_Italic-BQJsTSNr.woff",
       "broken": false
     },
     {
@@ -738,7 +738,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium-DptVAR1p.woff2"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium-DptVAR1p.woff2",
-      "line": "--2024-12-01 00:23:12--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium-DptVAR1p.woff2",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium-DptVAR1p.woff2",
       "broken": false
     },
     {
@@ -757,7 +757,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium-CmsIrdJJ.woff"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium-CmsIrdJJ.woff",
-      "line": "--2024-12-01 00:23:12--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium-CmsIrdJJ.woff",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium-CmsIrdJJ.woff",
       "broken": false
     },
     {
@@ -776,7 +776,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium_Italic-WqZFT7wM.woff2"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium_Italic-WqZFT7wM.woff2",
-      "line": "--2024-12-01 00:23:12--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium_Italic-WqZFT7wM.woff2",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium_Italic-WqZFT7wM.woff2",
       "broken": false
     },
     {
@@ -795,7 +795,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium_Italic-BP8MGzkr.woff"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium_Italic-BP8MGzkr.woff",
-      "line": "--2024-12-01 00:23:12--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium_Italic-BP8MGzkr.woff",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Medium_Italic-BP8MGzkr.woff",
       "broken": false
     },
     {
@@ -814,7 +814,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold-CYjThbH0.woff2"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold-CYjThbH0.woff2",
-      "line": "--2024-12-01 00:23:12--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold-CYjThbH0.woff2",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold-CYjThbH0.woff2",
       "broken": false
     },
     {
@@ -833,7 +833,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold-u6yfe4-h.woff"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold-u6yfe4-h.woff",
-      "line": "--2024-12-01 00:23:12--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold-u6yfe4-h.woff",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold-u6yfe4-h.woff",
       "broken": false
     },
     {
@@ -852,7 +852,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold_Italic-BqW9V1Nh.woff2"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold_Italic-BqW9V1Nh.woff2",
-      "line": "--2024-12-01 00:23:12--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold_Italic-BqW9V1Nh.woff2",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold_Italic-BqW9V1Nh.woff2",
       "broken": false
     },
     {
@@ -871,7 +871,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold_Italic-BWnPOpjP.woff"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold_Italic-BWnPOpjP.woff",
-      "line": "--2024-12-01 00:23:12--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold_Italic-BWnPOpjP.woff",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Marianne-Bold_Italic-BWnPOpjP.woff",
       "broken": false
     },
     {
@@ -890,7 +890,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Spectral-Regular-PmBQicsR.woff2"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Spectral-Regular-PmBQicsR.woff2",
-      "line": "--2024-12-01 00:23:12--  https://www.dossierfacile.logement.gouv.fr/assets/Spectral-Regular-PmBQicsR.woff2",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Spectral-Regular-PmBQicsR.woff2",
       "broken": false
     },
     {
@@ -909,7 +909,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Spectral-Regular-D0Iocl0n.woff"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Spectral-Regular-D0Iocl0n.woff",
-      "line": "--2024-12-01 00:23:13--  https://www.dossierfacile.logement.gouv.fr/assets/Spectral-Regular-D0Iocl0n.woff",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Spectral-Regular-D0Iocl0n.woff",
       "broken": false
     },
     {
@@ -928,7 +928,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Spectral-ExtraBold-CCzfBm-A.woff2"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Spectral-ExtraBold-CCzfBm-A.woff2",
-      "line": "--2024-12-01 00:23:13--  https://www.dossierfacile.logement.gouv.fr/assets/Spectral-ExtraBold-CCzfBm-A.woff2",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Spectral-ExtraBold-CCzfBm-A.woff2",
       "broken": false
     },
     {
@@ -947,7 +947,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/Spectral-ExtraBold-U325s3c2.woff"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/Spectral-ExtraBold-U325s3c2.woff",
-      "line": "--2024-12-01 00:23:13--  https://www.dossierfacile.logement.gouv.fr/assets/Spectral-ExtraBold-U325s3c2.woff",
+      "line": "--2024-12-08 00:21:33--  https://www.dossierfacile.logement.gouv.fr/assets/Spectral-ExtraBold-U325s3c2.woff",
       "broken": false
     },
     {
@@ -966,7 +966,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/arrow-down-s-line-BQPZ-808.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/arrow-down-s-line-BQPZ-808.svg",
-      "line": "--2024-12-01 00:23:13--  https://www.dossierfacile.logement.gouv.fr/assets/arrow-down-s-line-BQPZ-808.svg",
+      "line": "--2024-12-08 00:21:34--  https://www.dossierfacile.logement.gouv.fr/assets/arrow-down-s-line-BQPZ-808.svg",
       "broken": false
     },
     {
@@ -985,7 +985,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/close-line-DF6qSdMK.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/close-line-DF6qSdMK.svg",
-      "line": "--2024-12-01 00:23:13--  https://www.dossierfacile.logement.gouv.fr/assets/close-line-DF6qSdMK.svg",
+      "line": "--2024-12-08 00:21:34--  https://www.dossierfacile.logement.gouv.fr/assets/close-line-DF6qSdMK.svg",
       "broken": false
     },
     {
@@ -1004,7 +1004,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/fr--quote-line-B4_MkwCE.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/fr--quote-line-B4_MkwCE.svg",
-      "line": "--2024-12-01 00:23:13--  https://www.dossierfacile.logement.gouv.fr/assets/fr--quote-line-B4_MkwCE.svg",
+      "line": "--2024-12-08 00:21:34--  https://www.dossierfacile.logement.gouv.fr/assets/fr--quote-line-B4_MkwCE.svg",
       "broken": false
     },
     {
@@ -1023,7 +1023,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/arrow-right-s-line-D0MTxGVb.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/arrow-right-s-line-D0MTxGVb.svg",
-      "line": "--2024-12-01 00:23:13--  https://www.dossierfacile.logement.gouv.fr/assets/arrow-right-s-line-D0MTxGVb.svg",
+      "line": "--2024-12-08 00:21:34--  https://www.dossierfacile.logement.gouv.fr/assets/arrow-right-s-line-D0MTxGVb.svg",
       "broken": false
     },
     {
@@ -1042,7 +1042,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/fr--error-fill-D4DFUojK.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/fr--error-fill-D4DFUojK.svg",
-      "line": "--2024-12-01 00:23:13--  https://www.dossierfacile.logement.gouv.fr/assets/fr--error-fill-D4DFUojK.svg",
+      "line": "--2024-12-08 00:21:34--  https://www.dossierfacile.logement.gouv.fr/assets/fr--error-fill-D4DFUojK.svg",
       "broken": false
     },
     {
@@ -1061,7 +1061,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/arrow-right-line-bqVe44Hx.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/arrow-right-line-bqVe44Hx.svg",
-      "line": "--2024-12-01 00:23:13--  https://www.dossierfacile.logement.gouv.fr/assets/arrow-right-line-bqVe44Hx.svg",
+      "line": "--2024-12-08 00:21:34--  https://www.dossierfacile.logement.gouv.fr/assets/arrow-right-line-bqVe44Hx.svg",
       "broken": false
     },
     {
@@ -1080,7 +1080,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/facebook-circle-line-COXAEaCj.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/facebook-circle-line-COXAEaCj.svg",
-      "line": "--2024-12-01 00:23:14--  https://www.dossierfacile.logement.gouv.fr/assets/facebook-circle-line-COXAEaCj.svg",
+      "line": "--2024-12-08 00:21:34--  https://www.dossierfacile.logement.gouv.fr/assets/facebook-circle-line-COXAEaCj.svg",
       "broken": false
     },
     {
@@ -1099,7 +1099,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/linkedin-box-line-C1547FjO.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/linkedin-box-line-C1547FjO.svg",
-      "line": "--2024-12-01 00:23:14--  https://www.dossierfacile.logement.gouv.fr/assets/linkedin-box-line-C1547FjO.svg",
+      "line": "--2024-12-08 00:21:34--  https://www.dossierfacile.logement.gouv.fr/assets/linkedin-box-line-C1547FjO.svg",
       "broken": false
     },
     {
@@ -1118,7 +1118,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/twitter-line-D6A-zQMu.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/twitter-line-D6A-zQMu.svg",
-      "line": "--2024-12-01 00:23:14--  https://www.dossierfacile.logement.gouv.fr/assets/twitter-line-D6A-zQMu.svg",
+      "line": "--2024-12-08 00:21:34--  https://www.dossierfacile.logement.gouv.fr/assets/twitter-line-D6A-zQMu.svg",
       "broken": false
     },
     {
@@ -1137,7 +1137,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/links-fill-l0EYX2Ni.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/links-fill-l0EYX2Ni.svg",
-      "line": "--2024-12-01 00:23:14--  https://www.dossierfacile.logement.gouv.fr/assets/links-fill-l0EYX2Ni.svg",
+      "line": "--2024-12-08 00:21:34--  https://www.dossierfacile.logement.gouv.fr/assets/links-fill-l0EYX2Ni.svg",
       "broken": false
     },
     {
@@ -1156,7 +1156,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/translate-2-YtJKnyFD.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/translate-2-YtJKnyFD.svg",
-      "line": "--2024-12-01 00:23:14--  https://www.dossierfacile.logement.gouv.fr/assets/translate-2-YtJKnyFD.svg",
+      "line": "--2024-12-08 00:21:34--  https://www.dossierfacile.logement.gouv.fr/assets/translate-2-YtJKnyFD.svg",
       "broken": false
     },
     {
@@ -1175,7 +1175,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/facebook-circle-fill-cVA-hr5C.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/facebook-circle-fill-cVA-hr5C.svg",
-      "line": "--2024-12-01 00:23:14--  https://www.dossierfacile.logement.gouv.fr/assets/facebook-circle-fill-cVA-hr5C.svg",
+      "line": "--2024-12-08 00:21:35--  https://www.dossierfacile.logement.gouv.fr/assets/facebook-circle-fill-cVA-hr5C.svg",
       "broken": false
     },
     {
@@ -1194,7 +1194,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/instagram-fill-sQ4Ts2lv.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/instagram-fill-sQ4Ts2lv.svg",
-      "line": "--2024-12-01 00:23:14--  https://www.dossierfacile.logement.gouv.fr/assets/instagram-fill-sQ4Ts2lv.svg",
+      "line": "--2024-12-08 00:21:35--  https://www.dossierfacile.logement.gouv.fr/assets/instagram-fill-sQ4Ts2lv.svg",
       "broken": false
     },
     {
@@ -1213,7 +1213,26 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/linkedin-box-fill-CUhCJaNx.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/linkedin-box-fill-CUhCJaNx.svg",
-      "line": "--2024-12-01 00:23:14--  https://www.dossierfacile.logement.gouv.fr/assets/linkedin-box-fill-CUhCJaNx.svg",
+      "line": "--2024-12-08 00:21:35--  https://www.dossierfacile.logement.gouv.fr/assets/linkedin-box-fill-CUhCJaNx.svg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/fr--tiktok-fill-CgOVQwR0.svg",
+        "path": "/assets/fr--tiktok-fill-CgOVQwR0.svg",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/fr--tiktok-fill-CgOVQwR0.svg"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/fr--tiktok-fill-CgOVQwR0.svg",
+      "line": "--2024-12-08 00:21:35--  https://www.dossierfacile.logement.gouv.fr/assets/fr--tiktok-fill-CgOVQwR0.svg",
       "broken": false
     },
     {
@@ -1232,7 +1251,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/twitter-fill-Cjg-K_jz.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/twitter-fill-Cjg-K_jz.svg",
-      "line": "--2024-12-01 00:23:14--  https://www.dossierfacile.logement.gouv.fr/assets/twitter-fill-Cjg-K_jz.svg",
+      "line": "--2024-12-08 00:21:35--  https://www.dossierfacile.logement.gouv.fr/assets/twitter-fill-Cjg-K_jz.svg",
       "broken": false
     },
     {
@@ -1251,7 +1270,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/menu-fill-BVy0U6de.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/menu-fill-BVy0U6de.svg",
-      "line": "--2024-12-01 00:23:14--  https://www.dossierfacile.logement.gouv.fr/assets/menu-fill-BVy0U6de.svg",
+      "line": "--2024-12-08 00:21:35--  https://www.dossierfacile.logement.gouv.fr/assets/menu-fill-BVy0U6de.svg",
       "broken": false
     },
     {
@@ -1270,7 +1289,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/check-line-BxcD2RUU.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/check-line-BxcD2RUU.svg",
-      "line": "--2024-12-01 00:23:15--  https://www.dossierfacile.logement.gouv.fr/assets/check-line-BxcD2RUU.svg",
+      "line": "--2024-12-08 00:21:35--  https://www.dossierfacile.logement.gouv.fr/assets/check-line-BxcD2RUU.svg",
       "broken": false
     },
     {
@@ -1289,7 +1308,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/cover-features-0119.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/cover-features-0119.webp",
-      "line": "--2024-12-01 00:23:15--  https://www.dossierfacile.logement.gouv.fr/cover-features-0119.webp",
+      "line": "--2024-12-08 00:21:35--  https://www.dossierfacile.logement.gouv.fr/cover-features-0119.webp",
       "broken": false
     },
     {
@@ -1308,7 +1327,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/survey-DtgxOdu2.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/survey-DtgxOdu2.svg",
-      "line": "--2024-12-01 00:23:15--  https://www.dossierfacile.logement.gouv.fr/assets/survey-DtgxOdu2.svg",
+      "line": "--2024-12-08 00:21:35--  https://www.dossierfacile.logement.gouv.fr/assets/survey-DtgxOdu2.svg",
       "broken": false
     },
     {
@@ -1327,7 +1346,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/lock--PL2bq--.svg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/lock--PL2bq--.svg",
-      "line": "--2024-12-01 00:23:15--  https://www.dossierfacile.logement.gouv.fr/assets/lock--PL2bq--.svg",
+      "line": "--2024-12-08 00:21:35--  https://www.dossierfacile.logement.gouv.fr/assets/lock--PL2bq--.svg",
       "broken": false
     },
     {
@@ -1341,12 +1360,50 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/InformationView-DKcvXu7q.js",
-        "path": "/assets/InformationView-DKcvXu7q.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/InformationView-DKcvXu7q.js"
+        "pathname": "/assets/PolitiqueDeConfidentialite-DU_m2CKj.js",
+        "path": "/assets/PolitiqueDeConfidentialite-DU_m2CKj.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-DU_m2CKj.js"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/InformationView-DKcvXu7q.js",
-      "line": "--2024-12-01 00:23:15--  https://www.dossierfacile.logement.gouv.fr/assets/InformationView-DKcvXu7q.js",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-DU_m2CKj.js",
+      "line": "--2024-12-08 00:21:35--  https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-DU_m2CKj.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/PolitiqueDeConfidentialite-DGjSSRb1.css",
+        "path": "/assets/PolitiqueDeConfidentialite-DGjSSRb1.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-DGjSSRb1.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-DGjSSRb1.css",
+      "line": "--2024-12-08 00:21:36--  https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-DGjSSRb1.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/InformationView-CbqtHPaN.js",
+        "path": "/assets/InformationView-CbqtHPaN.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/InformationView-CbqtHPaN.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/InformationView-CbqtHPaN.js",
+      "line": "--2024-12-08 00:21:36--  https://www.dossierfacile.logement.gouv.fr/assets/InformationView-CbqtHPaN.js",
       "broken": false
     },
     {
@@ -1365,7 +1422,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/InformationView-DVntvsZ7.css"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/InformationView-DVntvsZ7.css",
-      "line": "--2024-12-01 00:23:15--  https://www.dossierfacile.logement.gouv.fr/assets/InformationView-DVntvsZ7.css",
+      "line": "--2024-12-08 00:21:36--  https://www.dossierfacile.logement.gouv.fr/assets/InformationView-DVntvsZ7.css",
       "broken": false
     },
     {
@@ -1379,12 +1436,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/BlogView-lmJ7Ax9P.js",
-        "path": "/assets/BlogView-lmJ7Ax9P.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/BlogView-lmJ7Ax9P.js"
+        "pathname": "/assets/BlogView-BqLu3rfp.js",
+        "path": "/assets/BlogView-BqLu3rfp.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/BlogView-BqLu3rfp.js"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/BlogView-lmJ7Ax9P.js",
-      "line": "--2024-12-01 00:23:15--  https://www.dossierfacile.logement.gouv.fr/assets/BlogView-lmJ7Ax9P.js",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/BlogView-BqLu3rfp.js",
+      "line": "--2024-12-08 00:21:36--  https://www.dossierfacile.logement.gouv.fr/assets/BlogView-BqLu3rfp.js",
       "broken": false
     },
     {
@@ -1403,7 +1460,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/BlogView-DOjllzeu.css"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/BlogView-DOjllzeu.css",
-      "line": "--2024-12-01 00:23:15--  https://www.dossierfacile.logement.gouv.fr/assets/BlogView-DOjllzeu.css",
+      "line": "--2024-12-08 00:21:36--  https://www.dossierfacile.logement.gouv.fr/assets/BlogView-DOjllzeu.css",
       "broken": false
     },
     {
@@ -1422,7 +1479,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/guide-etape-par-etape-pour-trouver-appartement-ideal"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/guide-etape-par-etape-pour-trouver-appartement-ideal",
-      "line": "--2024-12-01 00:23:16--  https://www.dossierfacile.logement.gouv.fr/blog/guide-etape-par-etape-pour-trouver-appartement-ideal",
+      "line": "--2024-12-08 00:21:36--  https://www.dossierfacile.logement.gouv.fr/blog/guide-etape-par-etape-pour-trouver-appartement-ideal",
       "broken": false
     },
     {
@@ -1441,7 +1498,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article24-Dyg-KPhs.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article24-Dyg-KPhs.webp",
-      "line": "--2024-12-01 00:23:16--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article24-Dyg-KPhs.webp",
+      "line": "--2024-12-08 00:21:36--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article24-Dyg-KPhs.webp",
       "broken": false
     },
     {
@@ -1460,7 +1517,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/proprietaire-comment-detecter-fausse-fiche-paie"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/proprietaire-comment-detecter-fausse-fiche-paie",
-      "line": "--2024-12-01 00:23:16--  https://www.dossierfacile.logement.gouv.fr/blog/proprietaire-comment-detecter-fausse-fiche-paie",
+      "line": "--2024-12-08 00:21:36--  https://www.dossierfacile.logement.gouv.fr/blog/proprietaire-comment-detecter-fausse-fiche-paie",
       "broken": false
     },
     {
@@ -1479,7 +1536,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article23-DSWk3Ua4.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article23-DSWk3Ua4.webp",
-      "line": "--2024-12-01 00:23:16--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article23-DSWk3Ua4.webp",
+      "line": "--2024-12-08 00:21:37--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article23-DSWk3Ua4.webp",
       "broken": false
     },
     {
@@ -1498,7 +1555,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-devient-dossierfacile-logement-gouv-fr"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-devient-dossierfacile-logement-gouv-fr",
-      "line": "--2024-12-01 00:23:16--  https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-devient-dossierfacile-logement-gouv-fr",
+      "line": "--2024-12-08 00:21:37--  https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-devient-dossierfacile-logement-gouv-fr",
       "broken": false
     },
     {
@@ -1517,7 +1574,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article22-Cw8j5YC6.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article22-Cw8j5YC6.webp",
-      "line": "--2024-12-01 00:23:17--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article22-Cw8j5YC6.webp",
+      "line": "--2024-12-08 00:21:37--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article22-Cw8j5YC6.webp",
       "broken": false
     },
     {
@@ -1536,7 +1593,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/guide-aide-etudiant-logement"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/guide-aide-etudiant-logement",
-      "line": "--2024-12-01 00:23:17--  https://www.dossierfacile.logement.gouv.fr/blog/guide-aide-etudiant-logement",
+      "line": "--2024-12-08 00:21:37--  https://www.dossierfacile.logement.gouv.fr/blog/guide-aide-etudiant-logement",
       "broken": false
     },
     {
@@ -1555,7 +1612,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article21-CbQ_h2hJ.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article21-CbQ_h2hJ.webp",
-      "line": "--2024-12-01 00:23:17--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article21-CbQ_h2hJ.webp",
+      "line": "--2024-12-08 00:21:38--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article21-CbQ_h2hJ.webp",
       "broken": false
     },
     {
@@ -1574,7 +1631,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile",
-      "line": "--2024-12-01 00:23:17--  https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile",
+      "line": "--2024-12-08 00:21:38--  https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-lance-filigrane-facile",
       "broken": false
     },
     {
@@ -1593,7 +1650,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article20-Dza-HFN1.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article20-Dza-HFN1.webp",
-      "line": "--2024-12-01 00:23:18--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article20-Dza-HFN1.webp",
+      "line": "--2024-12-08 00:21:38--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article20-Dza-HFN1.webp",
       "broken": false
     },
     {
@@ -1612,7 +1669,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/tout-ce-que-vous-devez-savoir-avant-de-quitter-votre-logement"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/tout-ce-que-vous-devez-savoir-avant-de-quitter-votre-logement",
-      "line": "--2024-12-01 00:23:18--  https://www.dossierfacile.logement.gouv.fr/blog/tout-ce-que-vous-devez-savoir-avant-de-quitter-votre-logement",
+      "line": "--2024-12-08 00:21:38--  https://www.dossierfacile.logement.gouv.fr/blog/tout-ce-que-vous-devez-savoir-avant-de-quitter-votre-logement",
       "broken": false
     },
     {
@@ -1631,7 +1688,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article19-Hc77OfWI.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article19-Hc77OfWI.webp",
-      "line": "--2024-12-01 00:23:18--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article19-Hc77OfWI.webp",
+      "line": "--2024-12-08 00:21:38--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article19-Hc77OfWI.webp",
       "broken": false
     },
     {
@@ -1650,7 +1707,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/un-garant-qui-comment-pourquoi"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/un-garant-qui-comment-pourquoi",
-      "line": "--2024-12-01 00:23:18--  https://www.dossierfacile.logement.gouv.fr/blog/un-garant-qui-comment-pourquoi",
+      "line": "--2024-12-08 00:21:38--  https://www.dossierfacile.logement.gouv.fr/blog/un-garant-qui-comment-pourquoi",
       "broken": false
     },
     {
@@ -1669,7 +1726,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article18-BlKPr60c.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article18-BlKPr60c.webp",
-      "line": "--2024-12-01 00:23:18--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article18-BlKPr60c.webp",
+      "line": "--2024-12-08 00:21:38--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article18-BlKPr60c.webp",
       "broken": false
     },
     {
@@ -1688,7 +1745,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/que-verifier-lors-de-la-visite-d-un-logement"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/que-verifier-lors-de-la-visite-d-un-logement",
-      "line": "--2024-12-01 00:23:18--  https://www.dossierfacile.logement.gouv.fr/blog/que-verifier-lors-de-la-visite-d-un-logement",
+      "line": "--2024-12-08 00:21:38--  https://www.dossierfacile.logement.gouv.fr/blog/que-verifier-lors-de-la-visite-d-un-logement",
       "broken": false
     },
     {
@@ -1707,7 +1764,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article17-Cchu3MUZ.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article17-Cchu3MUZ.webp",
-      "line": "--2024-12-01 00:23:19--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article17-Cchu3MUZ.webp",
+      "line": "--2024-12-08 00:21:39--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article17-Cchu3MUZ.webp",
       "broken": false
     },
     {
@@ -1726,7 +1783,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-un-service-numerique-de-letat-sans-gouv-fr"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-un-service-numerique-de-letat-sans-gouv-fr",
-      "line": "--2024-12-01 00:23:19--  https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-un-service-numerique-de-letat-sans-gouv-fr",
+      "line": "--2024-12-08 00:21:39--  https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-un-service-numerique-de-letat-sans-gouv-fr",
       "broken": false
     },
     {
@@ -1745,7 +1802,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article16-CF3w83eT.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article16-CF3w83eT.webp",
-      "line": "--2024-12-01 00:23:19--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article16-CF3w83eT.webp",
+      "line": "--2024-12-08 00:21:39--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article16-CF3w83eT.webp",
       "broken": false
     },
     {
@@ -1764,7 +1821,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/passoires-thermiques-top-depart-du-gel-des-loyers"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/passoires-thermiques-top-depart-du-gel-des-loyers",
-      "line": "--2024-12-01 00:23:19--  https://www.dossierfacile.logement.gouv.fr/blog/passoires-thermiques-top-depart-du-gel-des-loyers",
+      "line": "--2024-12-08 00:21:39--  https://www.dossierfacile.logement.gouv.fr/blog/passoires-thermiques-top-depart-du-gel-des-loyers",
       "broken": false
     },
     {
@@ -1783,7 +1840,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article15-CZ7FzFIm.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article15-CZ7FzFIm.webp",
-      "line": "--2024-12-01 00:23:19--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article15-CZ7FzFIm.webp",
+      "line": "--2024-12-08 00:21:39--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article15-CZ7FzFIm.webp",
       "broken": false
     },
     {
@@ -1802,7 +1859,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/engage-dans-la-protection-de-vos-donnees-personnelles"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/engage-dans-la-protection-de-vos-donnees-personnelles",
-      "line": "--2024-12-01 00:23:19--  https://www.dossierfacile.logement.gouv.fr/blog/engage-dans-la-protection-de-vos-donnees-personnelles",
+      "line": "--2024-12-08 00:21:39--  https://www.dossierfacile.logement.gouv.fr/blog/engage-dans-la-protection-de-vos-donnees-personnelles",
       "broken": false
     },
     {
@@ -1821,7 +1878,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article14-CIjSgFGM.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article14-CIjSgFGM.webp",
-      "line": "--2024-12-01 00:23:20--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article14-CIjSgFGM.webp",
+      "line": "--2024-12-08 00:21:39--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article14-CIjSgFGM.webp",
       "broken": false
     },
     {
@@ -1840,7 +1897,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/usurpation-d-identite-en-france-comment-prevenir-agir"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/usurpation-d-identite-en-france-comment-prevenir-agir",
-      "line": "--2024-12-01 00:23:20--  https://www.dossierfacile.logement.gouv.fr/blog/usurpation-d-identite-en-france-comment-prevenir-agir",
+      "line": "--2024-12-08 00:21:40--  https://www.dossierfacile.logement.gouv.fr/blog/usurpation-d-identite-en-france-comment-prevenir-agir",
       "broken": false
     },
     {
@@ -1859,7 +1916,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article13-DSA06gu9.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article13-DSA06gu9.webp",
-      "line": "--2024-12-01 00:23:20--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article13-DSA06gu9.webp",
+      "line": "--2024-12-08 00:21:40--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article13-DSA06gu9.webp",
       "broken": false
     },
     {
@@ -1878,7 +1935,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/au-secours-mon-ascenceur-est-en-panne"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/au-secours-mon-ascenceur-est-en-panne",
-      "line": "--2024-12-01 00:23:20--  https://www.dossierfacile.logement.gouv.fr/blog/au-secours-mon-ascenceur-est-en-panne",
+      "line": "--2024-12-08 00:21:40--  https://www.dossierfacile.logement.gouv.fr/blog/au-secours-mon-ascenceur-est-en-panne",
       "broken": false
     },
     {
@@ -1897,7 +1954,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article12-BdsezqLf.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article12-BdsezqLf.webp",
-      "line": "--2024-12-01 00:23:20--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article12-BdsezqLf.webp",
+      "line": "--2024-12-08 00:21:40--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article12-BdsezqLf.webp",
       "broken": false
     },
     {
@@ -1916,7 +1973,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/la-caution-locative-changement-en-vue-pour-2022"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/la-caution-locative-changement-en-vue-pour-2022",
-      "line": "--2024-12-01 00:23:20--  https://www.dossierfacile.logement.gouv.fr/blog/la-caution-locative-changement-en-vue-pour-2022",
+      "line": "--2024-12-08 00:21:40--  https://www.dossierfacile.logement.gouv.fr/blog/la-caution-locative-changement-en-vue-pour-2022",
       "broken": false
     },
     {
@@ -1935,7 +1992,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article11-A1vGc7VM.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article11-A1vGc7VM.webp",
-      "line": "--2024-12-01 00:23:21--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article11-A1vGc7VM.webp",
+      "line": "--2024-12-08 00:21:40--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article11-A1vGc7VM.webp",
       "broken": false
     },
     {
@@ -1954,7 +2011,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/quand-les-journalistes-parlent-de-dossierfacile"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/quand-les-journalistes-parlent-de-dossierfacile",
-      "line": "--2024-12-01 00:23:21--  https://www.dossierfacile.logement.gouv.fr/blog/quand-les-journalistes-parlent-de-dossierfacile",
+      "line": "--2024-12-08 00:21:40--  https://www.dossierfacile.logement.gouv.fr/blog/quand-les-journalistes-parlent-de-dossierfacile",
       "broken": false
     },
     {
@@ -1973,7 +2030,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article10-DvHYZWM0.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article10-DvHYZWM0.webp",
-      "line": "--2024-12-01 00:23:21--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article10-DvHYZWM0.webp",
+      "line": "--2024-12-08 00:21:41--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article10-DvHYZWM0.webp",
       "broken": false
     },
     {
@@ -1992,7 +2049,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/loyer-locataire-ou-bailleur"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/loyer-locataire-ou-bailleur",
-      "line": "--2024-12-01 00:23:21--  https://www.dossierfacile.logement.gouv.fr/blog/loyer-locataire-ou-bailleur",
+      "line": "--2024-12-08 00:21:41--  https://www.dossierfacile.logement.gouv.fr/blog/loyer-locataire-ou-bailleur",
       "broken": false
     },
     {
@@ -2011,7 +2068,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article9-qO7bRTtt.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article9-qO7bRTtt.webp",
-      "line": "--2024-12-01 00:23:21--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article9-qO7bRTtt.webp",
+      "line": "--2024-12-08 00:21:41--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article9-qO7bRTtt.webp",
       "broken": false
     },
     {
@@ -2030,7 +2087,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/comment-justifier-son-domicile"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/comment-justifier-son-domicile",
-      "line": "--2024-12-01 00:23:21--  https://www.dossierfacile.logement.gouv.fr/blog/comment-justifier-son-domicile",
+      "line": "--2024-12-08 00:21:41--  https://www.dossierfacile.logement.gouv.fr/blog/comment-justifier-son-domicile",
       "broken": false
     },
     {
@@ -2049,7 +2106,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article8-BYNX8uNS.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article8-BYNX8uNS.webp",
-      "line": "--2024-12-01 00:23:22--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article8-BYNX8uNS.webp",
+      "line": "--2024-12-08 00:21:41--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article8-BYNX8uNS.webp",
       "broken": false
     },
     {
@@ -2068,7 +2125,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/tout-comprendre-a-la-vie-en-colocation"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/tout-comprendre-a-la-vie-en-colocation",
-      "line": "--2024-12-01 00:23:22--  https://www.dossierfacile.logement.gouv.fr/blog/tout-comprendre-a-la-vie-en-colocation",
+      "line": "--2024-12-08 00:21:41--  https://www.dossierfacile.logement.gouv.fr/blog/tout-comprendre-a-la-vie-en-colocation",
       "broken": false
     },
     {
@@ -2087,7 +2144,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article7-B_aZDZPe.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article7-B_aZDZPe.webp",
-      "line": "--2024-12-01 00:23:22--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article7-B_aZDZPe.webp",
+      "line": "--2024-12-08 00:21:41--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article7-B_aZDZPe.webp",
       "broken": false
     },
     {
@@ -2106,7 +2163,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-fait-peau-neuve"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-fait-peau-neuve",
-      "line": "--2024-12-01 00:23:22--  https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-fait-peau-neuve",
+      "line": "--2024-12-08 00:21:41--  https://www.dossierfacile.logement.gouv.fr/blog/dossierfacile-fait-peau-neuve",
       "broken": false
     },
     {
@@ -2125,7 +2182,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article6-p28qtbjF.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article6-p28qtbjF.webp",
-      "line": "--2024-12-01 00:23:22--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article6-p28qtbjF.webp",
+      "line": "--2024-12-08 00:21:42--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article6-p28qtbjF.webp",
       "broken": false
     },
     {
@@ -2144,7 +2201,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne",
-      "line": "--2024-12-01 00:23:22--  https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne",
+      "line": "--2024-12-08 00:21:42--  https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne",
       "broken": false
     },
     {
@@ -2163,7 +2220,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article5-CLuzJie0.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article5-CLuzJie0.webp",
-      "line": "--2024-12-01 00:23:23--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article5-CLuzJie0.webp",
+      "line": "--2024-12-08 00:21:42--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article5-CLuzJie0.webp",
       "broken": false
     },
     {
@@ -2182,7 +2239,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/5-astuces-pour-booster-votre-dossier-de-location"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/5-astuces-pour-booster-votre-dossier-de-location",
-      "line": "--2024-12-01 00:23:23--  https://www.dossierfacile.logement.gouv.fr/blog/5-astuces-pour-booster-votre-dossier-de-location",
+      "line": "--2024-12-08 00:21:42--  https://www.dossierfacile.logement.gouv.fr/blog/5-astuces-pour-booster-votre-dossier-de-location",
       "broken": false
     },
     {
@@ -2201,7 +2258,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article4-BtSQmevQ.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article4-BtSQmevQ.webp",
-      "line": "--2024-12-01 00:23:23--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article4-BtSQmevQ.webp",
+      "line": "--2024-12-08 00:21:42--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article4-BtSQmevQ.webp",
       "broken": false
     },
     {
@@ -2220,7 +2277,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/pourquoi-dossierfacile-est-il-gratuit"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/pourquoi-dossierfacile-est-il-gratuit",
-      "line": "--2024-12-01 00:23:23--  https://www.dossierfacile.logement.gouv.fr/blog/pourquoi-dossierfacile-est-il-gratuit",
+      "line": "--2024-12-08 00:21:42--  https://www.dossierfacile.logement.gouv.fr/blog/pourquoi-dossierfacile-est-il-gratuit",
       "broken": false
     },
     {
@@ -2239,7 +2296,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article3-BsyRXBX0.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article3-BsyRXBX0.webp",
-      "line": "--2024-12-01 00:23:23--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article3-BsyRXBX0.webp",
+      "line": "--2024-12-08 00:21:42--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article3-BsyRXBX0.webp",
       "broken": false
     },
     {
@@ -2258,7 +2315,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/constituer-votre-dossierFacile"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/constituer-votre-dossierFacile",
-      "line": "--2024-12-01 00:23:23--  https://www.dossierfacile.logement.gouv.fr/blog/constituer-votre-dossierFacile",
+      "line": "--2024-12-08 00:21:43--  https://www.dossierfacile.logement.gouv.fr/blog/constituer-votre-dossierFacile",
       "broken": false
     },
     {
@@ -2277,7 +2334,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article2-B1MsCCvP.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article2-B1MsCCvP.webp",
-      "line": "--2024-12-01 00:23:24--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article2-B1MsCCvP.webp",
+      "line": "--2024-12-08 00:21:43--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article2-B1MsCCvP.webp",
       "broken": false
     },
     {
@@ -2296,7 +2353,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/quelles-pieces-justificatives-fournir-pour-mon-dossier-de-location"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/quelles-pieces-justificatives-fournir-pour-mon-dossier-de-location",
-      "line": "--2024-12-01 00:23:24--  https://www.dossierfacile.logement.gouv.fr/blog/quelles-pieces-justificatives-fournir-pour-mon-dossier-de-location",
+      "line": "--2024-12-08 00:21:43--  https://www.dossierfacile.logement.gouv.fr/blog/quelles-pieces-justificatives-fournir-pour-mon-dossier-de-location",
       "broken": false
     },
     {
@@ -2315,7 +2372,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article-B6SbUBge.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/blog-article-B6SbUBge.webp",
-      "line": "--2024-12-01 00:23:24--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article-B6SbUBge.webp",
+      "line": "--2024-12-08 00:21:43--  https://www.dossierfacile.logement.gouv.fr/assets/blog-article-B6SbUBge.webp",
       "broken": false
     },
     {
@@ -2334,7 +2391,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/blog/locatio-devient-dossier-facile"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/blog/locatio-devient-dossier-facile",
-      "line": "--2024-12-01 00:23:24--  https://www.dossierfacile.logement.gouv.fr/blog/locatio-devient-dossier-facile",
+      "line": "--2024-12-08 00:21:43--  https://www.dossierfacile.logement.gouv.fr/blog/locatio-devient-dossier-facile",
       "broken": false
     },
     {
@@ -2353,7 +2410,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/cover-features-B6X26Zrk.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/cover-features-B6X26Zrk.webp",
-      "line": "--2024-12-01 00:23:24--  https://www.dossierfacile.logement.gouv.fr/assets/cover-features-B6X26Zrk.webp",
+      "line": "--2024-12-08 00:21:43--  https://www.dossierfacile.logement.gouv.fr/assets/cover-features-B6X26Zrk.webp",
       "broken": false
     },
     {
@@ -2367,12 +2424,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/PartnersView-CF01bKxo.js",
-        "path": "/assets/PartnersView-CF01bKxo.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/PartnersView-CF01bKxo.js"
+        "pathname": "/assets/PartnersView-BS5GAMt7.js",
+        "path": "/assets/PartnersView-BS5GAMt7.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/PartnersView-BS5GAMt7.js"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/PartnersView-CF01bKxo.js",
-      "line": "--2024-12-01 00:23:24--  https://www.dossierfacile.logement.gouv.fr/assets/PartnersView-CF01bKxo.js",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/PartnersView-BS5GAMt7.js",
+      "line": "--2024-12-08 00:21:43--  https://www.dossierfacile.logement.gouv.fr/assets/PartnersView-BS5GAMt7.js",
       "broken": false
     },
     {
@@ -2391,7 +2448,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/PartnersView-DgaVWEww.css"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/PartnersView-DgaVWEww.css",
-      "line": "--2024-12-01 00:23:24--  https://www.dossierfacile.logement.gouv.fr/assets/PartnersView-DgaVWEww.css",
+      "line": "--2024-12-08 00:21:43--  https://www.dossierfacile.logement.gouv.fr/assets/PartnersView-DgaVWEww.css",
       "broken": false
     },
     {
@@ -2410,7 +2467,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/immopad-Bgt-Cu3m.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/immopad-Bgt-Cu3m.webp",
-      "line": "--2024-12-01 00:23:25--  https://www.dossierfacile.logement.gouv.fr/assets/immopad-Bgt-Cu3m.webp",
+      "line": "--2024-12-08 00:21:44--  https://www.dossierfacile.logement.gouv.fr/assets/immopad-Bgt-Cu3m.webp",
       "broken": false
     },
     {
@@ -2429,7 +2486,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/omnirea-CWjb1XC5.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/omnirea-CWjb1XC5.webp",
-      "line": "--2024-12-01 00:23:25--  https://www.dossierfacile.logement.gouv.fr/assets/omnirea-CWjb1XC5.webp",
+      "line": "--2024-12-08 00:21:44--  https://www.dossierfacile.logement.gouv.fr/assets/omnirea-CWjb1XC5.webp",
       "broken": false
     },
     {
@@ -2448,7 +2505,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/emjysoft_gestion_locative-CDkqNNHY.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/emjysoft_gestion_locative-CDkqNNHY.webp",
-      "line": "--2024-12-01 00:23:25--  https://www.dossierfacile.logement.gouv.fr/assets/emjysoft_gestion_locative-CDkqNNHY.webp",
+      "line": "--2024-12-08 00:21:44--  https://www.dossierfacile.logement.gouv.fr/assets/emjysoft_gestion_locative-CDkqNNHY.webp",
       "broken": false
     },
     {
@@ -2467,7 +2524,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/timci-DHGGmoY9.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/timci-DHGGmoY9.webp",
-      "line": "--2024-12-01 00:23:25--  https://www.dossierfacile.logement.gouv.fr/assets/timci-DHGGmoY9.webp",
+      "line": "--2024-12-08 00:21:44--  https://www.dossierfacile.logement.gouv.fr/assets/timci-DHGGmoY9.webp",
       "broken": false
     },
     {
@@ -2486,7 +2543,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/isp_group-PFc-LCsK.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/isp_group-PFc-LCsK.webp",
-      "line": "--2024-12-01 00:23:25--  https://www.dossierfacile.logement.gouv.fr/assets/isp_group-PFc-LCsK.webp",
+      "line": "--2024-12-08 00:21:44--  https://www.dossierfacile.logement.gouv.fr/assets/isp_group-PFc-LCsK.webp",
       "broken": false
     },
     {
@@ -2505,7 +2562,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/jsoft-CBq-zIVI.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/jsoft-CBq-zIVI.webp",
-      "line": "--2024-12-01 00:23:25--  https://www.dossierfacile.logement.gouv.fr/assets/jsoft-CBq-zIVI.webp",
+      "line": "--2024-12-08 00:21:44--  https://www.dossierfacile.logement.gouv.fr/assets/jsoft-CBq-zIVI.webp",
       "broken": false
     },
     {
@@ -2519,12 +2576,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/ContactView-BzoGS4VQ.js",
-        "path": "/assets/ContactView-BzoGS4VQ.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ContactView-BzoGS4VQ.js"
+        "pathname": "/assets/ContactView-CIZXqLBX.js",
+        "path": "/assets/ContactView-CIZXqLBX.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ContactView-CIZXqLBX.js"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ContactView-BzoGS4VQ.js",
-      "line": "--2024-12-01 00:23:25--  https://www.dossierfacile.logement.gouv.fr/assets/ContactView-BzoGS4VQ.js",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ContactView-CIZXqLBX.js",
+      "line": "--2024-12-08 00:21:44--  https://www.dossierfacile.logement.gouv.fr/assets/ContactView-CIZXqLBX.js",
       "broken": false
     },
     {
@@ -2538,12 +2595,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/ContactView-DHXAkWio.css",
-        "path": "/assets/ContactView-DHXAkWio.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ContactView-DHXAkWio.css"
+        "pathname": "/assets/ContactView-CUxomcRc.css",
+        "path": "/assets/ContactView-CUxomcRc.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ContactView-CUxomcRc.css"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ContactView-DHXAkWio.css",
-      "line": "--2024-12-01 00:23:25--  https://www.dossierfacile.logement.gouv.fr/assets/ContactView-DHXAkWio.css",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ContactView-CUxomcRc.css",
+      "line": "--2024-12-08 00:21:44--  https://www.dossierfacile.logement.gouv.fr/assets/ContactView-CUxomcRc.css",
       "broken": false
     },
     {
@@ -2557,12 +2614,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/MainStatistics-Bwbo7v49.js",
-        "path": "/assets/MainStatistics-Bwbo7v49.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-Bwbo7v49.js"
+        "pathname": "/assets/MainStatistics-BswAlkLk.js",
+        "path": "/assets/MainStatistics-BswAlkLk.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-BswAlkLk.js"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-Bwbo7v49.js",
-      "line": "--2024-12-01 00:23:26--  https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-Bwbo7v49.js",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-BswAlkLk.js",
+      "line": "--2024-12-08 00:21:44--  https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-BswAlkLk.js",
       "broken": false
     },
     {
@@ -2581,7 +2638,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-D9xJ99aY.css"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-D9xJ99aY.css",
-      "line": "--2024-12-01 00:23:26--  https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-D9xJ99aY.css",
+      "line": "--2024-12-08 00:21:45--  https://www.dossierfacile.logement.gouv.fr/assets/MainStatistics-D9xJ99aY.css",
       "broken": false
     },
     {
@@ -2595,12 +2652,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/SitemapView-Bk7hU4gl.js",
-        "path": "/assets/SitemapView-Bk7hU4gl.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-Bk7hU4gl.js"
+        "pathname": "/assets/SitemapView-D2t7zJL6.js",
+        "path": "/assets/SitemapView-D2t7zJL6.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-D2t7zJL6.js"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-Bk7hU4gl.js",
-      "line": "--2024-12-01 00:23:26--  https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-Bk7hU4gl.js",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-D2t7zJL6.js",
+      "line": "--2024-12-08 00:21:45--  https://www.dossierfacile.logement.gouv.fr/assets/SitemapView-D2t7zJL6.js",
       "broken": false
     },
     {
@@ -2614,12 +2671,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/AccessibilityView-D7XcBjwu.js",
-        "path": "/assets/AccessibilityView-D7XcBjwu.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-D7XcBjwu.js"
+        "pathname": "/assets/AccessibilityView-CBRP_oSI.js",
+        "path": "/assets/AccessibilityView-CBRP_oSI.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-CBRP_oSI.js"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-D7XcBjwu.js",
-      "line": "--2024-12-01 00:23:26--  https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-D7XcBjwu.js",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-CBRP_oSI.js",
+      "line": "--2024-12-08 00:21:45--  https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-CBRP_oSI.js",
       "broken": false
     },
     {
@@ -2638,7 +2695,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-Cm-epNto.css"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-Cm-epNto.css",
-      "line": "--2024-12-01 00:23:26--  https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-Cm-epNto.css",
+      "line": "--2024-12-08 00:21:45--  https://www.dossierfacile.logement.gouv.fr/assets/AccessibilityView-Cm-epNto.css",
       "broken": false
     },
     {
@@ -2657,7 +2714,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/information/"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/information/",
-      "line": "--2024-12-01 00:23:26--  https://www.dossierfacile.logement.gouv.fr/information/",
+      "line": "--2024-12-08 00:21:45--  https://www.dossierfacile.logement.gouv.fr/information/",
       "broken": false
     },
     {
@@ -2676,7 +2733,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/mentions-legales/"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/mentions-legales/",
-      "line": "--2024-12-01 00:23:27--  https://www.dossierfacile.logement.gouv.fr/mentions-legales/",
+      "line": "--2024-12-08 00:21:45--  https://www.dossierfacile.logement.gouv.fr/mentions-legales/",
       "broken": false
     },
     {
@@ -2695,7 +2752,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/stats/"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/stats/",
-      "line": "--2024-12-01 00:23:27--  https://www.dossierfacile.logement.gouv.fr/stats/",
+      "line": "--2024-12-08 00:21:45--  https://www.dossierfacile.logement.gouv.fr/stats/",
       "broken": false
     },
     {
@@ -2709,12 +2766,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/MentionsLegales-Cy3mJixe.js",
-        "path": "/assets/MentionsLegales-Cy3mJixe.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-Cy3mJixe.js"
+        "pathname": "/assets/MentionsLegales-CzbkhZ9n.js",
+        "path": "/assets/MentionsLegales-CzbkhZ9n.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-CzbkhZ9n.js"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-Cy3mJixe.js",
-      "line": "--2024-12-01 00:23:27--  https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-Cy3mJixe.js",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-CzbkhZ9n.js",
+      "line": "--2024-12-08 00:21:46--  https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-CzbkhZ9n.js",
       "broken": false
     },
     {
@@ -2728,12 +2785,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/MentionsLegales-NkC565tU.css",
-        "path": "/assets/MentionsLegales-NkC565tU.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-NkC565tU.css"
+        "pathname": "/assets/MentionsLegales-CQqWCjJg.css",
+        "path": "/assets/MentionsLegales-CQqWCjJg.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-CQqWCjJg.css"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-NkC565tU.css",
-      "line": "--2024-12-01 00:23:27--  https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-NkC565tU.css",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-CQqWCjJg.css",
+      "line": "--2024-12-08 00:21:46--  https://www.dossierfacile.logement.gouv.fr/assets/MentionsLegales-CQqWCjJg.css",
       "broken": false
     },
     {
@@ -2747,50 +2804,12 @@
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/assets/PolitiqueDeConfidentialite-CCFPicWV.js",
-        "path": "/assets/PolitiqueDeConfidentialite-CCFPicWV.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-CCFPicWV.js"
+        "pathname": "/assets/CGU-CM7ZEsYD.js",
+        "path": "/assets/CGU-CM7ZEsYD.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/CGU-CM7ZEsYD.js"
       },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-CCFPicWV.js",
-      "line": "--2024-12-01 00:23:27--  https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-CCFPicWV.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/PolitiqueDeConfidentialite-B7re6CLi.css",
-        "path": "/assets/PolitiqueDeConfidentialite-B7re6CLi.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-B7re6CLi.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-B7re6CLi.css",
-      "line": "--2024-12-01 00:23:27--  https://www.dossierfacile.logement.gouv.fr/assets/PolitiqueDeConfidentialite-B7re6CLi.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/CGU-tRg3asSe.js",
-        "path": "/assets/CGU-tRg3asSe.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/CGU-tRg3asSe.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/CGU-tRg3asSe.js",
-      "line": "--2024-12-01 00:23:28--  https://www.dossierfacile.logement.gouv.fr/assets/CGU-tRg3asSe.js",
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/CGU-CM7ZEsYD.js",
+      "line": "--2024-12-08 00:21:46--  https://www.dossierfacile.logement.gouv.fr/assets/CGU-CM7ZEsYD.js",
       "broken": false
     },
     {
@@ -2809,995 +2828,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/CGU-BrAWYPoC.css"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/CGU-BrAWYPoC.css",
-      "line": "--2024-12-01 00:23:28--  https://www.dossierfacile.logement.gouv.fr/assets/CGU-BrAWYPoC.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage24-DmEDb557.js",
-        "path": "/assets/ArticlePage24-DmEDb557.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-DmEDb557.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-DmEDb557.js",
-      "line": "--2024-12-01 00:23:28--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-DmEDb557.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage24-Duvf-qBM.css",
-        "path": "/assets/ArticlePage24-Duvf-qBM.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-Duvf-qBM.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-Duvf-qBM.css",
-      "line": "--2024-12-01 00:23:28--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-Duvf-qBM.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/BlogArticle-DlcG3qoQ.js",
-        "path": "/assets/BlogArticle-DlcG3qoQ.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-DlcG3qoQ.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-DlcG3qoQ.js",
-      "line": "--2024-12-01 00:23:28--  https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-DlcG3qoQ.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/BlogArticle-BQ_4rHw_.css",
-        "path": "/assets/BlogArticle-BQ_4rHw_.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-BQ_4rHw_.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-BQ_4rHw_.css",
-      "line": "--2024-12-01 00:23:29--  https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-BQ_4rHw_.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage23-B-ACHnv6.js",
-        "path": "/assets/ArticlePage23-B-ACHnv6.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-B-ACHnv6.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-B-ACHnv6.js",
-      "line": "--2024-12-01 00:23:29--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-B-ACHnv6.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage23-BFSJs2h2.css",
-        "path": "/assets/ArticlePage23-BFSJs2h2.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-BFSJs2h2.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-BFSJs2h2.css",
-      "line": "--2024-12-01 00:23:29--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-BFSJs2h2.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage22-Cz6JimWm.js",
-        "path": "/assets/ArticlePage22-Cz6JimWm.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-Cz6JimWm.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-Cz6JimWm.js",
-      "line": "--2024-12-01 00:23:29--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-Cz6JimWm.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage22-D1SQ4xGj.css",
-        "path": "/assets/ArticlePage22-D1SQ4xGj.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-D1SQ4xGj.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-D1SQ4xGj.css",
-      "line": "--2024-12-01 00:23:29--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-D1SQ4xGj.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage21-aXmo0oB4.js",
-        "path": "/assets/ArticlePage21-aXmo0oB4.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-aXmo0oB4.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-aXmo0oB4.js",
-      "line": "--2024-12-01 00:23:30--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-aXmo0oB4.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage21-7nNJfMXd.css",
-        "path": "/assets/ArticlePage21-7nNJfMXd.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-7nNJfMXd.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-7nNJfMXd.css",
-      "line": "--2024-12-01 00:23:30--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-7nNJfMXd.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage20-CacbWiYL.js",
-        "path": "/assets/ArticlePage20-CacbWiYL.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage20-CacbWiYL.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage20-CacbWiYL.js",
-      "line": "--2024-12-01 00:23:30--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage20-CacbWiYL.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage19-BMyeduMD.js",
-        "path": "/assets/ArticlePage19-BMyeduMD.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-BMyeduMD.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-BMyeduMD.js",
-      "line": "--2024-12-01 00:23:30--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-BMyeduMD.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage19-BQQg12vp.css",
-        "path": "/assets/ArticlePage19-BQQg12vp.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-BQQg12vp.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-BQQg12vp.css",
-      "line": "--2024-12-01 00:23:30--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-BQQg12vp.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/",
-        "path": "/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/",
-        "href": "https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/",
-      "line": "--2024-12-01 00:23:30--  https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage18-D_CUTK7Q.js",
-        "path": "/assets/ArticlePage18-D_CUTK7Q.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-D_CUTK7Q.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-D_CUTK7Q.js",
-      "line": "--2024-12-01 00:23:31--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-D_CUTK7Q.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage18-CVd9xGF1.css",
-        "path": "/assets/ArticlePage18-CVd9xGF1.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-CVd9xGF1.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-CVd9xGF1.css",
-      "line": "--2024-12-01 00:23:31--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-CVd9xGF1.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage17-DsYtFfBx.js",
-        "path": "/assets/ArticlePage17-DsYtFfBx.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-DsYtFfBx.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-DsYtFfBx.js",
-      "line": "--2024-12-01 00:23:31--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-DsYtFfBx.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage17-Bymb5jeR.css",
-        "path": "/assets/ArticlePage17-Bymb5jeR.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-Bymb5jeR.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-Bymb5jeR.css",
-      "line": "--2024-12-01 00:23:31--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-Bymb5jeR.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage16-BSCnGO5b.js",
-        "path": "/assets/ArticlePage16-BSCnGO5b.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-BSCnGO5b.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-BSCnGO5b.js",
-      "line": "--2024-12-01 00:23:31--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-BSCnGO5b.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage16-gGCQUbgz.css",
-        "path": "/assets/ArticlePage16-gGCQUbgz.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-gGCQUbgz.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-gGCQUbgz.css",
-      "line": "--2024-12-01 00:23:32--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-gGCQUbgz.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage15-NbugXPLl.js",
-        "path": "/assets/ArticlePage15-NbugXPLl.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-NbugXPLl.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-NbugXPLl.js",
-      "line": "--2024-12-01 00:23:32--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-NbugXPLl.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage15-qzSYFGl8.css",
-        "path": "/assets/ArticlePage15-qzSYFGl8.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-qzSYFGl8.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-qzSYFGl8.css",
-      "line": "--2024-12-01 00:23:32--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-qzSYFGl8.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage14-Bc0EcewI.js",
-        "path": "/assets/ArticlePage14-Bc0EcewI.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-Bc0EcewI.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-Bc0EcewI.js",
-      "line": "--2024-12-01 00:23:32--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-Bc0EcewI.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage14-DOKJqSO8.css",
-        "path": "/assets/ArticlePage14-DOKJqSO8.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-DOKJqSO8.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-DOKJqSO8.css",
-      "line": "--2024-12-01 00:23:32--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-DOKJqSO8.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage13-BCcGlIWy.js",
-        "path": "/assets/ArticlePage13-BCcGlIWy.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-BCcGlIWy.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-BCcGlIWy.js",
-      "line": "--2024-12-01 00:23:32--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-BCcGlIWy.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage13-BZFH1WOq.css",
-        "path": "/assets/ArticlePage13-BZFH1WOq.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-BZFH1WOq.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-BZFH1WOq.css",
-      "line": "--2024-12-01 00:23:33--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-BZFH1WOq.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage12-CppzkNfy.js",
-        "path": "/assets/ArticlePage12-CppzkNfy.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-CppzkNfy.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-CppzkNfy.js",
-      "line": "--2024-12-01 00:23:33--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-CppzkNfy.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage12-DlFX6P6e.css",
-        "path": "/assets/ArticlePage12-DlFX6P6e.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-DlFX6P6e.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-DlFX6P6e.css",
-      "line": "--2024-12-01 00:23:33--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-DlFX6P6e.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage11-Wfm2sVpj.js",
-        "path": "/assets/ArticlePage11-Wfm2sVpj.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-Wfm2sVpj.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-Wfm2sVpj.js",
-      "line": "--2024-12-01 00:23:33--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-Wfm2sVpj.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage11-CzHO2ocm.css",
-        "path": "/assets/ArticlePage11-CzHO2ocm.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-CzHO2ocm.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-CzHO2ocm.css",
-      "line": "--2024-12-01 00:23:33--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-CzHO2ocm.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage10-B1IK74Cg.js",
-        "path": "/assets/ArticlePage10-B1IK74Cg.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-B1IK74Cg.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-B1IK74Cg.js",
-      "line": "--2024-12-01 00:23:33--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-B1IK74Cg.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage10-D63k-2uO.css",
-        "path": "/assets/ArticlePage10-D63k-2uO.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-D63k-2uO.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-D63k-2uO.css",
-      "line": "--2024-12-01 00:23:33--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-D63k-2uO.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage9-B4jGOm_v.js",
-        "path": "/assets/ArticlePage9-B4jGOm_v.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-B4jGOm_v.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-B4jGOm_v.js",
-      "line": "--2024-12-01 00:23:34--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-B4jGOm_v.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage9-Cs7_otOI.css",
-        "path": "/assets/ArticlePage9-Cs7_otOI.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-Cs7_otOI.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-Cs7_otOI.css",
-      "line": "--2024-12-01 00:23:34--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-Cs7_otOI.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage8-DLHtX-6g.js",
-        "path": "/assets/ArticlePage8-DLHtX-6g.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-DLHtX-6g.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-DLHtX-6g.js",
-      "line": "--2024-12-01 00:23:34--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-DLHtX-6g.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage8-c_CZouAT.css",
-        "path": "/assets/ArticlePage8-c_CZouAT.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-c_CZouAT.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-c_CZouAT.css",
-      "line": "--2024-12-01 00:23:34--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-c_CZouAT.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage7-BlDHjOfa.js",
-        "path": "/assets/ArticlePage7-BlDHjOfa.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-BlDHjOfa.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-BlDHjOfa.js",
-      "line": "--2024-12-01 00:23:34--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-BlDHjOfa.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage7-BanEzoCj.css",
-        "path": "/assets/ArticlePage7-BanEzoCj.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-BanEzoCj.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-BanEzoCj.css",
-      "line": "--2024-12-01 00:23:34--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-BanEzoCj.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage6-BQdy0Qmy.js",
-        "path": "/assets/ArticlePage6-BQdy0Qmy.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6-BQdy0Qmy.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6-BQdy0Qmy.js",
-      "line": "--2024-12-01 00:23:35--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6-BQdy0Qmy.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage6-tltIryuP.css",
-        "path": "/assets/ArticlePage6-tltIryuP.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6-tltIryuP.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6-tltIryuP.css",
-      "line": "--2024-12-01 00:23:35--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6-tltIryuP.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage5-BguDoKQn.js",
-        "path": "/assets/ArticlePage5-BguDoKQn.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-BguDoKQn.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-BguDoKQn.js",
-      "line": "--2024-12-01 00:23:35--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-BguDoKQn.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage5-CDDnpDTi.css",
-        "path": "/assets/ArticlePage5-CDDnpDTi.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-CDDnpDTi.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-CDDnpDTi.css",
-      "line": "--2024-12-01 00:23:35--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-CDDnpDTi.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage4-XKZ4k0pe.js",
-        "path": "/assets/ArticlePage4-XKZ4k0pe.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-XKZ4k0pe.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-XKZ4k0pe.js",
-      "line": "--2024-12-01 00:23:35--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-XKZ4k0pe.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage4-FXT8yJK_.css",
-        "path": "/assets/ArticlePage4-FXT8yJK_.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-FXT8yJK_.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-FXT8yJK_.css",
-      "line": "--2024-12-01 00:23:35--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-FXT8yJK_.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage3-D6bb0tLr.js",
-        "path": "/assets/ArticlePage3-D6bb0tLr.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-D6bb0tLr.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-D6bb0tLr.js",
-      "line": "--2024-12-01 00:23:36--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-D6bb0tLr.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage3-bqSS-yv9.css",
-        "path": "/assets/ArticlePage3-bqSS-yv9.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-bqSS-yv9.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-bqSS-yv9.css",
-      "line": "--2024-12-01 00:23:36--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-bqSS-yv9.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage2-1H20o7FR.js",
-        "path": "/assets/ArticlePage2-1H20o7FR.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-1H20o7FR.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-1H20o7FR.js",
-      "line": "--2024-12-01 00:23:36--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-1H20o7FR.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage2-BiqbZ3j9.css",
-        "path": "/assets/ArticlePage2-BiqbZ3j9.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-BiqbZ3j9.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-BiqbZ3j9.css",
-      "line": "--2024-12-01 00:23:36--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-BiqbZ3j9.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage1-fAC6h4FA.js",
-        "path": "/assets/ArticlePage1-fAC6h4FA.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-fAC6h4FA.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-fAC6h4FA.js",
-      "line": "--2024-12-01 00:23:36--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-fAC6h4FA.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage1-DpXt5r_V.css",
-        "path": "/assets/ArticlePage1-DpXt5r_V.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-DpXt5r_V.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-DpXt5r_V.css",
-      "line": "--2024-12-01 00:23:36--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-DpXt5r_V.css",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage0-C44rYYkG.js",
-        "path": "/assets/ArticlePage0-C44rYYkG.js",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-C44rYYkG.js"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-C44rYYkG.js",
-      "line": "--2024-12-01 00:23:37--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-C44rYYkG.js",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.dossierfacile.logement.gouv.fr",
-        "port": null,
-        "hostname": "www.dossierfacile.logement.gouv.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/assets/ArticlePage0-BMvwYvzI.css",
-        "path": "/assets/ArticlePage0-BMvwYvzI.css",
-        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-BMvwYvzI.css"
-      },
-      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-BMvwYvzI.css",
-      "line": "--2024-12-01 00:23:37--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-BMvwYvzI.css",
+      "line": "--2024-12-08 00:21:46--  https://www.dossierfacile.logement.gouv.fr/assets/CGU-BrAWYPoC.css",
       "broken": false
     },
     {
@@ -3816,7 +2847,995 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/en-savoir-plus-image2-C17UnMXT.jpg"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/en-savoir-plus-image2-C17UnMXT.jpg",
-      "line": "--2024-12-01 00:23:37--  https://www.dossierfacile.logement.gouv.fr/assets/en-savoir-plus-image2-C17UnMXT.jpg",
+      "line": "--2024-12-08 00:21:46--  https://www.dossierfacile.logement.gouv.fr/assets/en-savoir-plus-image2-C17UnMXT.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage24-CXXI1w20.js",
+        "path": "/assets/ArticlePage24-CXXI1w20.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-CXXI1w20.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-CXXI1w20.js",
+      "line": "--2024-12-08 00:21:46--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-CXXI1w20.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage24-Duvf-qBM.css",
+        "path": "/assets/ArticlePage24-Duvf-qBM.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-Duvf-qBM.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-Duvf-qBM.css",
+      "line": "--2024-12-08 00:21:46--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage24-Duvf-qBM.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/BlogArticle-CeT6oq0z.js",
+        "path": "/assets/BlogArticle-CeT6oq0z.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-CeT6oq0z.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-CeT6oq0z.js",
+      "line": "--2024-12-08 00:21:47--  https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-CeT6oq0z.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/BlogArticle-BQ_4rHw_.css",
+        "path": "/assets/BlogArticle-BQ_4rHw_.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-BQ_4rHw_.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-BQ_4rHw_.css",
+      "line": "--2024-12-08 00:21:47--  https://www.dossierfacile.logement.gouv.fr/assets/BlogArticle-BQ_4rHw_.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage23-kH64Qv8n.js",
+        "path": "/assets/ArticlePage23-kH64Qv8n.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-kH64Qv8n.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-kH64Qv8n.js",
+      "line": "--2024-12-08 00:21:47--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-kH64Qv8n.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage23-BFSJs2h2.css",
+        "path": "/assets/ArticlePage23-BFSJs2h2.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-BFSJs2h2.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-BFSJs2h2.css",
+      "line": "--2024-12-08 00:21:47--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage23-BFSJs2h2.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage22-CQr9mXNR.js",
+        "path": "/assets/ArticlePage22-CQr9mXNR.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-CQr9mXNR.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-CQr9mXNR.js",
+      "line": "--2024-12-08 00:21:47--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-CQr9mXNR.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage22-D1SQ4xGj.css",
+        "path": "/assets/ArticlePage22-D1SQ4xGj.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-D1SQ4xGj.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-D1SQ4xGj.css",
+      "line": "--2024-12-08 00:21:47--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage22-D1SQ4xGj.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage21-CGvv0UdD.js",
+        "path": "/assets/ArticlePage21-CGvv0UdD.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-CGvv0UdD.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-CGvv0UdD.js",
+      "line": "--2024-12-08 00:21:48--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-CGvv0UdD.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage21-7nNJfMXd.css",
+        "path": "/assets/ArticlePage21-7nNJfMXd.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-7nNJfMXd.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-7nNJfMXd.css",
+      "line": "--2024-12-08 00:21:48--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage21-7nNJfMXd.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage20-C7SiMcbq.js",
+        "path": "/assets/ArticlePage20-C7SiMcbq.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage20-C7SiMcbq.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage20-C7SiMcbq.js",
+      "line": "--2024-12-08 00:21:48--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage20-C7SiMcbq.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage19-B1C64YmD.js",
+        "path": "/assets/ArticlePage19-B1C64YmD.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-B1C64YmD.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-B1C64YmD.js",
+      "line": "--2024-12-08 00:21:48--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-B1C64YmD.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage19-BQQg12vp.css",
+        "path": "/assets/ArticlePage19-BQQg12vp.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-BQQg12vp.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-BQQg12vp.css",
+      "line": "--2024-12-08 00:21:48--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage19-BQQg12vp.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/",
+        "path": "/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/",
+        "href": "https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/",
+      "line": "--2024-12-08 00:21:48--  https://www.dossierfacile.logement.gouv.fr/blog/5-conseils-pour-trouver-l-appartement-de-ses-reves-en-region-parisienne/",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage18-BTLh2D0N.js",
+        "path": "/assets/ArticlePage18-BTLh2D0N.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-BTLh2D0N.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-BTLh2D0N.js",
+      "line": "--2024-12-08 00:21:49--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-BTLh2D0N.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage18-CVd9xGF1.css",
+        "path": "/assets/ArticlePage18-CVd9xGF1.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-CVd9xGF1.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-CVd9xGF1.css",
+      "line": "--2024-12-08 00:21:49--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage18-CVd9xGF1.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage17-BRcq7XvE.js",
+        "path": "/assets/ArticlePage17-BRcq7XvE.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-BRcq7XvE.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-BRcq7XvE.js",
+      "line": "--2024-12-08 00:21:49--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-BRcq7XvE.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage17-Bymb5jeR.css",
+        "path": "/assets/ArticlePage17-Bymb5jeR.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-Bymb5jeR.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-Bymb5jeR.css",
+      "line": "--2024-12-08 00:21:49--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage17-Bymb5jeR.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage16-BV0o_l4I.js",
+        "path": "/assets/ArticlePage16-BV0o_l4I.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-BV0o_l4I.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-BV0o_l4I.js",
+      "line": "--2024-12-08 00:21:49--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-BV0o_l4I.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage16-gGCQUbgz.css",
+        "path": "/assets/ArticlePage16-gGCQUbgz.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-gGCQUbgz.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-gGCQUbgz.css",
+      "line": "--2024-12-08 00:21:49--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage16-gGCQUbgz.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage15-DVduEqIB.js",
+        "path": "/assets/ArticlePage15-DVduEqIB.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-DVduEqIB.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-DVduEqIB.js",
+      "line": "--2024-12-08 00:21:49--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-DVduEqIB.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage15-qzSYFGl8.css",
+        "path": "/assets/ArticlePage15-qzSYFGl8.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-qzSYFGl8.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-qzSYFGl8.css",
+      "line": "--2024-12-08 00:21:49--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage15-qzSYFGl8.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage14-DH5DPdYU.js",
+        "path": "/assets/ArticlePage14-DH5DPdYU.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-DH5DPdYU.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-DH5DPdYU.js",
+      "line": "--2024-12-08 00:21:50--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-DH5DPdYU.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage14-DOKJqSO8.css",
+        "path": "/assets/ArticlePage14-DOKJqSO8.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-DOKJqSO8.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-DOKJqSO8.css",
+      "line": "--2024-12-08 00:21:50--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage14-DOKJqSO8.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage13-CDQQMqr4.js",
+        "path": "/assets/ArticlePage13-CDQQMqr4.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-CDQQMqr4.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-CDQQMqr4.js",
+      "line": "--2024-12-08 00:21:50--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-CDQQMqr4.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage13-BZFH1WOq.css",
+        "path": "/assets/ArticlePage13-BZFH1WOq.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-BZFH1WOq.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-BZFH1WOq.css",
+      "line": "--2024-12-08 00:21:50--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage13-BZFH1WOq.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage12-BUqiGJnh.js",
+        "path": "/assets/ArticlePage12-BUqiGJnh.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-BUqiGJnh.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-BUqiGJnh.js",
+      "line": "--2024-12-08 00:21:50--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-BUqiGJnh.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage12-DlFX6P6e.css",
+        "path": "/assets/ArticlePage12-DlFX6P6e.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-DlFX6P6e.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-DlFX6P6e.css",
+      "line": "--2024-12-08 00:21:50--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage12-DlFX6P6e.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage11-otokqsuO.js",
+        "path": "/assets/ArticlePage11-otokqsuO.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-otokqsuO.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-otokqsuO.js",
+      "line": "--2024-12-08 00:21:50--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-otokqsuO.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage11-CzHO2ocm.css",
+        "path": "/assets/ArticlePage11-CzHO2ocm.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-CzHO2ocm.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-CzHO2ocm.css",
+      "line": "--2024-12-08 00:21:51--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage11-CzHO2ocm.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage10-CE4U9Tjs.js",
+        "path": "/assets/ArticlePage10-CE4U9Tjs.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-CE4U9Tjs.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-CE4U9Tjs.js",
+      "line": "--2024-12-08 00:21:51--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-CE4U9Tjs.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage10-D63k-2uO.css",
+        "path": "/assets/ArticlePage10-D63k-2uO.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-D63k-2uO.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-D63k-2uO.css",
+      "line": "--2024-12-08 00:21:51--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage10-D63k-2uO.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage9-OWJAsrpY.js",
+        "path": "/assets/ArticlePage9-OWJAsrpY.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-OWJAsrpY.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-OWJAsrpY.js",
+      "line": "--2024-12-08 00:21:51--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-OWJAsrpY.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage9-Cs7_otOI.css",
+        "path": "/assets/ArticlePage9-Cs7_otOI.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-Cs7_otOI.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-Cs7_otOI.css",
+      "line": "--2024-12-08 00:21:51--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage9-Cs7_otOI.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage8-UqZhyguu.js",
+        "path": "/assets/ArticlePage8-UqZhyguu.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-UqZhyguu.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-UqZhyguu.js",
+      "line": "--2024-12-08 00:21:51--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-UqZhyguu.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage8-c_CZouAT.css",
+        "path": "/assets/ArticlePage8-c_CZouAT.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-c_CZouAT.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-c_CZouAT.css",
+      "line": "--2024-12-08 00:21:51--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage8-c_CZouAT.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage7-DJchIAfu.js",
+        "path": "/assets/ArticlePage7-DJchIAfu.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-DJchIAfu.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-DJchIAfu.js",
+      "line": "--2024-12-08 00:21:52--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-DJchIAfu.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage7-BanEzoCj.css",
+        "path": "/assets/ArticlePage7-BanEzoCj.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-BanEzoCj.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-BanEzoCj.css",
+      "line": "--2024-12-08 00:21:52--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage7-BanEzoCj.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage6--1Np0Cvm.js",
+        "path": "/assets/ArticlePage6--1Np0Cvm.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6--1Np0Cvm.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6--1Np0Cvm.js",
+      "line": "--2024-12-08 00:21:52--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6--1Np0Cvm.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage6-tltIryuP.css",
+        "path": "/assets/ArticlePage6-tltIryuP.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6-tltIryuP.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6-tltIryuP.css",
+      "line": "--2024-12-08 00:21:52--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage6-tltIryuP.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage5-D7T40APX.js",
+        "path": "/assets/ArticlePage5-D7T40APX.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-D7T40APX.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-D7T40APX.js",
+      "line": "--2024-12-08 00:21:52--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-D7T40APX.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage5-CDDnpDTi.css",
+        "path": "/assets/ArticlePage5-CDDnpDTi.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-CDDnpDTi.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-CDDnpDTi.css",
+      "line": "--2024-12-08 00:21:52--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage5-CDDnpDTi.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage4-Bwc0Q6gF.js",
+        "path": "/assets/ArticlePage4-Bwc0Q6gF.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-Bwc0Q6gF.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-Bwc0Q6gF.js",
+      "line": "--2024-12-08 00:21:52--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-Bwc0Q6gF.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage4-FXT8yJK_.css",
+        "path": "/assets/ArticlePage4-FXT8yJK_.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-FXT8yJK_.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-FXT8yJK_.css",
+      "line": "--2024-12-08 00:21:52--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage4-FXT8yJK_.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage3-CrH9aAz9.js",
+        "path": "/assets/ArticlePage3-CrH9aAz9.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-CrH9aAz9.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-CrH9aAz9.js",
+      "line": "--2024-12-08 00:21:53--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-CrH9aAz9.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage3-bqSS-yv9.css",
+        "path": "/assets/ArticlePage3-bqSS-yv9.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-bqSS-yv9.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-bqSS-yv9.css",
+      "line": "--2024-12-08 00:21:53--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage3-bqSS-yv9.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage2-n15TAPcd.js",
+        "path": "/assets/ArticlePage2-n15TAPcd.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-n15TAPcd.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-n15TAPcd.js",
+      "line": "--2024-12-08 00:21:53--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-n15TAPcd.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage2-BiqbZ3j9.css",
+        "path": "/assets/ArticlePage2-BiqbZ3j9.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-BiqbZ3j9.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-BiqbZ3j9.css",
+      "line": "--2024-12-08 00:21:53--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage2-BiqbZ3j9.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage1-CBB4T1yt.js",
+        "path": "/assets/ArticlePage1-CBB4T1yt.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-CBB4T1yt.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-CBB4T1yt.js",
+      "line": "--2024-12-08 00:21:53--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-CBB4T1yt.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage1-DpXt5r_V.css",
+        "path": "/assets/ArticlePage1-DpXt5r_V.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-DpXt5r_V.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-DpXt5r_V.css",
+      "line": "--2024-12-08 00:21:53--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage1-DpXt5r_V.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage0-C5p3Zz1p.js",
+        "path": "/assets/ArticlePage0-C5p3Zz1p.js",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-C5p3Zz1p.js"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-C5p3Zz1p.js",
+      "line": "--2024-12-08 00:21:53--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-C5p3Zz1p.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.dossierfacile.logement.gouv.fr",
+        "port": null,
+        "hostname": "www.dossierfacile.logement.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/ArticlePage0-BMvwYvzI.css",
+        "path": "/assets/ArticlePage0-BMvwYvzI.css",
+        "href": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-BMvwYvzI.css"
+      },
+      "link": "https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-BMvwYvzI.css",
+      "line": "--2024-12-08 00:21:54--  https://www.dossierfacile.logement.gouv.fr/assets/ArticlePage0-BMvwYvzI.css",
       "broken": false
     },
     {
@@ -3835,7 +3854,7 @@
         "href": "https://www.dossierfacile.logement.gouv.fr/assets/cover-features-mobile-CE8xS3tD.webp"
       },
       "link": "https://www.dossierfacile.logement.gouv.fr/assets/cover-features-mobile-CE8xS3tD.webp",
-      "line": "--2024-12-01 00:23:37--  https://www.dossierfacile.logement.gouv.fr/assets/cover-features-mobile-CE8xS3tD.webp",
+      "line": "--2024-12-08 00:21:54--  https://www.dossierfacile.logement.gouv.fr/assets/cover-features-mobile-CE8xS3tD.webp",
       "broken": false
     }
   ],
