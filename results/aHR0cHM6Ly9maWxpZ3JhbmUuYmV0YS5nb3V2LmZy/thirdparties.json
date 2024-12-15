@@ -6,7 +6,7 @@
       "value": "1",
       "domain": "filigrane.beta.gouv.fr",
       "path": "/",
-      "expires": 1733620863,
+      "expires": 1734225543,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -18,10 +18,10 @@
     },
     {
       "name": "_pk_id.42.b756",
-      "value": "38d246c39f6d8f9b.1733619063.",
+      "value": "6b7fca0110005309.1734223744.",
       "domain": "filigrane.beta.gouv.fr",
       "path": "/",
-      "expires": 1767574263,
+      "expires": 1768178944,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -36,14 +36,14 @@
     "content-encoding": "gzip",
     "content-security-policy": "default-src 'none'; script-src 'self' *.filigrane.beta.gouv.fr 'unsafe-inline' 'unsafe-eval' stats.beta.gouv.fr blob:; style-src 'self' 'unsafe-inline'; img-src 'self' stats.beta.gouv.fr data:; font-src 'self' data:; object-src 'none'; connect-src https://sentry.incubateur.net stats.beta.gouv.fr *.filigrane.beta.gouv.fr blob:; frame-src *.dossierfacile.fr; manifest-src https://filigrane.beta.gouv.fr; child-src *.dossierfacile.fr 'self'",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Dec 2024 00:51:01 GMT",
+    "date": "Sun, 15 Dec 2024 00:49:01 GMT",
     "etag": "W/\"674f02ec-2ec\"",
     "last-modified": "Tue, 03 Dec 2024 13:09:00 GMT",
     "strict-transport-security": "max-age=31536000",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "deny",
-    "x-request-id": "1bb9e933-d21d-4451-a712-cea95e48ffa9"
+    "x-request-id": "098e08c8-838c-44f3-ab9c-31baa565f5bc"
   },
   "endpoints": [
     {
