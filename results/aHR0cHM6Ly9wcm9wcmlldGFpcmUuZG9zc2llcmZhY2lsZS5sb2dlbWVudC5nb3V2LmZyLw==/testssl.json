@@ -346,7 +346,7 @@
               "ip"           : "proprietaire.dossierfacile.logement.gouv.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "64 >= 30 days"
+              "finding"      : "57 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "proprietaire.dossierfacile.logement.gouv.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734222216"
+              "finding"      : "1734826898"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1426,7 +1426,7 @@
               "ip"           : "proprietaire.dossierfacile.logement.gouv.fr/185.21.194.105",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "64 >= 30 days"
+              "finding"      : "57 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1587,7 +1587,7 @@
               "ip"           : "proprietaire.dossierfacile.logement.gouv.fr/185.21.194.105",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734222269"
+              "finding"      : "1734826953"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -2506,7 +2506,7 @@
               "ip"           : "proprietaire.dossierfacile.logement.gouv.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "64 >= 30 days"
+              "finding"      : "57 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -2667,7 +2667,7 @@
               "ip"           : "proprietaire.dossierfacile.logement.gouv.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734222325"
+              "finding"      : "1734827007"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -3586,7 +3586,7 @@
               "ip"           : "proprietaire.dossierfacile.logement.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "64 >= 30 days"
+              "finding"      : "57 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -3747,7 +3747,7 @@
               "ip"           : "proprietaire.dossierfacile.logement.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734222378"
+              "finding"      : "1734827060"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -4324,6 +4324,6 @@
               "ip"           : "proprietaire.dossierfacile.logement.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "220"
+              "finding"      : "221"
           }
 ]
